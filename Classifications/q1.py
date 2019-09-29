@@ -16,7 +16,8 @@ learning_rate = 0.01
 
 no_features = 21
 no_labels = 3
-no_epochs = 500
+
+lambda_ = 10**-6
 
 seed = 10
 tf.set_random_seed(seed)
@@ -89,6 +90,10 @@ def main():
     cross_entropy = tf.nn.softmax_cross_entropy_with_logits_v2(
       labels=y_, logits=y)
     cross_entropy = tf.reduce_mean(cross_entropy)
+    ys = tf.reduce_mean(cross_entropy)
+    l2_norms = [tf.nn.l2_loss(v) for v in tf.trainable_variables()]
+    l2_norm = tf.reduce_sum(l2_norms)
+    cost = ys + lambda_ * l2_norm
 
   # Add a scalar summary for the snapshot loss.
   # Create the gradient descent optimizer with the given learning rate.
@@ -97,7 +102,7 @@ def main():
   global_step = tf.Variable(0, name='global_step', trainable=False)
   # Use the optimizer to apply the gradients that minimize the loss
   # (and also increment the global step counter) as a single training step.
-  train_op = optimizer.minimize(cross_entropy, global_step=global_step)
+  train_op = optimizer.minimize(cost, global_step=global_step)
 
   with tf.name_scope('accuracy'):
     correct_prediction = tf.equal(tf.argmax(y, 1), tf.argmax(y_, 1))
@@ -106,35 +111,38 @@ def main():
 
   N = len(x_train)
   idx = np.arange(N)
-  batch_size = 128
+
+  no_epochs = 500
+  batch_size = 32
 
   training_acc = []
   testing_acc = []
 
+  kf = KFold(n_splits=5)
+  for train_idx, val_idx in kf.split(x_train_, y_train):
+    train_x = x_train_[train_idx]
+    train_y = y_train[train_idx]
+    val_x = x_train_[val_idx]
+    val_y = y_train[val_idx]
+
   with tf.Session() as sess:
       sess.run(tf.global_variables_initializer())
+
       for i in range(no_epochs):
-        np.random.shuffle(idx)
-        x_train_ = x_train_[idx]
-        y_train = y_train[idx]
+        # np.random.shuffle(idx)
+        # x_train_ = x_train_[idx]
+        # y_train = y_train[idx]
 
-        kf = KFold(n_splits=5)
-        for train_idx, val_idx in kf.split(x_train_, y_train):
-          train_x = x_train_[train_idx]
-          train_y = y_train[train_idx]
-          val_x = x_train_[val_idx]
-          val_y = y_train[val_idx]
+        for start, end in zip(range(0, N, batch_size), range(batch_size, N, batch_size)):
+          train_op.run(feed_dict={x: train_x[start:end], y_: train_y[start:end]})
 
-          for start, end in zip(range(0, N, batch_size), range(batch_size, N, batch_size)):
-            train_op.run(feed_dict={x: train_x[start:end], y_: train_y[start:end]})
-
-            if i % 10 == 0:
-              train_acc = accuracy.eval(feed_dict={x: val_x, y_: val_y})
-              training_acc.append(train_acc)
-              test_acc = accuracy.eval(feed_dict={x: x_test_, y_: y_test})
-              testing_acc.append(test_acc)
-              print('batch %d: iter %d, train accuracy %g' % (batch_size, i, train_acc))
-              print('batch %d: iter %d, test accuracy %g' % (batch_size, i, test_acc))
+        if i % 10 == 0:
+          train_acc = accuracy.eval(feed_dict={x: val_x, y_: val_y})
+          training_acc.append(train_acc)
+          test_acc = accuracy.eval(feed_dict={x: x_test_, y_: y_test})
+          testing_acc.append(test_acc)
+          print('batch %d: iter %d, train accuracy %g' % (batch_size, i, train_acc))
+          print('batch %d: iter %d, test accuracy %g' % (batch_size, i, test_acc))
 
 
 
@@ -145,20 +153,14 @@ def main():
 
   #plot learning curves
   plt.figure(1)
-  plt.plot(range(1, no_epochs, 10), training_acc)
+  plt.plot(range(1, no_epochs, 10), training_acc, 'r')
+  plt.plot(range(1, no_epochs, 10), testing_acc, 'g')
   plt.xlabel('iterations')
-  plt.ylabel('Train acc')
-  plt.title('SGD learning')
-  plt.savefig('q1_train.png')
+  plt.ylabel('Accuracy')
+  plt.title('Train/test acc')
+  plt.savefig('figures/Train_test acc.png')
 
-  plt.figure(1)
-  plt.plot(range(1, no_epochs, 10), testing_acc)
-  plt.xlabel('iterations')
-  plt.ylabel('Test acc')
-  plt.title('SGD learning')
-  plt.savefig('q1_test.png')
 
-  plt.show()
 
     
 
