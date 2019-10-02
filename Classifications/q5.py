@@ -59,7 +59,7 @@ def ffn(x, hidden1_units, hidden2_units):
 
 def main():
     # Read the .csv files as pandas dataframe
-    train_raw = pd.read_csv('ctg_data_cleaned.csv')
+    train_raw = pd.read_csv('../ctg_data_cleaned.csv')
     y = train_raw.NSP.to_numpy()
     x = train_raw.drop(['NSP'], axis=1).to_numpy()
 
@@ -91,11 +91,10 @@ def main():
     with tf.name_scope('cross_entropy'):
         cross_entropy = tf.nn.softmax_cross_entropy_with_logits_v2(
             labels=y_, logits=y)
-        cross_entropy = tf.reduce_mean(cross_entropy)
-        ys = tf.reduce_mean(cross_entropy)
-        l2_norms = [tf.nn.l2_loss(v) for v in tf.trainable_variables()]
+        l2_norms = [tf.nn.l2_loss(v) for v in tf.trainable_variables() if 'biases' not in v.name]
         l2_norm = tf.reduce_sum(l2_norms)
-        cost = ys + lambda_ * l2_norm
+        # cost = cross_entropy + lambda_ * l2_norm
+        cost = tf.reduce_mean(cross_entropy + lambda_ * l2_norm)
 
     # Add a scalar summary for the snapshot loss.
     # Create the gradient descent optimizer with the given learning rate.

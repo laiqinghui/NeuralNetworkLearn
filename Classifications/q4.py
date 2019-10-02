@@ -56,7 +56,7 @@ def ffn(x, hidden1_units):
 
 def main():
     # Read the .csv files as pandas dataframe
-    train_raw = pd.read_csv('ctg_data_cleaned.csv')
+    train_raw = pd.read_csv('../ctg_data_cleaned.csv')
     y = train_raw.NSP.to_numpy()
     x = train_raw.drop(['NSP'], axis=1).to_numpy()
 
@@ -92,11 +92,9 @@ def main():
     with tf.name_scope('cross_entropy'):
         cross_entropy = tf.nn.softmax_cross_entropy_with_logits_v2(
             labels=y_, logits=y)
-        cross_entropy = tf.reduce_mean(cross_entropy)
-        ys = tf.reduce_mean(cross_entropy)
-        l2_norms = [tf.nn.l2_loss(v) for v in tf.trainable_variables()]
+        l2_norms = [tf.nn.l2_loss(v) for v in tf.trainable_variables() if 'biases' not in v.name]
         l2_norm = tf.reduce_sum(l2_norms)
-        cost = ys + lambda_ * l2_norm
+        cost = tf.reduce_mean(cross_entropy + lambda_ * l2_norm)
 
     # Add a scalar summary for the snapshot loss.
     # Create the gradient descent optimizer with the given learning rate.
@@ -119,43 +117,45 @@ def main():
     batch_size = 32
     lambdas = [0, 10 ** -3, 10 ** -6, 10 ** -9, 10 ** -12]
 
+    splits = 5
+    currentsplit = 0
+    kf = KFold(n_splits=splits)
 
-    durations = []
 
-    kf = KFold(n_splits=5)
-    for train_idx, val_idx in kf.split(x_train_, y_train):
-        train_x = x_train_[train_idx]
-        train_y = y_train[train_idx]
-        val_x = x_train_[val_idx]
-        val_y = y_train[val_idx]
+
 
     for index, lam in enumerate(lambdas):
 
         training_acc = []
         testing_acc = []
-        duration = []
 
         with tf.Session() as sess:
             sess.run(tf.global_variables_initializer())
 
             for i in range(no_epochs):
-                # np.random.shuffle(idx)
-                # x_train_ = x_train_[idx]
-                # y_train = y_train[idx]
+
+                for train_idx, val_idx in kf.split(x_train_, y_train):
+
+                    currentsplit += 1
+                    train_x = x_train_[train_idx]
+                    train_y = y_train[train_idx]
+                    val_x = x_train_[val_idx]
+                    val_y = y_train[val_idx]
 
 
-                for start, end in zip(range(0, N, batch_size), range(batch_size, N, batch_size)):
+                    for start, end in zip(range(0, N, batch_size), range(batch_size, N, batch_size)):
 
-                    train_op.run(feed_dict={x: train_x[start:end], y_: train_y[start:end], lambda_: lam})
+                        train_op.run(feed_dict={x: train_x[start:end], y_: train_y[start:end], lambda_: lam})
 
-                if i % 10 == 0:
-                    train_acc = accuracy.eval(feed_dict={x: val_x, y_: val_y})
-                    training_acc.append(train_acc)
-                    test_acc = accuracy.eval(feed_dict={x: x_test_, y_: y_test})
-                    testing_acc.append(test_acc)
-                    print('Lambda %d: iter %d, train accuracy %g' % (index, i, train_acc))
-                    print('Lambda %d: iter %d, test accuracy %g' % (index, i, test_acc))
+                    if i % 10 == 0 and currentsplit == splits:
+                        train_acc = accuracy.eval(feed_dict={x: val_x, y_: val_y})
+                        training_acc.append(train_acc)
+                        test_acc = accuracy.eval(feed_dict={x: x_test_, y_: y_test})
+                        testing_acc.append(test_acc)
+                        print('Lambda %d: iter %d, train accuracy %g' % (index, i, train_acc))
+                        print('Lambda %d: iter %d, test accuracy %g' % (index, i, test_acc))
 
+                currentsplit = 0
 
 
             # plot learning curves
@@ -165,7 +165,7 @@ def main():
             plt.xlabel('iterations')
             plt.ylabel('accuracy')
             plt.title('Train/test acc ' + 'for lambda of ' + str(index))
-            plt.savefig('figures/Lambda of ' + str(index))
+            plt.savefig('../figures/Lambda of ' + str(index))
 
 
 

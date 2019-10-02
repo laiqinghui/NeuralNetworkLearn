@@ -1,6 +1,3 @@
-#
-#   Chapter 5, example 4a
-#
 
 import numpy as np
 from sklearn.model_selection import KFold
@@ -44,10 +41,7 @@ def ffn(x, hidden1_units):
     biases = tf.Variable(tf.zeros([no_labels]),
                          name='biases')
     logits = tf.matmul(hidden1, weights) + biases
-    # logits = tf.exp(u) / tf.reduce_sum(tf.exp(u), axis=1, keepdims=True)
 
-    # logits = tf.argmax(p, axis=1)
-    # logits = tf.cast(logits, tf.float32)
     
   return logits
 
@@ -55,7 +49,7 @@ def ffn(x, hidden1_units):
 def main():
 
   # Read the .csv files as pandas dataframe
-  train_raw = pd.read_csv('ctg_data_cleaned.csv')
+  train_raw = pd.read_csv('../ctg_data_cleaned.csv')
   y = train_raw.NSP.to_numpy()
   x = train_raw.drop(['NSP'], axis=1).to_numpy()
 
@@ -90,10 +84,10 @@ def main():
     cross_entropy = tf.nn.softmax_cross_entropy_with_logits_v2(
       labels=y_, logits=y)
     cross_entropy = tf.reduce_mean(cross_entropy)
-    ys = tf.reduce_mean(cross_entropy)
-    l2_norms = [tf.nn.l2_loss(v) for v in tf.trainable_variables()]
+    l2_norms = [tf.nn.l2_loss(v) for v in tf.trainable_variables() if 'biases' not in v.name]
     l2_norm = tf.reduce_sum(l2_norms)
-    cost = ys + lambda_ * l2_norm
+    # cost = cross_entropy + lambda_ * l2_norm
+    cost = tf.reduce_mean(cross_entropy + lambda_ * l2_norm)
 
   # Add a scalar summary for the snapshot loss.
   # Create the gradient descent optimizer with the given learning rate.
@@ -110,7 +104,6 @@ def main():
     accuracy = tf.reduce_mean(correct_prediction)
 
   N = len(x_train)
-  idx = np.arange(N)
 
   no_epochs = 500
   batch_size = 32
@@ -143,12 +136,6 @@ def main():
           testing_acc.append(test_acc)
           print('batch %d: iter %d, train accuracy %g' % (batch_size, i, train_acc))
           print('batch %d: iter %d, test accuracy %g' % (batch_size, i, test_acc))
-
-
-
-        # t = time.time()
-
-
 
 
   #plot learning curves
