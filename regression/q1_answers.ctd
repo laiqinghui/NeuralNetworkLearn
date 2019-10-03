@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <cherrytree>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Linear Regression - Project 1" prog_lang="custom-colors" readonly="False" tags="" unique_id="1">
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Linear Regression - Project 1" prog_lang="custom-colors" readonly="False" tags="" ts_creation="0.0" ts_lastsave="1569931405.17" unique_id="1">
 		<rich_text></rich_text>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Q1" prog_lang="custom-colors" readonly="False" tags="" unique_id="2">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Q1" prog_lang="custom-colors" readonly="False" tags="" ts_creation="0.0" ts_lastsave="1569931397.87" unique_id="2">
 			<rich_text>1a)
 
 Plot train err against test err
@@ -13,7 +13,183 @@ test_err is loss evaluation function but use x_test and y_test instead
 
 Approximately at epoch 1000
 
+
+
+1c)
+Plotted in notebook. See q1a
 </rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Q2" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1569931405.17" ts_lastsave="1569931800.31" unique_id="3">
+			<rich_text>Q2a)
+
+
+</rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+
+
+b) What features have the highest correlations with the chances of admit?
+
+
+CGPA and GRE Score
+
+
+</rich_text>
+			<table char_offset="7" col_max="400" col_min="40">
+				<row>
+					<cell>GRE Score</cell>
+					<cell>TOEFL Score</cell>
+					<cell>CGPA</cell>
+					<cell>Chance of Admit</cell>
+					<cell>University Rating</cell>
+					<cell>SOP</cell>
+					<cell>Research</cell>
+					<cell>LOR</cell>
+					<cell>0.835977</cell>
+					<cell>0.833060</cell>
+					<cell>0.802610</cell>
+					<cell>0.668976</cell>
+					<cell>0.612831</cell>
+					<cell>0.580391</cell>
+					<cell>0.557555</cell>
+				</row>
+				<row>
+					<cell>TOEFL Score</cell>
+					<cell>GRE Score</cell>
+					<cell>CGPA</cell>
+					<cell>Chance of Admit</cell>
+					<cell>University Rating</cell>
+					<cell>SOP</cell>
+					<cell>LOR</cell>
+					<cell>Research</cell>
+					<cell>0.835977</cell>
+					<cell>0.828417</cell>
+					<cell>0.791594</cell>
+					<cell>0.695590</cell>
+					<cell>0.657981</cell>
+					<cell>0.567721</cell>
+					<cell>0.489858</cell>
+				</row>
+				<row>
+					<cell>University Rating</cell>
+					<cell>CGPA</cell>
+					<cell>SOP</cell>
+					<cell>Chance of Admit</cell>
+					<cell>TOEFL Score</cell>
+					<cell>GRE Score</cell>
+					<cell>LOR</cell>
+					<cell>Research</cell>
+					<cell>0.746479</cell>
+					<cell>0.734523</cell>
+					<cell>0.711250</cell>
+					<cell>0.695590</cell>
+					<cell>0.668976</cell>
+					<cell>0.660123</cell>
+					<cell>0.447783</cell>
+				</row>
+				<row>
+					<cell>SOP</cell>
+					<cell>University Rating</cell>
+					<cell>LOR</cell>
+					<cell>CGPA</cell>
+					<cell>Chance of Admit</cell>
+					<cell>TOEFL Score</cell>
+					<cell>GRE Score</cell>
+					<cell>Research</cell>
+					<cell>0.734523</cell>
+					<cell>0.729593</cell>
+					<cell>0.718144</cell>
+					<cell>0.675732</cell>
+					<cell>0.657981</cell>
+					<cell>0.612831</cell>
+					<cell>0.444029</cell>
+				</row>
+				<row>
+					<cell>LOR</cell>
+					<cell>SOP</cell>
+					<cell>CGPA</cell>
+					<cell>Chance of Admit</cell>
+					<cell>University Rating</cell>
+					<cell>TOEFL Score</cell>
+					<cell>GRE Score</cell>
+					<cell>Research</cell>
+					<cell>0.729593</cell>
+					<cell>0.670211</cell>
+					<cell>0.669889</cell>
+					<cell>0.660123</cell>
+					<cell>0.567721</cell>
+					<cell>0.557555</cell>
+					<cell>0.396859</cell>
+				</row>
+				<row>
+					<cell>CGPA</cell>
+					<cell>Chance of Admit</cell>
+					<cell>GRE Score</cell>
+					<cell>TOEFL Score</cell>
+					<cell>University Rating</cell>
+					<cell>SOP</cell>
+					<cell>LOR</cell>
+					<cell>Research</cell>
+					<cell>0.873289</cell>
+					<cell>0.833060</cell>
+					<cell>0.828417</cell>
+					<cell>0.746479</cell>
+					<cell>0.718144</cell>
+					<cell>0.670211</cell>
+					<cell>0.521654</cell>
+				</row>
+				<row>
+					<cell>Research</cell>
+					<cell>GRE Score</cell>
+					<cell>Chance of Admit</cell>
+					<cell>CGPA</cell>
+					<cell>TOEFL Score</cell>
+					<cell>University Rating</cell>
+					<cell>SOP</cell>
+					<cell>LOR</cell>
+					<cell>0.580391</cell>
+					<cell>0.553202</cell>
+					<cell>0.521654</cell>
+					<cell>0.489858</cell>
+					<cell>0.447783</cell>
+					<cell>0.444029</cell>
+					<cell>0.396859</cell>
+				</row>
+				<row>
+					<cell>Chance of Admit</cell>
+					<cell>CGPA</cell>
+					<cell>GRE Score</cell>
+					<cell>TOEFL Score</cell>
+					<cell>University Rating</cell>
+					<cell>SOP</cell>
+					<cell>LOR</cell>
+					<cell>Research</cell>
+					<cell>0.873289</cell>
+					<cell>0.802610</cell>
+					<cell>0.791594</cell>
+					<cell>0.711250</cell>
+					<cell>0.675732</cell>
+					<cell>0.669889</cell>
+					<cell>0.553202</cell>
+				</row>
+				<row>
+					<cell></cell>
+					<cell>1st</cell>
+					<cell>2nd</cell>
+					<cell>3rd</cell>
+					<cell>4th</cell>
+					<cell>5th</cell>
+					<cell>6th</cell>
+					<cell>Last</cell>
+					<cell>1st_Val</cell>
+					<cell>2nd_Val</cell>
+					<cell>3rd_Val</cell>
+					<cell>4th_Val</cell>
+					<cell>5th_Val</cell>
+					<cell>6th_Val</cell>
+					<cell>Last_Val</cell>
+				</row>
+			</table>
 		</node>
 	</node>
 </cherrytree>
