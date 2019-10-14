@@ -1,7 +1,3 @@
-#
-#   Chapter 5, example 4a
-#
-
 import numpy as np
 from sklearn.model_selection import KFold
 from sklearn import model_selection
@@ -44,15 +40,9 @@ def ffn(x, hidden1_units):
         biases = tf.Variable(tf.zeros([no_labels]),
                              name='biases')
         logits = tf.matmul(hidden1, weights) + biases
-        # logits = tf.exp(u) / tf.reduce_sum(tf.exp(u), axis=1, keepdims=True)
 
-        # logits = tf.argmax(p, axis=1)
-        # logits = tf.cast(logits, tf.float32)
 
     return logits
-
-
-
 
 
 def main():
@@ -113,15 +103,16 @@ def main():
     batch_sizes = [4, 8, 16, 32, 64]
 
     splits = 5
-    currentsplit = 0
     kf = KFold(n_splits=splits)
-
 
     durations = []
 
+    fig = plt.figure()
+    plt.subplots_adjust(hspace=0.7, wspace=0.7)
 
     for index, batch_size in enumerate(batch_sizes):
 
+        cv_accs = []
         training_acc = []
         testing_acc = []
         duration = []
@@ -130,46 +121,54 @@ def main():
             sess.run(tf.global_variables_initializer())
 
             for i in range(no_epochs):
-
+                t = time.time()
                 for train_idx, val_idx in kf.split(x_train_, y_train):
-                    currentsplit += 1
 
                     train_x = x_train_[train_idx]
                     train_y = y_train[train_idx]
                     val_x = x_train_[val_idx]
                     val_y = y_train[val_idx]
 
-
                     for start, end in zip(range(0, N, batch_size), range(batch_size, N, batch_size)):
                         t = time.time()
                         train_op.run(feed_dict={x: train_x[start:end], y_: train_y[start:end]})
-                        duration.append(time.time() - t)
 
-                    if i % 10 == 0 and currentsplit == splits:
-                        train_acc = accuracy.eval(feed_dict={x: val_x, y_: val_y})
-                        training_acc.append(train_acc)
-                        test_acc = accuracy.eval(feed_dict={x: x_test_, y_: y_test})
-                        testing_acc.append(test_acc)
-                        print('batch %d: iter %d, train accuracy %g' % (batch_size, i, train_acc))
-                        print('batch %d: iter %d, test accuracy %g' % (batch_size, i, test_acc))
+                    cv_acc = accuracy.eval(feed_dict={x: val_x, y_: val_y})
+                    cv_accs.append(cv_acc)
 
-                currentsplit = 0
+                duration.append(time.time() - t)
+
+                if i % 10 == 0:
+
+                    train_acc = sum(cv_accs)/len(cv_accs)
+                    training_acc.append(train_acc)
+                    test_acc = accuracy.eval(feed_dict={x: x_test_, y_: y_test})
+                    testing_acc.append(test_acc)
+                    print('batch %d: iter %d, train accuracy %g' % (batch_size, i, train_acc))
+                    print('batch %d: iter %d, test accuracy %g' % (batch_size, i, test_acc))
+
+                cv_accs = []
+
+
 
             # plot learning curves
-            plt.figure(index)
-            plt.plot(range(1, no_epochs, 10), training_acc, 'r')
-            plt.plot(range(1, no_epochs, 10), testing_acc, 'g')
+            plt.subplot(2, 3, index+1)
+            plt.plot(range(1, no_epochs, 10), training_acc, 'r', label='training_acc')
+            plt.plot(range(1, no_epochs, 10), testing_acc, 'g', label='test_acc')
+            #plt.legend(loc='upper left')
             plt.xlabel('iterations')
             plt.ylabel('accuracy')
-            plt.title('Train/test acc ' + 'for batch size of ' + str(batch_size))
-            plt.savefig('figures/Batch size of ' + str(batch_size))
+            plt.title('Batch size: ' + str(batch_size))
 
+            plt.savefig('../figures/Batch size of ' + str(batch_size))
             durations.append(sum(duration)/len(duration))
             print("Time taken for batch size of ", batch_size, ": ", str(durations[-1]))
 
             # plt.show()
 
-    plt.figure(index + 1)
+
+
+    plt.figure(2)
     plt.plot(batch_sizes, durations)
     plt.xlabel('batch_sizes')
     plt.ylabel('Train duration')

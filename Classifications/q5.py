@@ -114,47 +114,53 @@ def main():
     idx = np.arange(N)
 
     no_epochs = 800
-    batch_size = 32
+    batch_size = 64
 
+    cv_accs = []
     training_acc = []
     testing_acc = []
 
     kf = KFold(n_splits=5)
-    for train_idx, val_idx in kf.split(x_train_, y_train):
-        train_x = x_train_[train_idx]
-        train_y = y_train[train_idx]
-        val_x = x_train_[val_idx]
-        val_y = y_train[val_idx]
+
+    fig = plt.figure()
+    plt.subplots_adjust(hspace=0.7, wspace=0.7)
 
     with tf.Session() as sess:
         sess.run(tf.global_variables_initializer())
 
         for i in range(no_epochs):
-            # np.random.shuffle(idx)
-            # x_train_ = x_train_[idx]
-            # y_train = y_train[idx]
 
-            for start, end in zip(range(0, N, batch_size), range(batch_size, N, batch_size)):
-                train_op.run(feed_dict={x: train_x[start:end], y_: train_y[start:end]})
+            for train_idx, val_idx in kf.split(x_train_, y_train):
+                train_x = x_train_[train_idx]
+                train_y = y_train[train_idx]
+                val_x = x_train_[val_idx]
+                val_y = y_train[val_idx]
+
+                for start, end in zip(range(0, N, batch_size), range(batch_size, N, batch_size)):
+                    train_op.run(feed_dict={x: train_x[start:end], y_: train_y[start:end]})
+
+                cv_acc = accuracy.eval(feed_dict={x: val_x, y_: val_y})
+                cv_accs.append(cv_acc)
 
             if i % 10 == 0:
-                train_acc = accuracy.eval(feed_dict={x: val_x, y_: val_y})
+                train_acc = sum(cv_accs) / len(cv_accs)
                 training_acc.append(train_acc)
                 test_acc = accuracy.eval(feed_dict={x: x_test_, y_: y_test})
                 testing_acc.append(test_acc)
                 print('batch %d: iter %d, train accuracy %g' % (batch_size, i, train_acc))
                 print('batch %d: iter %d, test accuracy %g' % (batch_size, i, test_acc))
 
-            # t = time.time()
+            cv_accs = []
 
     # plot learning curves
     plt.figure(1)
-    plt.plot(range(1, no_epochs, 10), training_acc, 'r')
-    plt.plot(range(1, no_epochs, 10), testing_acc, 'g')
+    plt.plot(range(1, no_epochs, 10), training_acc, 'r', label='training_acc')
+    plt.plot(range(1, no_epochs, 10), testing_acc, 'g', label='test_acc')
+    plt.legend(loc='upper left')
     plt.xlabel('iterations')
     plt.ylabel('Accuracy')
     plt.title('Train/test acc' )
-    plt.savefig('figures/4layers_train_test.png')
+    plt.savefig('../figures/4layers_train_test.png')
 
 
 

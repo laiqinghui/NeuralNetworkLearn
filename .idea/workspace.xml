@@ -8,6 +8,23 @@
       <change beforePath="$PROJECT_DIR$/Classifications/q3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classifications/q3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classifications/q4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classifications/q4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classifications/q5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classifications/q5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/Classifications/q1/Train_test acc.png" beforeDir="false" afterPath="$PROJECT_DIR$/figures/Classifications/q1/Train_test acc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/Classifications/q2/Batch size of 16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/Classifications/q2/Batch size of 32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/Classifications/q2/Batch size of 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/Classifications/q2/Batch size of 64.png" beforeDir="false" afterPath="$PROJECT_DIR$/figures/Classifications/q2/Batch size of 64.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/Classifications/q2/Batch size of 8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/Classifications/q2/Time taken for training.png" beforeDir="false" afterPath="$PROJECT_DIR$/figures/Classifications/q2/Time taken for training.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/Classifications/q3/neuron size of 10.png" beforeDir="false" afterPath="$PROJECT_DIR$/figures/Classifications/q3/neuron size of 10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/Classifications/q3/neuron size of 15.png" beforeDir="false" afterPath="$PROJECT_DIR$/figures/Classifications/q3/neuron size of 15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/Classifications/q3/neuron size of 20.png" beforeDir="false" afterPath="$PROJECT_DIR$/figures/Classifications/q3/neuron size of 20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/Classifications/q3/neuron size of 25.png" beforeDir="false" afterPath="$PROJECT_DIR$/figures/Classifications/q3/neuron size of 25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/Classifications/q3/neuron size of 5.png" beforeDir="false" afterPath="$PROJECT_DIR$/figures/Classifications/q3/neuron size of 5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/Lambda of 0.png" beforeDir="false" afterPath="$PROJECT_DIR$/figures/Lambda of 0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/Lambda of 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/figures/Lambda of 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/Lambda of 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/figures/Lambda of 2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/Lambda of 3.png" beforeDir="false" afterPath="$PROJECT_DIR$/figures/Lambda of 3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/Lambda of 4.png" beforeDir="false" afterPath="$PROJECT_DIR$/figures/Lambda of 4.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,98 +33,106 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/start_project_1a.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1028">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classifications/q1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="95" column="60" selection-start-line="95" selection-start-column="60" selection-end-line="95" selection-end-column="60" />
-              <folding>
-                <element signature="e#31#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classifications/q3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="149" column="57" selection-start-line="149" selection-start-column="35" selection-end-line="149" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classifications/q2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="147" column="39" lean-forward="true" selection-start-line="147" selection-start-column="39" selection-end-line="147" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Classifications/q4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1483">
-              <caret line="167" column="28" selection-start-line="167" selection-start-column="28" selection-end-line="167" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classifications/q5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1482">
-              <caret line="96" column="64" selection-start-line="96" selection-start-column="64" selection-end-line="96" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eg5.5b_new.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2090">
-              <caret line="122" column="12" selection-start-line="122" selection-start-column="14" selection-end-line="123" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eg5.4a.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1653">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eg4.3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1786">
-              <caret line="99" column="30" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.57361513">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="152">
+                  <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/data/admission_predict.csv">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="7163">
+                  <caret line="377" column="30" selection-start-line="377" selection-start-column="30" selection-end-line="377" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Classifications/q3.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="43">
+                  <caret line="44" selection-start-line="44" selection-end-line="44" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Classifications/q1.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
+                  <caret line="154" column="40" selection-start-line="154" selection-start-column="40" selection-end-line="154" selection-end-column="40" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Classifications/q4.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="639">
+                  <caret line="115" column="17" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Classifications/q5.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="83">
+                  <caret line="139" column="66" selection-start-line="139" selection-start-column="66" selection-end-line="139" selection-end-column="66" />
+                  <folding>
+                    <element signature="e#0#18#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/eg5.4a.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="496">
+                  <caret line="92" selection-start-line="92" selection-end-line="92" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/eg4.3.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1786">
+                  <caret line="99" column="30" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+                  <folding>
+                    <element signature="e#0#23#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Classifications/q2.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="167">
+                  <caret line="157" column="13" lean-forward="true" selection-start-line="157" selection-start-column="13" selection-end-line="157" selection-end-column="41" />
+                  <folding>
+                    <element signature="e#31#49#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -139,11 +164,13 @@
         <option value="$PROJECT_DIR$/q5.py" />
         <option value="$PROJECT_DIR$/q4.py" />
         <option value="$PROJECT_DIR$/q1.py" />
+        <option value="$PROJECT_DIR$/data/admission_predict.csv" />
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Classifications/q1.py" />
-        <option value="$PROJECT_DIR$/Classifications/q5.py" />
         <option value="$PROJECT_DIR$/Classifications/q3.py" />
         <option value="$PROJECT_DIR$/Classifications/q2.py" />
         <option value="$PROJECT_DIR$/Classifications/q4.py" />
+        <option value="$PROJECT_DIR$/Classifications/q5.py" />
       </list>
     </option>
   </component>
@@ -157,6 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,15 +197,19 @@
               <item name="NeuralNetworkLearn" type="462c0819:PsiDirectoryNode" />
               <item name="Classifications" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="NeuralNetworkLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NeuralNetworkLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Deeplab" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
@@ -192,8 +224,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.q4 (1)">
-    <configuration name="q1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.q5">
+    <configuration name="q1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,11 +233,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classifications" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/q1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classifications/q1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,27 +309,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="q4" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/q4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="q5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -306,11 +317,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classifications" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classifications/q5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/q5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -321,11 +353,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.q5" />
         <item itemvalue="Python.q4 (1)" />
         <item itemvalue="Python.q3 (1)" />
-        <item itemvalue="Python.q1" />
-        <item itemvalue="Python.q4" />
-        <item itemvalue="Python.q5" />
+        <item itemvalue="Python.q1 (1)" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -346,18 +378,18 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07919463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.04249292" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1756374" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4631728" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.07790368" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.37399465" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -374,10 +406,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eg5.4a.py">
+    <entry file="file://$PROJECT_DIR$/q5.py" />
+    <entry file="file://$PROJECT_DIR$/q3.py" />
+    <entry file="file://$PROJECT_DIR$/q4.py" />
+    <entry file="file://$PROJECT_DIR$/q2.py" />
+    <entry file="file://$PROJECT_DIR$/q1.py" />
+    <entry file="file://$PROJECT_DIR$/start_project_1a.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1653">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        <state relative-caret-position="1292">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/admission_predict.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7163">
+          <caret line="377" column="30" selection-start-line="377" selection-start-column="30" selection-end-line="377" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -391,67 +435,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q5.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1852">
-          <caret line="155" column="26" selection-start-line="155" selection-start-column="26" selection-end-line="155" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="167" column="18" selection-start-line="167" selection-start-column="18" selection-end-line="167" selection-end-column="35" />
-          <folding>
-            <element signature="e#31#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="162" column="64" selection-start-line="162" selection-start-column="64" selection-end-line="162" selection-end-column="64" />
-          <folding>
-            <element signature="e#31#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="164" column="23" selection-start-line="164" selection-start-column="23" selection-end-line="164" selection-end-column="37" />
-          <folding>
-            <element signature="e#31#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="160" column="29" selection-start-line="160" selection-start-column="29" selection-end-line="160" selection-end-column="29" />
-          <folding>
-            <element signature="e#31#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/start_project_1a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1028">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="152">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classifications/q1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="95" column="60" selection-start-line="95" selection-start-column="60" selection-end-line="95" selection-end-column="60" />
+        <state relative-caret-position="315">
+          <caret line="154" column="40" selection-start-line="154" selection-start-column="40" selection-end-line="154" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classifications/q3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classifications/q4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="115" column="17" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eg5.4a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classifications/q2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="157" column="13" lean-forward="true" selection-start-line="157" selection-start-column="13" selection-end-line="157" selection-end-column="41" />
           <folding>
             <element signature="e#31#49#0" expanded="true" />
           </folding>
@@ -460,32 +482,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Classifications/q5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1482">
-          <caret line="96" column="64" selection-start-line="96" selection-start-column="64" selection-end-line="96" selection-end-column="64" />
+        <state relative-caret-position="83">
+          <caret line="139" column="66" selection-start-line="139" selection-start-column="66" selection-end-line="139" selection-end-column="66" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classifications/q3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="149" column="57" selection-start-line="149" selection-start-column="35" selection-end-line="149" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classifications/q2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="147" column="39" lean-forward="true" selection-start-line="147" selection-start-column="39" selection-end-line="147" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classifications/q4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1483">
-          <caret line="167" column="28" selection-start-line="167" selection-start-column="28" selection-end-line="167" selection-end-column="28" />
         </state>
       </provider>
     </entry>

@@ -22,7 +22,7 @@ tf.set_random_seed(seed)
 def ffn(x, hidden1_units):
   
   # Hidden 1
-  with tf.name_scope('hidden1'):
+  with tf.name_scope('Hidden_Layer'):
     weights = tf.Variable(
       tf.truncated_normal([no_features, hidden1_units], #(inputs, no.ofneurons)
                             stddev=1.0 / np.sqrt(float(no_features))),
@@ -33,7 +33,7 @@ def ffn(x, hidden1_units):
     
     
   # Linear
-  with tf.name_scope('softmax_linear'):
+  with tf.name_scope('Output_Layer'):
     weights = tf.Variable(
         tf.truncated_normal([hidden1_units, no_labels],
                             stddev=1.0 / np.sqrt(float(hidden1_units))),
@@ -69,27 +69,25 @@ def main():
   x_train_ = scaler.fit_transform(x_train)
   x_test_ = scaler.transform(x_test)
 
-
-  # Computational graph starts
-
-  x = tf.placeholder(tf.float32, [None, no_features])
+  with tf.name_scope('Input_Layer'):
+    # Computational graph starts
+    x = tf.placeholder(tf.float32, [None, no_features], name="Input_data")
 
   # Define loss and optimizer
-  y_ = tf.placeholder(tf.float32, [None, no_labels])
+  y_ = tf.placeholder(tf.float32, [None, no_labels], name="Labels")
+
 
   # Build the graph for the deep net
   y = ffn(x, 10)
 
-  with tf.name_scope('cross_entropy'):
-    cross_entropy = tf.nn.softmax_cross_entropy_with_logits_v2(
-      labels=y_, logits=y)
-    cross_entropy = tf.reduce_mean(cross_entropy)
-    l2_norms = [tf.nn.l2_loss(v) for v in tf.trainable_variables() if 'biases' not in v.name]
-    l2_norm = tf.reduce_sum(l2_norms)
-    # cost = cross_entropy + lambda_ * l2_norm
-    cost = tf.reduce_mean(cross_entropy + lambda_ * l2_norm)
+  #with tf.name_scope('cross_entropy'):
+  cross_entropy = tf.nn.softmax_cross_entropy_with_logits_v2(
+    labels=y_, logits=y)
+  cross_entropy = tf.reduce_mean(cross_entropy)
+  l2_norms = [tf.nn.l2_loss(v) for v in tf.trainable_variables() if 'biases' not in v.name]
+  l2_norm = tf.reduce_sum(l2_norms)
+  cost = tf.reduce_mean(cross_entropy + lambda_ * l2_norm)
 
-  # Add a scalar summary for the snapshot loss.
   # Create the gradient descent optimizer with the given learning rate.
   optimizer = tf.train.GradientDescentOptimizer(learning_rate)
   # Create a variable to track the global step.
@@ -98,54 +96,63 @@ def main():
   # (and also increment the global step counter) as a single training step.
   train_op = optimizer.minimize(cost, global_step=global_step)
 
-  with tf.name_scope('accuracy'):
-    correct_prediction = tf.equal(tf.argmax(y, 1), tf.argmax(y_, 1))
-    correct_prediction = tf.cast(correct_prediction, tf.float32)
-    accuracy = tf.reduce_mean(correct_prediction)
+
+  #with tf.name_scope('accuracy'):
+  correct_prediction = tf.equal(tf.argmax(y, 1), tf.argmax(y_, 1))
+  correct_prediction = tf.cast(correct_prediction, tf.float32)
+  accuracy = tf.reduce_mean(correct_prediction)
 
   N = len(x_train)
 
   no_epochs = 500
   batch_size = 32
 
+  splits = 5
+  kf = KFold(n_splits=splits)
+
+  cv_accs = []
   training_acc = []
   testing_acc = []
 
-  kf = KFold(n_splits=5)
-  for train_idx, val_idx in kf.split(x_train_, y_train):
-    train_x = x_train_[train_idx]
-    train_y = y_train[train_idx]
-    val_x = x_train_[val_idx]
-    val_y = y_train[val_idx]
 
   with tf.Session() as sess:
+
+      writer = tf.summary.FileWriter('./graphs', sess.graph)
       sess.run(tf.global_variables_initializer())
 
       for i in range(no_epochs):
-        # np.random.shuffle(idx)
-        # x_train_ = x_train_[idx]
-        # y_train = y_train[idx]
 
-        for start, end in zip(range(0, N, batch_size), range(batch_size, N, batch_size)):
-          train_op.run(feed_dict={x: train_x[start:end], y_: train_y[start:end]})
+        for train_idx, val_idx in kf.split(x_train_, y_train):
+          train_x = x_train_[train_idx]
+          train_y = y_train[train_idx]
+          val_x = x_train_[val_idx]
+          val_y = y_train[val_idx]
+
+          for start, end in zip(range(0, N, batch_size), range(batch_size, N, batch_size)):
+            train_op.run(feed_dict={x: train_x[start:end], y_: train_y[start:end]})
+
+          cv_acc = accuracy.eval(feed_dict={x: val_x, y_: val_y})
+          cv_accs.append(cv_acc)
 
         if i % 10 == 0:
-          train_acc = accuracy.eval(feed_dict={x: val_x, y_: val_y})
+          train_acc = sum(cv_accs) / len(cv_accs)
           training_acc.append(train_acc)
           test_acc = accuracy.eval(feed_dict={x: x_test_, y_: y_test})
           testing_acc.append(test_acc)
           print('batch %d: iter %d, train accuracy %g' % (batch_size, i, train_acc))
           print('batch %d: iter %d, test accuracy %g' % (batch_size, i, test_acc))
 
+        cv_accs = []
 
   #plot learning curves
   plt.figure(1)
-  plt.plot(range(1, no_epochs, 10), training_acc, 'r')
-  plt.plot(range(1, no_epochs, 10), testing_acc, 'g')
+  plt.plot(range(1, no_epochs, 10), training_acc, 'r', label='training_acc')
+  plt.plot(range(1, no_epochs, 10), testing_acc, 'g', label='test_acc')
+  plt.legend(loc='upper left')
   plt.xlabel('iterations')
   plt.ylabel('Accuracy')
   plt.title('Train/test acc')
-  plt.savefig('figures/Train_test acc.png')
+  plt.savefig('../figures/Train_test acc.png')
 
 
 

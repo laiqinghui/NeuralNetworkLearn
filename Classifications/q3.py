@@ -120,9 +120,9 @@ def main():
     batch_size = 64
 
     splits = 5
-    currentsplit = 0
-    kf = KFold(n_splits=5)
+    kf = KFold(n_splits=splits)
 
+    cv_accs = []
     training_acc = []
     testing_acc = []
     duration = []
@@ -132,30 +132,31 @@ def main():
 
         for i in range(no_epochs):
 
-            for train_idx, val_idx in kf.split(x_train_, y_train):
+                for train_idx, val_idx in kf.split(x_train_, y_train):
 
-                currentsplit += 1
-
-                train_x = x_train_[train_idx]
-                train_y = y_train[train_idx]
-                val_x = x_train_[val_idx]
-                val_y = y_train[val_idx]
+                    train_x = x_train_[train_idx]
+                    train_y = y_train[train_idx]
+                    val_x = x_train_[val_idx]
+                    val_y = y_train[val_idx]
 
 
-                for start, end in zip(range(0, N, batch_size), range(batch_size, N, batch_size)):
-                    t = time.time()
-                    train_op.run(feed_dict={x: train_x[start:end], y_: train_y[start:end]})
-                    duration.append(time.time() - t)
+                    for start, end in zip(range(0, N, batch_size), range(batch_size, N, batch_size)):
+                        t = time.time()
+                        train_op.run(feed_dict={x: train_x[start:end], y_: train_y[start:end]})
+                        duration.append(time.time() - t)
 
-                if i % 10 == 0 and currentsplit == splits:
-                    train_acc = accuracy.eval(feed_dict={x: val_x, y_: val_y})
-                    training_acc.append(train_acc)
-                    test_acc = accuracy.eval(feed_dict={x: x_test_, y_: y_test})
-                    testing_acc.append(test_acc)
-                    print('No. of Neuron %d: iter %d, train accuracy %g' % (neuron, i, train_acc))
-                    print('No. of Neuron %d: iter %d, test accuracy %g' % (neuron, i, test_acc))
+                    cv_acc = accuracy.eval(feed_dict={x: val_x, y_: val_y})
+                    cv_accs.append(cv_acc)
 
-            currentsplit = 0
+            if i % 10 == 0:
+                train_acc = sum(cv_accs) / len(cv_accs)
+                training_acc.append(train_acc)
+                test_acc = accuracy.eval(feed_dict={x: x_test_, y_: y_test})
+                testing_acc.append(test_acc)
+                print('No. of Neuron %d: iter %d, train accuracy %g' % (neuron, i, train_acc))
+                print('No. of Neuron %d: iter %d, test accuracy %g' % (neuron, i, test_acc))
+
+
 
         # plot learning curves
         plt.figure(1)
@@ -163,8 +164,8 @@ def main():
         plt.plot(range(1, no_epochs, 10), testing_acc, 'g')
         plt.xlabel('iterations')
         plt.ylabel('accuracy')
-        plt.title('Train/test acc ' + 'for neuron size of ' + str(neuron))
-        plt.savefig('figures/neuron size of ' + str(neuron))
+        plt.title('No. of neurons: ' + str(neuron))
+        plt.savefig('../figures/neuron size of ' + str(neuron))
 
 
 

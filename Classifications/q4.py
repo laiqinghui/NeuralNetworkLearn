@@ -114,20 +114,22 @@ def main():
     idx = np.arange(N)
 
     no_epochs = 500
-    batch_size = 32
+    batch_size = 64
     lambdas = [0, 10 ** -3, 10 ** -6, 10 ** -9, 10 ** -12]
 
     splits = 5
-    currentsplit = 0
     kf = KFold(n_splits=splits)
 
-
+    fig = plt.figure()
+    plt.subplots_adjust(hspace=0.9, wspace=0.9)
 
 
     for index, lam in enumerate(lambdas):
 
+        cv_accs = []
         training_acc = []
         testing_acc = []
+
 
         with tf.Session() as sess:
             sess.run(tf.global_variables_initializer())
@@ -136,35 +138,37 @@ def main():
 
                 for train_idx, val_idx in kf.split(x_train_, y_train):
 
-                    currentsplit += 1
                     train_x = x_train_[train_idx]
                     train_y = y_train[train_idx]
                     val_x = x_train_[val_idx]
                     val_y = y_train[val_idx]
 
-
                     for start, end in zip(range(0, N, batch_size), range(batch_size, N, batch_size)):
-
                         train_op.run(feed_dict={x: train_x[start:end], y_: train_y[start:end], lambda_: lam})
 
-                    if i % 10 == 0 and currentsplit == splits:
-                        train_acc = accuracy.eval(feed_dict={x: val_x, y_: val_y})
-                        training_acc.append(train_acc)
-                        test_acc = accuracy.eval(feed_dict={x: x_test_, y_: y_test})
-                        testing_acc.append(test_acc)
-                        print('Lambda %d: iter %d, train accuracy %g' % (index, i, train_acc))
-                        print('Lambda %d: iter %d, test accuracy %g' % (index, i, test_acc))
+                    cv_acc = accuracy.eval(feed_dict={x: val_x, y_: val_y})
+                    cv_accs.append(cv_acc)
 
-                currentsplit = 0
+                if i % 10 == 0:
+
+                    train_acc = sum(cv_accs) / len(cv_accs)
+                    training_acc.append(train_acc)
+                    test_acc = accuracy.eval(feed_dict={x: x_test_, y_: y_test})
+                    testing_acc.append(test_acc)
+                    print('Lambda %d: iter %d, train accuracy %g' % (index, i, train_acc))
+                    print('Lambda %d: iter %d, test accuracy %g' % (index, i, test_acc))
+
+
 
 
             # plot learning curves
-            plt.figure(index)
-            plt.plot(range(1, no_epochs, 10), training_acc, 'r')
-            plt.plot(range(1, no_epochs, 10), testing_acc, 'g')
+            plt.figure(1)
+            plt.subplot(2, 3, index + 1)
+            plt.plot(range(1, no_epochs, 10), training_acc, 'r', label='training_acc')
+            plt.plot(range(1, no_epochs, 10), testing_acc, 'g', label='test_acc')
             plt.xlabel('iterations')
             plt.ylabel('accuracy')
-            plt.title('Train/test acc ' + 'for lambda of ' + str(index))
+            plt.title('Decay param: ' + str(lambdas[index]))
             plt.savefig('../figures/Lambda of ' + str(index))
 
 
