@@ -20,6 +20,7 @@ seed = 10
 tf.set_random_seed(seed)
 
 
+# Definition of model
 def ffn(x, hidden1_units):
     # Hidden 1
     with tf.name_scope('hidden1'):
@@ -51,22 +52,20 @@ def main():
     y = train_raw.NSP.to_numpy()
     x = train_raw.drop(['NSP'], axis=1).to_numpy()
 
+    # Casting labels to one-hot encoding
     identity = np.identity(no_labels, dtype=np.uint8)
     y = identity[y - 1]
-    # print("y.shape: ", y.shape)
 
-    # # Split dataset into train / test
+    # Split dataset into train / test
     x_train, x_test, y_train, y_test = model_selection.train_test_split(
         x, y, test_size=0.3, random_state=42)
 
-    print("y_train: ", y_train.shape)
-    print("x_train.shape", x_train.shape)
     # Scale data (training set) to 0 mean and unit standard deviation.
     scaler = preprocessing.StandardScaler()
     x_train_ = scaler.fit_transform(x_train)
     x_test_ = scaler.transform(x_test)
 
-    # Computational graph starts
+    # Start of computational graph
 
     x = tf.placeholder(tf.float32, [None, no_features])
 
@@ -89,7 +88,6 @@ def main():
     # Create a variable to track the global step.
     global_step = tf.Variable(0, name='global_step', trainable=False)
     # Use the optimizer to apply the gradients that minimize the loss
-    # (and also increment the global step counter) as a single training step.
     train_op = optimizer.minimize(cost, global_step=global_step)
 
     with tf.name_scope('accuracy'):
@@ -110,6 +108,7 @@ def main():
     fig = plt.figure()
     plt.subplots_adjust(hspace=0.7, wspace=0.7)
 
+    # The experiment is repeated for every batch size
     for index, batch_size in enumerate(batch_sizes):
 
         cv_accs = []
@@ -120,8 +119,12 @@ def main():
         with tf.Session() as sess:
             sess.run(tf.global_variables_initializer())
 
+            # For every epoch, training is done with each fold of data to get 5 sets of training accuracies.
+            # Avg CV training accuracies is then recorded.
             for i in range(no_epochs):
                 t = time.time()
+
+                # 5 fold of data will be produced
                 for train_idx, val_idx in kf.split(x_train_, y_train):
 
                     train_x = x_train_[train_idx]
@@ -149,8 +152,6 @@ def main():
 
                 cv_accs = []
 
-
-
             # plot learning curves
             plt.subplot(2, 3, index+1)
             plt.plot(range(1, no_epochs, 10), training_acc, 'r', label='training_acc')
@@ -161,18 +162,15 @@ def main():
             plt.title('Batch size: ' + str(batch_size))
 
             plt.savefig('../figures/Batch size of ' + str(batch_size))
-            durations.append(sum(duration)/len(duration))
+            durations.append((sum(duration)/len(duration))*1000)
             print("Time taken for batch size of ", batch_size, ": ", str(durations[-1]))
-
-            # plt.show()
-
 
 
     plt.figure(2)
     plt.plot(batch_sizes, durations)
-    plt.xlabel('batch_sizes')
+    plt.xlabel('Batch Sizes')
     plt.ylabel('Train duration')
-    plt.title('Time taken for training')
+    plt.title('Time taken for training (ms)')
     plt.savefig('../figures/Time taken for training')
 
 

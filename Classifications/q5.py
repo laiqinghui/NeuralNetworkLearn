@@ -5,7 +5,7 @@ from sklearn import preprocessing
 import tensorflow as tf
 import pylab as plt
 import pandas as pd
-import time
+
 
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 
@@ -20,6 +20,7 @@ seed = 10
 tf.set_random_seed(seed)
 
 
+# Model with 2 hidden layers
 def ffn(x, hidden1_units, hidden2_units):
     # Hidden 1
     with tf.name_scope('hidden1'):
@@ -31,6 +32,7 @@ def ffn(x, hidden1_units, hidden2_units):
                              name='biases')
         hidden1 = tf.nn.relu(tf.matmul(x, weights) + biases)
 
+    # Hidden 2
     with tf.name_scope('hidden2'):
         weights = tf.Variable(
             tf.truncated_normal([hidden1_units, hidden2_units],  # (inputs, no.ofneurons)
@@ -58,21 +60,20 @@ def ffn(x, hidden1_units, hidden2_units):
 
 
 def main():
+
     # Read the .csv files as pandas dataframe
     train_raw = pd.read_csv('../ctg_data_cleaned.csv')
     y = train_raw.NSP.to_numpy()
     x = train_raw.drop(['NSP'], axis=1).to_numpy()
 
+    # One hot encoding
     identity = np.identity(no_labels, dtype=np.uint8)
     y = identity[y - 1]
-    # print("y.shape: ", y.shape)
 
     # # Split dataset into train / test
     x_train, x_test, y_train, y_test = model_selection.train_test_split(
         x, y, test_size=0.3, random_state=42)
 
-    print("y_train: ", y_train.shape)
-    print("x_train.shape", x_train.shape)
     # Scale data (training set) to 0 mean and unit standard deviation.
     scaler = preprocessing.StandardScaler()
     x_train_ = scaler.fit_transform(x_train)
@@ -85,7 +86,7 @@ def main():
     # Define loss and optimizer
     y_ = tf.placeholder(tf.float32, [None, no_labels])
 
-    # Build the graph for the deep net
+    # Build the graph for the deep net with 10 hidden layer
     y = ffn(x, 10, 10)
 
     with tf.name_scope('cross_entropy'):
@@ -102,7 +103,6 @@ def main():
     # Create a variable to track the global step.
     global_step = tf.Variable(0, name='global_step', trainable=False)
     # Use the optimizer to apply the gradients that minimize the loss
-    # (and also increment the global step counter) as a single training step.
     train_op = optimizer.minimize(cost, global_step=global_step)
 
     with tf.name_scope('accuracy'):
@@ -111,7 +111,6 @@ def main():
         accuracy = tf.reduce_mean(correct_prediction)
 
     N = len(x_train)
-    idx = np.arange(N)
 
     no_epochs = 800
     batch_size = 64

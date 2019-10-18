@@ -1,7 +1,3 @@
-#
-#   Chapter 5, example 4a
-#
-
 import numpy as np
 from sklearn.model_selection import KFold
 from sklearn import model_selection
@@ -46,10 +42,6 @@ def ffn(x, hidden1_units):
         biases = tf.Variable(tf.zeros([no_labels]),
                              name='biases')
         logits = tf.matmul(hidden1, weights) + biases
-        # logits = tf.exp(u) / tf.reduce_sum(tf.exp(u), axis=1, keepdims=True)
-
-        # logits = tf.argmax(p, axis=1)
-        # logits = tf.cast(logits, tf.float32)
 
     return logits
 
@@ -106,7 +98,6 @@ def main():
     # Create a variable to track the global step.
     global_step = tf.Variable(0, name='global_step', trainable=False)
     # Use the optimizer to apply the gradients that minimize the loss
-    # (and also increment the global step counter) as a single training step.
     train_op = optimizer.minimize(cost, global_step=global_step)
 
     with tf.name_scope('accuracy'):

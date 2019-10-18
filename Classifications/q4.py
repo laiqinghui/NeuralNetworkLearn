@@ -1,7 +1,3 @@
-#
-#   Chapter 5, example 4a
-#
-
 import numpy as np
 from sklearn.model_selection import KFold
 from sklearn import model_selection
@@ -102,7 +98,6 @@ def main():
     # Create a variable to track the global step.
     global_step = tf.Variable(0, name='global_step', trainable=False)
     # Use the optimizer to apply the gradients that minimize the loss
-    # (and also increment the global step counter) as a single training step.
     train_op = optimizer.minimize(cost, global_step=global_step)
 
     with tf.name_scope('accuracy'):
@@ -111,7 +106,6 @@ def main():
         accuracy = tf.reduce_mean(correct_prediction)
 
     N = len(x_train)
-    idx = np.arange(N)
 
     no_epochs = 500
     batch_size = 64

@@ -19,6 +19,8 @@ lambda_ = 10**-6
 seed = 10
 tf.set_random_seed(seed)
 
+
+# Definition of model
 def ffn(x, hidden1_units):
   
   # Hidden 1
@@ -53,29 +55,26 @@ def main():
   y = train_raw.NSP.to_numpy()
   x = train_raw.drop(['NSP'], axis=1).to_numpy()
 
+  # Casting labels to one-hot encoding
   identity = np.identity(no_labels, dtype=np.uint8)
   y = identity[y-1]
-    # print("y.shape: ", y.shape)
 
-
-  # # Split dataset into train / test
+  # Split dataset into train / test
   x_train, x_test, y_train, y_test = model_selection.train_test_split(
       x, y, test_size=0.3, random_state=42)
 
-  print("y_train: ", y_train.shape)
-  print("x_train.shape", x_train.shape)
   # Scale data (training set) to 0 mean and unit standard deviation.
   scaler = preprocessing.StandardScaler()
   x_train_ = scaler.fit_transform(x_train)
   x_test_ = scaler.transform(x_test)
 
+  # Start of Computational graph
+
   with tf.name_scope('Input_Layer'):
-    # Computational graph starts
     x = tf.placeholder(tf.float32, [None, no_features], name="Input_data")
 
   # Define loss and optimizer
   y_ = tf.placeholder(tf.float32, [None, no_labels], name="Labels")
-
 
   # Build the graph for the deep net
   y = ffn(x, 10)
@@ -93,9 +92,7 @@ def main():
   # Create a variable to track the global step.
   global_step = tf.Variable(0, name='global_step', trainable=False)
   # Use the optimizer to apply the gradients that minimize the loss
-  # (and also increment the global step counter) as a single training step.
   train_op = optimizer.minimize(cost, global_step=global_step)
-
 
   #with tf.name_scope('accuracy'):
   correct_prediction = tf.equal(tf.argmax(y, 1), tf.argmax(y_, 1))
@@ -117,8 +114,10 @@ def main():
 
   with tf.Session() as sess:
 
+      # For tensorboard visualization
       writer = tf.summary.FileWriter('./graphs', sess.graph)
       sess.run(tf.global_variables_initializer())
+
 
       for i in range(no_epochs):
 
@@ -131,10 +130,14 @@ def main():
           for start, end in zip(range(0, N, batch_size), range(batch_size, N, batch_size)):
             train_op.run(feed_dict={x: train_x[start:end], y_: train_y[start:end]})
 
+          # Record current fold accuracy
           cv_acc = accuracy.eval(feed_dict={x: val_x, y_: val_y})
           cv_accs.append(cv_acc)
 
+        # Record accuracies every 10 epoch
         if i % 10 == 0:
+
+          # Get average cross-validation acc as training accuracy
           train_acc = sum(cv_accs) / len(cv_accs)
           training_acc.append(train_acc)
           test_acc = accuracy.eval(feed_dict={x: x_test_, y_: y_test})
@@ -142,6 +145,7 @@ def main():
           print('batch %d: iter %d, train accuracy %g' % (batch_size, i, train_acc))
           print('batch %d: iter %d, test accuracy %g' % (batch_size, i, test_acc))
 
+        # Empty the 5-fold cv acc list
         cv_accs = []
 
   #plot learning curves
