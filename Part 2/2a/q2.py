@@ -42,27 +42,27 @@ def load_data(file):
     return data, labels_
 
 
-def cnn(images, c1_kernel=9, c2_kernel=5):
+def cnn(images, c1_kernel=50, c2_kernel=60):
     images = tf.reshape(images, [-1, IMG_SIZE, IMG_SIZE, NUM_CHANNELS])
 
     # Conv 1
-    W1 = tf.Variable(tf.truncated_normal([c1_kernel, c1_kernel, NUM_CHANNELS, 50], stddev=1.0 / np.sqrt(NUM_CHANNELS * 9 * 9)),
+    W1 = tf.Variable(tf.truncated_normal([9, 9, NUM_CHANNELS, c1_kernel], stddev=1.0 / np.sqrt(NUM_CHANNELS * 9 * 9)),
                      name='weights_1')
-    b1 = tf.Variable(tf.zeros([50]), name='biases_1')
+    b1 = tf.Variable(tf.zeros([c1_kernel]), name='biases_1')
 
-    # Output shape: 50 x 24 x 24
+    # Output shape: c1_kernel x 24 x 24
     conv_1 = tf.nn.relu(tf.nn.conv2d(images, W1, [1, 1, 1, 1], padding='VALID') + b1)
-    # Output shape: 50 x 12 x 12
+    # Output shape: c1_kernel x 12 x 12
     pool_1 = tf.nn.max_pool(conv_1, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='VALID', name='pool_1')
 
     # Conv 2
-    W2 = tf.Variable(tf.truncated_normal([c2_kernel, c2_kernel, 50, 60], stddev=1.0 / np.sqrt(50 * 9 * 9)),
+    W2 = tf.Variable(tf.truncated_normal([5, 5, c1_kernel, c2_kernel], stddev=1.0 / np.sqrt(c1_kernel * 9 * 9)),
                      name='weights_2')
-    b2 = tf.Variable(tf.zeros([60]), name='biases_2')
+    b2 = tf.Variable(tf.zeros([c2_kernel]), name='biases_2')
 
-    # Output shape: 60 x 8 x 8
+    # Output shape: c2_kernel x 8 x 8
     conv_2 = tf.nn.relu(tf.nn.conv2d(pool_1, W2, [1, 1, 1, 1], padding='VALID') + b2)
-    # Output shape: 60 x 4 x 4
+    # Output shape: c2_kernel x 4 x 4
     pool_2 = tf.nn.max_pool(conv_2, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='VALID', name='pool_1')
 
     pool_2_shape = str(pool_2.get_shape()[1].value)
@@ -71,8 +71,8 @@ def cnn(images, c1_kernel=9, c2_kernel=5):
     pool_2_flat = tf.reshape(pool_2, [-1, dim2])
 
     # Fully connected layer 1 -- after 2 round of downsampling, our 32x32 image
-    # is down to 4x4x60 feature maps -- maps this to 300 features.
-    W3 = tf.Variable(tf.truncated_normal([4 * 4 * 60, 300], stddev=1.0),
+    # is down to 4x4xc2_kernel feature maps -- maps this to 300 features.
+    W3 = tf.Variable(tf.truncated_normal([4 * 4 * c2_kernel, 300], stddev=1.0),
                      name='weights_3')
     b3 = tf.Variable(tf.zeros([300]), name='biases_3')
     fc1 = tf.nn.relu(tf.matmul(pool_2_flat, W3) + b3)
@@ -86,20 +86,13 @@ def cnn(images, c1_kernel=9, c2_kernel=5):
     return conv_1, pool_1, logits
 
 
-def main():
-    trainX, trainY = load_data('data_batch_1')
-    print(trainX.shape, trainY.shape)
-
-    testX, testY = load_data('test_batch_trim')
-    print(testX.shape, testY.shape)
-
-    trainX = (trainX - np.min(trainX, axis=0)) / np.max(trainX, axis=0)
+def buildandrunmodel(trainX, trainY, testX, testY, c1_kernel, c2_kernel):
 
     # Create the model
     x = tf.placeholder(tf.float32, [None, IMG_SIZE * IMG_SIZE * NUM_CHANNELS])
     y_ = tf.placeholder(tf.float32, [None, NUM_CLASSES])
 
-    conv_1, pool_1, logits = cnn(x)
+    conv_1, pool_1, logits = cnn(x, c1_kernel, c2_kernel)
 
     cross_entropy = tf.nn.softmax_cross_entropy_with_logits_v2(labels=y_, logits=logits)
     loss = tf.reduce_mean(cross_entropy)
@@ -125,8 +118,9 @@ def main():
             trainX, trainY = trainX[idx], trainY[idx]
 
             for start, end in zip(range(0, N, batch_size), range(batch_size, N, batch_size)):
-                _conv_1, _pool_1, _, loss_ = sess.run([conv_1, pool_1, train_step, loss], {x: trainX[start:end], y_: trainY[start:end]})
-            # _, loss_ = sess.run([train_step, loss], {x: trainX, y_: trainY})
+                _conv_1, _pool_1, _, loss_ = sess.run([conv_1, pool_1, train_step, loss],
+                                                      {x: trainX[start:end], y_: trainY[start:end]})
+                # _, loss_ = sess.run([train_step, loss], {x: trainX, y_: trainY})
                 loss_temp.append(loss_)
 
             loss_list.append(np.mean(loss_temp))
@@ -139,46 +133,45 @@ def main():
     X = trainX[ind, :]
 
     # plot learning curves
+
+    title = "Conv 1 - " + str(c1_kernel) + " and Conv 2 - " + str(c2_kernel)
     plt.figure(1)
+    plt.clf()
     plt.plot(range(epochs), loss_list, 'r', label='Training Loss')
     plt.legend(loc='upper left')
     plt.xlabel('epochs')
     plt.ylabel('loss')
-    plt.title('Training Loss')
-    plt.savefig('loss.png')
+    plt.title('Training Loss for ' + title)
+    plt.savefig('q2figs/Training Loss for ' + title + '.png')
 
     plt.figure(2)
+    plt.clf()
     plt.plot(range(epochs), test_acc, 'g', label='Test Accuracy')
     plt.legend(loc='upper left')
     plt.xlabel('epochs')
-    plt.ylabel('loss')
-    plt.title('Test Accuracy')
-    plt.savefig('loss.png')
+    plt.ylabel('Accuracy')
+    plt.title('Test Accuracy for ' + title)
+    plt.savefig('q2figs/Test Accuracy for ' + title + '.png')
 
-    plt.figure(3)
-    plt.gray()
-    _conv_1 = np.array(_conv_1)
-    for i in range(24):
-        plt.subplot(4, 6, i + 1);
-        plt.axis('off');
-        plt.imshow(_conv_1[0, :, :, i])
-    plt.savefig('feature_map.png')
 
-    plt.figure(4)
-    plt.gray()
-    _pool_1 = np.array(_pool_1)
-    for i in range(12):
-        plt.subplot(4, 3, i + 1);
-        plt.axis('off');
-        plt.imshow(_conv_1[0, :, :, i])
-    plt.savefig('pool.png')
+def main():
 
-    # plt.figure()
-    # plt.gray()
-    # X_show = X.reshape(NUM_CHANNELS, IMG_SIZE, IMG_SIZE).transpose(1, 2, 0)
-    # plt.axis('off')
-    # plt.imshow(X_show)
-    # plt.savefig('./p1b_2.png')
+    trainX, trainY = load_data('data_batch_1')
+    print(trainX.shape, trainY.shape)
+
+    testX, testY = load_data('test_batch_trim')
+    print(testX.shape, testY.shape)
+
+    trainX = (trainX - np.min(trainX, axis=0)) / np.max(trainX, axis=0)
+
+    for c1 in range(20, 70, 10):
+        for c2 in range(20, 70, 10):
+            print("C1 size: ", c1, " and C2 size: ", c2)
+            buildandrunmodel(trainX, trainY, testX, testY, c1, c2)
+            print("=====================================================================")
+
+
+
 
 
 if __name__ == '__main__':

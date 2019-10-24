@@ -77,13 +77,18 @@ def cnn(images, c1_kernel=9, c2_kernel=5):
     b3 = tf.Variable(tf.zeros([300]), name='biases_3')
     fc1 = tf.nn.relu(tf.matmul(pool_2_flat, W3) + b3)
 
+    # Dropout - controls the complexity of the model, prevents co-adaptation of
+    # features.
+    keep_prob = tf.placeholder(tf.float32)
+    fc1_drop = tf.nn.dropout(fc1, keep_prob)
+
     # Softmax
     W4 = tf.Variable(tf.truncated_normal([300, 10], stddev=1.0),
                      name='weights_4')
     b4 = tf.Variable(tf.zeros([10]), name='biases_4')
-    logits = tf.matmul(fc1, W4) + b4
+    logits = tf.matmul(fc1_drop, W4) + b4
 
-    return conv_1, pool_1, logits
+    return logits
 
 
 def main():
@@ -99,7 +104,7 @@ def main():
     x = tf.placeholder(tf.float32, [None, IMG_SIZE * IMG_SIZE * NUM_CHANNELS])
     y_ = tf.placeholder(tf.float32, [None, NUM_CLASSES])
 
-    conv_1, pool_1, logits = cnn(x)
+    logits = cnn(x)
 
     cross_entropy = tf.nn.softmax_cross_entropy_with_logits_v2(labels=y_, logits=logits)
     loss = tf.reduce_mean(cross_entropy)
@@ -108,77 +113,121 @@ def main():
     correct_prediction = tf.cast(correct_prediction, tf.float32)
     accuracy = tf.reduce_mean(correct_prediction)
 
-    train_step = tf.train.GradientDescentOptimizer(learning_rate).minimize(loss)
+    train_step1 = tf.train.MomentumOptimizer(1e-4, 0.1).minimize(cross_entropy)
+    train_step2 = tf.train.RMSPropOptimizer(1e-4).minimize(cross_entropy)
+    train_step3 = tf.train.AdamOptimizer(1e-4).minimize(cross_entropy)
 
     N = len(trainX)
     idx = np.arange(N)
 
-    test_acc = []
-    loss_list = []
-    loss_temp = []
-
     with tf.Session() as sess:
+
+        print('momentum...')
         sess.run(tf.global_variables_initializer())
+
+        test_acc = []
+        loss_list = []
+        loss_temp = []
 
         for e in range(epochs):
             np.random.shuffle(idx)
             trainX, trainY = trainX[idx], trainY[idx]
 
             for start, end in zip(range(0, N, batch_size), range(batch_size, N, batch_size)):
-                _conv_1, _pool_1, _, loss_ = sess.run([conv_1, pool_1, train_step, loss], {x: trainX[start:end], y_: trainY[start:end]})
-            # _, loss_ = sess.run([train_step, loss], {x: trainX, y_: trainY})
+                _, loss_ = sess.run([train_step1, loss], {x: trainX[start:end], y_: trainY[start:end], keep_prob: 0.5})
                 loss_temp.append(loss_)
 
             loss_list.append(np.mean(loss_temp))
-            test_acc.append(accuracy.eval(feed_dict={x: testX, y_: testY}))
+            test_acc.append(accuracy.eval(feed_dict={x: testX, y_: testY, keep_prob: 1.0}))
             loss_temp = []
             print('iter %d: test accuracy %g' % (e, test_acc[e]))
             print('epoch', e, 'entropy', loss_list[-1])
 
-    ind = np.random.randint(low=0, high=10000)
-    X = trainX[ind, :]
+        plt.figure(1)
+        plt.subplot(1, 2, 1)
+        plt.plot(np.arange(epochs), test_acc, label='Test Accuracy')
+        plt.xlabel('Epochs')
+        plt.ylabel('Accuracy')
+        plt.subplot(1, 2, 2)
+        plt.plot(range(1, epochs), loss_list, label='Training Loss')
+        plt.xlabel('Epochs')
+        plt.ylabel('Loss')
+        plt.title('Adding the momentum term with momentum 𝛾=0.1')
+        plt.savefig('q3figs/dropout/momentum.png')
 
-    # plot learning curves
-    plt.figure(1)
-    plt.plot(range(epochs), loss_list, 'r', label='Training Loss')
-    plt.legend(loc='upper left')
-    plt.xlabel('epochs')
-    plt.ylabel('loss')
-    plt.title('Training Loss')
-    plt.savefig('loss.png')
+        # ================================================================================================
 
-    plt.figure(2)
-    plt.plot(range(epochs), test_acc, 'g', label='Test Accuracy')
-    plt.legend(loc='upper left')
-    plt.xlabel('epochs')
-    plt.ylabel('loss')
-    plt.title('Test Accuracy')
-    plt.savefig('loss.png')
+        print('RMSProp...')
+        sess.run(tf.global_variables_initializer())
 
-    plt.figure(3)
-    plt.gray()
-    _conv_1 = np.array(_conv_1)
-    for i in range(24):
-        plt.subplot(4, 6, i + 1);
-        plt.axis('off');
-        plt.imshow(_conv_1[0, :, :, i])
-    plt.savefig('feature_map.png')
+        test_acc = []
+        loss_list = []
+        loss_temp = []
 
-    plt.figure(4)
-    plt.gray()
-    _pool_1 = np.array(_pool_1)
-    for i in range(12):
-        plt.subplot(4, 3, i + 1);
-        plt.axis('off');
-        plt.imshow(_conv_1[0, :, :, i])
-    plt.savefig('pool.png')
+        for e in range(epochs):
+            np.random.shuffle(idx)
+            trainX, trainY = trainX[idx], trainY[idx]
 
-    # plt.figure()
-    # plt.gray()
-    # X_show = X.reshape(NUM_CHANNELS, IMG_SIZE, IMG_SIZE).transpose(1, 2, 0)
-    # plt.axis('off')
-    # plt.imshow(X_show)
-    # plt.savefig('./p1b_2.png')
+            for start, end in zip(range(0, N, batch_size), range(batch_size, N, batch_size)):
+                _, loss_ = sess.run([train_step2, loss], {x: trainX[start:end], y_: trainY[start:end], keep_prob: 0.5})
+                loss_temp.append(loss_)
+
+            loss_list.append(np.mean(loss_temp))
+            test_acc.append(accuracy.eval(feed_dict={x: testX, y_: testY, keep_prob: 1.0}))
+            loss_temp = []
+            print('iter %d: test accuracy %g' % (e, test_acc[e]))
+            print('epoch', e, 'entropy', loss_list[-1])
+
+        plt.figure(1)
+        plt.subplot(1, 2, 1)
+        plt.plot(np.arange(epochs), test_acc, label='Test Accuracy')
+        plt.xlabel('Epochs')
+        plt.ylabel('Accuracy')
+        plt.subplot(1, 2, 2)
+        plt.plot(range(1, epochs), loss_list, label='Training Loss')
+        plt.xlabel('Epochs')
+        plt.ylabel('Loss')
+        plt.title('Using RMSProp algorithm for learning')
+        plt.savefig('q3figs/dropout/RMSProp.png')
+
+        # ================================================================================================
+
+        print('Adam optimizer...')
+        sess.run(tf.global_variables_initializer())
+
+        test_acc = []
+        loss_list = []
+        loss_temp = []
+
+        for e in range(epochs):
+            np.random.shuffle(idx)
+            trainX, trainY = trainX[idx], trainY[idx]
+
+            for start, end in zip(range(0, N, batch_size), range(batch_size, N, batch_size)):
+                _, loss_ = sess.run([train_step3, loss], {x: trainX[start:end], y_: trainY[start:end], keep_prob: 0.5})
+                loss_temp.append(loss_)
+
+            loss_list.append(np.mean(loss_temp))
+            test_acc.append(accuracy.eval(feed_dict={x: testX, y_: testY, keep_prob: 1.0}))
+            loss_temp = []
+            print('iter %d: test accuracy %g' % (e, test_acc[e]))
+            print('epoch', e, 'entropy', loss_list[-1])
+
+        plt.figure(3)
+        plt.subplot(1, 2, 1)
+        plt.plot(np.arange(epochs), test_acc, label='Test Accuracy')
+        plt.xlabel('Epochs')
+        plt.ylabel('Accuracy')
+        plt.subplot(1, 2, 2)
+        plt.plot(range(1, epochs), loss_list, label='Training Loss')
+        plt.xlabel('Epochs')
+        plt.ylabel('Loss')
+        plt.title('Using Adam optimizer for learning')
+        plt.savefig('q3figs/dropout/AdamOptimizer.png')
+
+
+
+
 
 
 if __name__ == '__main__':
