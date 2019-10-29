@@ -50,6 +50,7 @@ def read_data_chars():
     reader = csv.reader(filex)
     for row in reader:
       x_train.append(row[1])
+      print(row[1])
       y_train.append(int(row[0]))
 
   with open('test_medium.csv', encoding='utf-8') as filex:
@@ -96,8 +97,9 @@ def main():
   # training
   loss = []
   for e in range(no_epochs):
-    _, loss_  = sess.run([train_op, entropy], {x: x_train, y_: y_train})
+    input_layer_, _, loss_  = sess.run([inputs, train_op, entropy], {x: x_train, y_: y_train})
     loss.append(loss_)
+    print("input_layer_.shape", input_layer_.shape)
 
 
     if e%1 == 0:

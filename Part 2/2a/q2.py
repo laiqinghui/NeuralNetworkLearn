@@ -14,7 +14,7 @@ NUM_CLASSES = 10
 IMG_SIZE = 32
 NUM_CHANNELS = 3
 learning_rate = 0.001
-epochs = 10000
+epochs = 1000
 batch_size = 128
 
 seed = 10

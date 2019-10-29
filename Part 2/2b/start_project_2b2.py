@@ -17,9 +17,11 @@ tf.set_random_seed(seed)
 
 def rnn_model(x):
 
+  # Returns matrix of shape: (5600, 100, 50)
   word_vectors = tf.contrib.layers.embed_sequence(
       x, vocab_size=n_words, embed_dim=EMBEDDING_SIZE)
 
+  # Return list of 100 matrix of shape: (5600, 50)
   word_list = tf.unstack(word_vectors, axis=1)
 
   cell = tf.nn.rnn_cell.GRUCell(HIDDEN_SIZE)
@@ -27,7 +29,7 @@ def rnn_model(x):
 
   logits = tf.layers.dense(encoding, MAX_LABEL, activation=None)
 
-  return logits, word_list
+  return logits, word_list, word_vectors
 
 def data_read_words():
   
@@ -59,6 +61,8 @@ def data_read_words():
   x_transform_test = vocab_processor.transform(x_test)
 
   x_train = np.array(list(x_transform_train))
+  print("len(list(x_transform_train)): ", len(list(x_transform_train)))
+  print("x_train.shape", x_train.shape)
   x_test = np.array(list(x_transform_test))
 
   no_words = len(vocab_processor.vocabulary_)
@@ -75,7 +79,8 @@ def main():
   x = tf.placeholder(tf.int64, [None, MAX_DOCUMENT_LENGTH])
   y_ = tf.placeholder(tf.int64)
 
-  logits, word_list = rnn_model(x)
+  logits, word_list, word_vectors = rnn_model(x)
+
 
   entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits_v2(labels=tf.one_hot(y_, MAX_LABEL), logits=logits))
   train_op = tf.train.AdamOptimizer(lr).minimize(entropy)
@@ -86,11 +91,16 @@ def main():
   # training
   loss = []
   for e in range(no_epochs):
-    word_list_, _, loss_  = sess.run([word_list, train_op, entropy], {x: x_train, y_: y_train})
+    word_vectors_, word_list_, _, loss_  = sess.run([word_vectors, word_list, train_op, entropy], {x: x_train, y_: y_train})
     loss.append(loss_)
 	
     if e%10 == 0:
       print('epoch: %d, entropy: %g'%(e, loss[e]))
+      print("word_vectors_.shape: ", word_vectors_.shape)
+      print("len(word_list_)", len(word_list_))
+      print("word_list_[0].shape", word_list_[0].shape)
+      print("word_list_: ")
+      print(word_list_)
   
   
 if __name__ == '__main__':

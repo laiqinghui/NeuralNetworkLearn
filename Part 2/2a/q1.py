@@ -152,9 +152,9 @@ def main():
     plt.plot(range(epochs), test_acc, 'g', label='Test Accuracy')
     plt.legend(loc='upper left')
     plt.xlabel('epochs')
-    plt.ylabel('loss')
+    plt.ylabel('Accuracy')
     plt.title('Test Accuracy')
-    plt.savefig('q1figs/loss.png')
+    plt.savefig('q1figs/accuracy.png')
 
     plt.figure(3)
     plt.gray()
