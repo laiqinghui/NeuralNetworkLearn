@@ -94,6 +94,7 @@ def main():
     print(testX.shape, testY.shape)
 
     trainX = (trainX - np.min(trainX, axis=0)) / np.max(trainX, axis=0)
+    testX = (testX - np.min(testX, axis=0)) / np.max(testX, axis=0)
 
     # Create the model
     x = tf.placeholder(tf.float32, [None, IMG_SIZE * IMG_SIZE * NUM_CHANNELS])
@@ -144,7 +145,7 @@ def main():
         plt.xlabel('Epochs')
         plt.ylabel('Accuracy')
         plt.subplot(1, 2, 2)
-        plt.plot(range(1, epochs, 10), loss_list, label='Training Loss')
+        plt.plot(range(epochs), loss_list, label='Training Loss')
         plt.xlabel('Epochs')
         plt.ylabel('Loss')
         plt.title('Adding the momentum term with momentum 𝛾=0.1')
@@ -179,7 +180,7 @@ def main():
         plt.xlabel('Epochs')
         plt.ylabel('Accuracy')
         plt.subplot(1, 2, 2)
-        plt.plot(range(1, epochs, 10), loss_list, label='Training Loss')
+        plt.plot(range(epochs), loss_list, label='Training Loss')
         plt.xlabel('Epochs')
         plt.ylabel('Loss')
         plt.title('Using RMSProp algorithm for learning')
@@ -214,7 +215,7 @@ def main():
         plt.xlabel('Epochs')
         plt.ylabel('Accuracy')
         plt.subplot(1, 2, 2)
-        plt.plot(range(1, epochs, 10), loss_list, label='Training Loss')
+        plt.plot(range(epochs), loss_list, label='Training Loss')
         plt.xlabel('Epochs')
         plt.ylabel('Loss')
         plt.title('Using Adam optimizer for learning')

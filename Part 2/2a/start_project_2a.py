@@ -69,12 +69,36 @@ def cnn(images):
 def main():
 
     trainX, trainY = load_data('data_batch_1')
-    print(trainX.shape, trainY.shape)
+    print("trainX: ")
+    print(trainX)
+    print("trainX.shape: ", trainX.shape)
+    print("trainY: ")
+    print(trainY)
+    print("trainY.shape: ", trainY.shape)
+
     
     testX, testY = load_data('test_batch_trim')
-    print(testX.shape, testY.shape)
+    print("testX: ")
+    print(testX)
+    print("testX.shape: ", testX.shape)
+    print("testY: ")
+    print(testY)
+    print("testY.shape: ", testY.shape)
 
-    trainX = (trainX - np.min(trainX, axis = 0))/np.max(trainX, axis = 0)
+    trainX_default = (trainX - np.min(trainX, axis = 0))/np.max(trainX, axis = 0)
+    trainX = (trainX - np.min(trainX, axis=0)) / (np.max(trainX, axis=0) - np.min(trainX, axis=0))
+    testX = (testX - np.min(testX, axis=0)) / (np.max(testX, axis=0) - np.min(testX, axis=0))
+
+    print("np.min(trainX, axis=0)", np.min(trainX, axis=0))
+
+    print("trainX_default_normalized: ")
+    print(trainX_default)
+
+    print("trainX_normalized: ")
+    print(trainX)
+    print("testX_normalized: ")
+    print(testX)
+
 
     # Create the model
     x = tf.placeholder(tf.float32, [None, IMG_SIZE*IMG_SIZE*NUM_CHANNELS])

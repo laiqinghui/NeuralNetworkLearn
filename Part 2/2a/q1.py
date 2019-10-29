@@ -14,7 +14,7 @@ NUM_CLASSES = 10
 IMG_SIZE = 32
 NUM_CHANNELS = 3
 learning_rate = 0.001
-epochs = 500
+epochs = 1000
 batch_size = 128
 
 seed = 10
@@ -94,6 +94,7 @@ def main():
     print(testX.shape, testY.shape)
 
     trainX = (trainX - np.min(trainX, axis=0)) / np.max(trainX, axis=0)
+    testX = (testX - np.min(testX, axis=0)) / np.max(testX, axis=0)
 
     # Create the model
     x = tf.placeholder(tf.float32, [None, IMG_SIZE * IMG_SIZE * NUM_CHANNELS])
@@ -145,7 +146,7 @@ def main():
     plt.xlabel('epochs')
     plt.ylabel('loss')
     plt.title('Training Loss')
-    plt.savefig('loss.png')
+    plt.savefig('q1figs/loss.png')
 
     plt.figure(2)
     plt.plot(range(epochs), test_acc, 'g', label='Test Accuracy')
@@ -153,7 +154,7 @@ def main():
     plt.xlabel('epochs')
     plt.ylabel('loss')
     plt.title('Test Accuracy')
-    plt.savefig('loss.png')
+    plt.savefig('q1figs/loss.png')
 
     plt.figure(3)
     plt.gray()
@@ -162,7 +163,7 @@ def main():
         plt.subplot(4, 6, i + 1);
         plt.axis('off');
         plt.imshow(_conv_1[0, :, :, i])
-    plt.savefig('feature_map.png')
+    plt.savefig('q1figs/feature_map.png')
 
     plt.figure(4)
     plt.gray()
@@ -171,7 +172,7 @@ def main():
         plt.subplot(4, 3, i + 1);
         plt.axis('off');
         plt.imshow(_conv_1[0, :, :, i])
-    plt.savefig('pool.png')
+    plt.savefig('q1figs/pool.png')
 
     # plt.figure()
     # plt.gray()

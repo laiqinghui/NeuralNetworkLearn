@@ -14,7 +14,7 @@ NUM_CLASSES = 10
 IMG_SIZE = 32
 NUM_CHANNELS = 3
 learning_rate = 0.001
-epochs = 500
+epochs = 10000
 batch_size = 128
 
 seed = 10
@@ -142,7 +142,7 @@ def buildandrunmodel(trainX, trainY, testX, testY, c1_kernel, c2_kernel):
     plt.xlabel('epochs')
     plt.ylabel('loss')
     plt.title('Training Loss for ' + title)
-    plt.savefig('q2figs/Training Loss for ' + title + '.png')
+    plt.savefig('q2figs10000/Training Loss for ' + title + '.png')
 
     plt.figure(2)
     plt.clf()
@@ -151,7 +151,7 @@ def buildandrunmodel(trainX, trainY, testX, testY, c1_kernel, c2_kernel):
     plt.xlabel('epochs')
     plt.ylabel('Accuracy')
     plt.title('Test Accuracy for ' + title)
-    plt.savefig('q2figs/Test Accuracy for ' + title + '.png')
+    plt.savefig('q2figs10000/Test Accuracy for ' + title + '.png')
 
 
 def main():
@@ -163,12 +163,23 @@ def main():
     print(testX.shape, testY.shape)
 
     trainX = (trainX - np.min(trainX, axis=0)) / np.max(trainX, axis=0)
+    testX = (testX - np.min(testX, axis=0)) / np.max(testX, axis=0)
 
-    for c1 in range(20, 70, 10):
-        for c2 in range(20, 70, 10):
+    # kernels = [(30,170), (40,40), (40,90), (60,60), (70,40), (70,140),
+    #            (70,160), (70,190), (80,30), (80,80), (80,100), (90,130),
+    #            (100,40), (100,170), (110,30),( 110,120), (120,30),(120,170),
+    #            (130,30), (140,20), (140,150), (150,80), (150,80), (150,150),
+    #            (160,60), (160,60), (160,70), (180,60), (190,180),]
+
+    for c1 in range(20, 150, 10):
+        for c2 in range(20, 150, 10):
             print("C1 size: ", c1, " and C2 size: ", c2)
             buildandrunmodel(trainX, trainY, testX, testY, c1, c2)
             print("=====================================================================")
+
+    # for kernel in kernels:
+    #     buildandrunmodel(trainX, trainY, testX, testY, kernel[0], kernel[1])
+    #     print("=====================================================================")
 
 
 

@@ -88,7 +88,7 @@ def cnn(images, c1_kernel=9, c2_kernel=5):
     b4 = tf.Variable(tf.zeros([10]), name='biases_4')
     logits = tf.matmul(fc1_drop, W4) + b4
 
-    return logits
+    return logits, keep_prob
 
 
 def main():
@@ -99,12 +99,13 @@ def main():
     print(testX.shape, testY.shape)
 
     trainX = (trainX - np.min(trainX, axis=0)) / np.max(trainX, axis=0)
+    testX = (testX - np.min(testX, axis=0)) / np.max(testX, axis=0)
 
     # Create the model
     x = tf.placeholder(tf.float32, [None, IMG_SIZE * IMG_SIZE * NUM_CHANNELS])
     y_ = tf.placeholder(tf.float32, [None, NUM_CLASSES])
 
-    logits = cnn(x)
+    logits, keep_prob = cnn(x)
 
     cross_entropy = tf.nn.softmax_cross_entropy_with_logits_v2(labels=y_, logits=logits)
     loss = tf.reduce_mean(cross_entropy)
@@ -137,6 +138,7 @@ def main():
                 _, loss_ = sess.run([train_step1, loss], {x: trainX[start:end], y_: trainY[start:end], keep_prob: 0.5})
                 loss_temp.append(loss_)
 
+
             loss_list.append(np.mean(loss_temp))
             test_acc.append(accuracy.eval(feed_dict={x: testX, y_: testY, keep_prob: 1.0}))
             loss_temp = []
@@ -149,7 +151,7 @@ def main():
         plt.xlabel('Epochs')
         plt.ylabel('Accuracy')
         plt.subplot(1, 2, 2)
-        plt.plot(range(1, epochs), loss_list, label='Training Loss')
+        plt.plot(range(epochs), loss_list, label='Training Loss')
         plt.xlabel('Epochs')
         plt.ylabel('Loss')
         plt.title('Adding the momentum term with momentum 𝛾=0.1')
@@ -184,7 +186,7 @@ def main():
         plt.xlabel('Epochs')
         plt.ylabel('Accuracy')
         plt.subplot(1, 2, 2)
-        plt.plot(range(1, epochs), loss_list, label='Training Loss')
+        plt.plot(range(epochs), loss_list, label='Training Loss')
         plt.xlabel('Epochs')
         plt.ylabel('Loss')
         plt.title('Using RMSProp algorithm for learning')
@@ -219,7 +221,7 @@ def main():
         plt.xlabel('Epochs')
         plt.ylabel('Accuracy')
         plt.subplot(1, 2, 2)
-        plt.plot(range(1, epochs), loss_list, label='Training Loss')
+        plt.plot(range(epochs), loss_list, label='Training Loss')
         plt.xlabel('Epochs')
         plt.ylabel('Loss')
         plt.title('Using Adam optimizer for learning')
