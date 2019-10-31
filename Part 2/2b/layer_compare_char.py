@@ -16,27 +16,39 @@ HIDDEN_SIZE = 20
 no_epochs = 500
 lr = 0.01
 
-tf.logging.set_verbosity(tf.logging.ERROR)
+#tf.logging.set_verbosity(tf.logging.ERROR)
 seed = 10
 tf.set_random_seed(seed)
 
 
-def char_rnn_model(x):
+def char_rnn_model(x, celltype):
+
     input_layer = tf.reshape(
         tf.one_hot(x, 256), [-1, MAX_DOCUMENT_LENGTH, 256])
 
-    cell = tf.nn.rnn_cell.GRUCell(HIDDEN_SIZE)
-    _, encoding = tf.nn.dynamic_rnn(cell, input_layer, dtype=tf.float32)
+    # char_vectors = tf.one_hot(x, 256)
+    # char_list = tf.unstack(char_vectors, axis=1)
 
-    # Dropout - controls the complexity of the model, prevents co-adaptation of features
-    keep_prob = tf.placeholder(tf.float32)
+    if celltype == "Vanilla":
+        print("in vanilla")
+        cell = tf.nn.rnn_cell.BasicRNNCell(HIDDEN_SIZE)
+        _, encoding = tf.nn.dynamic_rnn(cell, input_layer, dtype=tf.float32)
+    elif celltype == "GRU":
+        cell = tf.nn.rnn_cell.GRUCell(HIDDEN_SIZE)
+        _, encoding = tf.nn.dynamic_rnn(cell, input_layer, dtype=tf.float32)
+    elif celltype == "LSTM":
+        cell = tf.nn.rnn_cell.LSTMCell(HIDDEN_SIZE)
+        _, encoding = tf.nn.dynamic_rnn(cell, input_layer, dtype=tf.float32)
 
-    encoding = tf.nn.dropout(encoding, keep_prob)
+
+    if isinstance(encoding, tf.nn.rnn_cell.LSTMStateTuple) or isinstance(encoding, tuple):
+        print("true")
+        encoding = encoding[-1]  # state tuple is (c, h), we want h as output
 
     logits = tf.layers.dense(encoding, MAX_LABEL, activation=None)
 
 
-    return keep_prob, input_layer, logits
+    return input_layer, logits
 
 
 def read_data_chars():
@@ -68,13 +80,13 @@ def read_data_chars():
 
     return x_train, y_train, x_test, y_test
 
-def buildandrunmodel(x_train, y_train, x_test, y_test, keep_proba):
+def buildandrunmodel(x_train, y_train, x_test, y_test, celltype):
 
     # Create the model
     x = tf.placeholder(tf.int64, [None, MAX_DOCUMENT_LENGTH])
     y_ = tf.placeholder(tf.int64)
 
-    keep_prob, inputs, logits = char_rnn_model(x)
+    inputs, logits = char_rnn_model(x, celltype)
 
     # Optimizer
     entropy = tf.reduce_mean(
@@ -95,9 +107,9 @@ def buildandrunmodel(x_train, y_train, x_test, y_test, keep_proba):
         test_acc = []
 
         for e in range(no_epochs):
-            input_layer_, _, loss_ = sess.run([inputs, train_op, entropy], {x: x_train, y_: y_train, keep_prob: keep_proba})
+            input_layer_, _, loss_ = sess.run([inputs, train_op, entropy], {x: x_train, y_: y_train})
             loss.append(loss_)
-            test_acc.append(accuracy.eval(feed_dict={x: x_test, y_: y_test, keep_prob: keep_proba}))
+            test_acc.append(accuracy.eval(feed_dict={x: x_test, y_: y_test}))
             # print("input_layer_.shape", input_layer_.shape)
 
             if e % 1 == 0:
@@ -111,8 +123,8 @@ def buildandrunmodel(x_train, y_train, x_test, y_test, keep_proba):
         # plt.legend(loc='upper left')
         plt.xlabel('epochs')
         plt.ylabel('loss')
-        plt.title('Training Loss for keep prop: ' + str(keep_proba))
-        plt.savefig('char_rnn_dropout_figs/loss_' + str(keep_proba) + '.png')
+        plt.title('Training Loss for cell type: ' + celltype)
+        plt.savefig('layer_compare_char_figs/loss_' + celltype + '.png')
 
         plt.figure(2)
         plt.clf()
@@ -120,8 +132,8 @@ def buildandrunmodel(x_train, y_train, x_test, y_test, keep_proba):
         # plt.legend(loc='upper left')
         plt.xlabel('epochs')
         plt.ylabel('Accuracy')
-        plt.title('Test Accuracy for keep prop: ' + str(keep_proba))
-        plt.savefig('char_rnn_dropout_figs/accuracy_' + str(keep_proba) + '.png' )
+        plt.title('Test Accuracy for cell type: ' + celltype)
+        plt.savefig('layer_compare_char_figs/accuracy_' + celltype + '.png' )
 
 
 
@@ -131,11 +143,19 @@ def main():
     print(len(x_train))
     print(len(x_test))
 
-    for kp in range(1, 10, 2):
-        print("Keep prob: ", kp/10)
-        buildandrunmodel(x_train, y_train, x_test, y_test, kp/10)
-        tf.reset_default_graph()
-        print("=====================================================================")
+    # print("Cell type: LSTM")
+    # buildandrunmodel(x_train, y_train, x_test, y_test, "LSTM")
+    # tf.reset_default_graph()
+    # print("=====================================================================")
+    print("Cell type: Vanilla")
+    buildandrunmodel(x_train, y_train, x_test, y_test, "Vanilla")
+    tf.reset_default_graph()
+    # print("=====================================================================")
+    # print("Cell type: GRU")
+    # buildandrunmodel(x_train, y_train, x_test, y_test, "GRU")
+    # tf.reset_default_graph()
+    # print("=====================================================================")
+
 
 
 

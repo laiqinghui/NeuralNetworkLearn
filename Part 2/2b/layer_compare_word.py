@@ -22,7 +22,7 @@ seed = 10
 tf.set_random_seed(seed)
 
 
-def rnn_model(x):
+def rnn_model(x, celltype):
     # Returns matrix of shape: (5600, 100, 50)
     word_vectors = tf.contrib.layers.embed_sequence(
         x, vocab_size=n_words, embed_dim=EMBEDDING_SIZE)
@@ -30,8 +30,17 @@ def rnn_model(x):
     # Return list of 100 matrix of shape: (5600, 50)
     word_list = tf.unstack(word_vectors, axis=1)
 
-    cell = tf.nn.rnn_cell.GRUCell(HIDDEN_SIZE)
-    _, encoding = tf.nn.static_rnn(cell, word_list, dtype=tf.float32)
+    if celltype == "Vanilla":
+        cell = tf.nn.rnn_cell.BasicRNNCell(HIDDEN_SIZE)
+        _, encoding = tf.nn.dynamic_rnn(cell, word_list, dtype=tf.float32)
+    elif celltype == "GRU":
+        cell = tf.nn.rnn_cell.GRUCell(HIDDEN_SIZE)
+        _, encoding = tf.nn.dynamic_rnn(cell, word_list, dtype=tf.float32)
+    elif celltype == "LSTM":
+        cell = tf.nn.rnn_cell.LSTMCell(HIDDEN_SIZE)
+        _, encoding = tf.nn.dynamic_rnn(cell, word_list, dtype=tf.float32)
+        encoding = encoding[0]
+
 
     # Dropout - controls the complexity of the model, prevents co-adaptation of features
     keep_prob = tf.placeholder(tf.float32)
@@ -81,13 +90,13 @@ def data_read_words():
 
     return x_train, y_train, x_test, y_test, no_words
 
-def buildandrunmodel(x_train, y_train, x_test, y_test, keep_proba):
+def buildandrunmodel(x_train, y_train, x_test, y_test, celltype):
 
     # Create the model
     x = tf.placeholder(tf.int64, [None, MAX_DOCUMENT_LENGTH])
     y_ = tf.placeholder(tf.int64)
 
-    keep_prob, logits, word_list, word_vectors = rnn_model(x)
+    keep_prob, logits, word_list, word_vectors = rnn_model(x, celltype)
 
     entropy = tf.reduce_mean(
         tf.nn.softmax_cross_entropy_with_logits_v2(labels=tf.one_hot(y_, MAX_LABEL), logits=logits))
@@ -122,8 +131,8 @@ def buildandrunmodel(x_train, y_train, x_test, y_test, keep_proba):
         # plt.legend(loc='upper left')
         plt.xlabel('epochs')
         plt.ylabel('loss')
-        plt.title('Training Loss for keep prop: ' + str(keep_proba))
-        plt.savefig('word_rnn_dropout_figs/loss_' + str(keep_proba) + '.png')
+        plt.title('Training Loss for cell type: ' + celltype)
+        plt.savefig('layer_compare_word_figs/loss_' + celltype + '.png')
 
         plt.figure(2)
         plt.clf()
@@ -131,8 +140,8 @@ def buildandrunmodel(x_train, y_train, x_test, y_test, keep_proba):
         # plt.legend(loc='upper left')
         plt.xlabel('epochs')
         plt.ylabel('Accuracy')
-        plt.title('Test Accuracy for keep prop: ' + str(keep_proba))
-        plt.savefig('word_rnn_dropout_figs/accuracy_' + str(keep_proba) + '.png')
+        plt.title('Test Accuracy for cell type: ' + celltype)
+        plt.savefig('layer_compare_word_figs/accuracy_' + celltype + '.png' )
 
 
 def main():
@@ -140,11 +149,18 @@ def main():
 
     x_train, y_train, x_test, y_test, n_words = data_read_words()
 
-    for kp in range(1, 10, 2):
-        print("Keep prob: ", kp/10)
-        buildandrunmodel(x_train, y_train, x_test, y_test, kp/10)
-        tf.reset_default_graph()
-        print("=====================================================================")
+    print("Cell type: Vanilla")
+    buildandrunmodel(x_train, y_train, x_test, y_test, "Vanilla")
+    tf.reset_default_graph()
+    print("=====================================================================")
+    print("Cell type: GRU")
+    buildandrunmodel(x_train, y_train, x_test, y_test, "GRU")
+    tf.reset_default_graph()
+    print("=====================================================================")
+    print("Cell type: LSTM")
+    buildandrunmodel(x_train, y_train, x_test, y_test, "LSTM")
+    tf.reset_default_graph()
+    print("=====================================================================")
 
 
 

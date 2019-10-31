@@ -25,18 +25,13 @@ def char_rnn_model(x):
     input_layer = tf.reshape(
         tf.one_hot(x, 256), [-1, MAX_DOCUMENT_LENGTH, 256])
 
-    cell = tf.nn.rnn_cell.GRUCell(HIDDEN_SIZE)
-    _, encoding = tf.nn.dynamic_rnn(cell, input_layer, dtype=tf.float32)
-
-    # Dropout - controls the complexity of the model, prevents co-adaptation of features
-    keep_prob = tf.placeholder(tf.float32)
-
-    encoding = tf.nn.dropout(encoding, keep_prob)
+    cells = [tf.nn.rnn_cell.GRUCell(HIDDEN_SIZE), tf.nn.rnn_cell.GRUCell(HIDDEN_SIZE)]
+    _, encoding = tf.nn.dynamic_rnn(cells, input_layer, dtype=tf.float32)
 
     logits = tf.layers.dense(encoding, MAX_LABEL, activation=None)
 
 
-    return keep_prob, input_layer, logits
+    return input_layer, logits
 
 
 def read_data_chars():
@@ -68,17 +63,23 @@ def read_data_chars():
 
     return x_train, y_train, x_test, y_test
 
-def buildandrunmodel(x_train, y_train, x_test, y_test, keep_proba):
+
+def main():
+    x_train, y_train, x_test, y_test = read_data_chars()
+
+    print(len(x_train))
+    print(len(x_test))
 
     # Create the model
     x = tf.placeholder(tf.int64, [None, MAX_DOCUMENT_LENGTH])
     y_ = tf.placeholder(tf.int64)
 
-    keep_prob, inputs, logits = char_rnn_model(x)
+    inputs, logits = char_rnn_model(x)
 
     # Optimizer
     entropy = tf.reduce_mean(
         tf.nn.softmax_cross_entropy_with_logits_v2(labels=tf.one_hot(y_, MAX_LABEL), logits=logits))
+
 
     correct_prediction = tf.equal(tf.argmax(logits, 1), tf.argmax(tf.one_hot(y_, MAX_LABEL), 1))
     correct_prediction = tf.cast(correct_prediction, tf.float32)
@@ -95,10 +96,10 @@ def buildandrunmodel(x_train, y_train, x_test, y_test, keep_proba):
         test_acc = []
 
         for e in range(no_epochs):
-            input_layer_, _, loss_ = sess.run([inputs, train_op, entropy], {x: x_train, y_: y_train, keep_prob: keep_proba})
+            input_layer_, _, loss_ = sess.run([inputs, train_op, entropy], {x: x_train, y_: y_train})
             loss.append(loss_)
-            test_acc.append(accuracy.eval(feed_dict={x: x_test, y_: y_test, keep_prob: keep_proba}))
-            # print("input_layer_.shape", input_layer_.shape)
+            test_acc.append(accuracy.eval(feed_dict={x: x_test, y_: y_test}))
+            #print("input_layer_.shape", input_layer_.shape)
 
             if e % 1 == 0:
                 print('iter: %d, entropy: %g' % (e, loss[e]))
@@ -106,38 +107,20 @@ def buildandrunmodel(x_train, y_train, x_test, y_test, keep_proba):
 
         # plot learning curves
         plt.figure(1)
-        plt.clf()
         plt.plot(range(no_epochs), loss, 'r', label='Training Loss')
-        # plt.legend(loc='upper left')
+        #plt.legend(loc='upper left')
         plt.xlabel('epochs')
         plt.ylabel('loss')
-        plt.title('Training Loss for keep prop: ' + str(keep_proba))
-        plt.savefig('char_rnn_dropout_figs/loss_' + str(keep_proba) + '.png')
+        plt.title('Training Loss')
+        plt.savefig('q3figs/loss.png')
 
         plt.figure(2)
-        plt.clf()
         plt.plot(range(no_epochs), test_acc, 'g', label='Test Accuracy')
-        # plt.legend(loc='upper left')
+        #plt.legend(loc='upper left')
         plt.xlabel('epochs')
         plt.ylabel('Accuracy')
-        plt.title('Test Accuracy for keep prop: ' + str(keep_proba))
-        plt.savefig('char_rnn_dropout_figs/accuracy_' + str(keep_proba) + '.png' )
-
-
-
-def main():
-    x_train, y_train, x_test, y_test = read_data_chars()
-
-    print(len(x_train))
-    print(len(x_test))
-
-    for kp in range(1, 10, 2):
-        print("Keep prob: ", kp/10)
-        buildandrunmodel(x_train, y_train, x_test, y_test, kp/10)
-        tf.reset_default_graph()
-        print("=====================================================================")
-
-
+        plt.title('Test Accuracy')
+        plt.savefig('q3figs/accuracy.png')
 
 
 
