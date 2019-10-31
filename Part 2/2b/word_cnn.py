@@ -34,7 +34,7 @@ BATCH_SIZE = 128
 
 EMBEDDING_SIZE = 20
 
-no_epochs = 5
+no_epochs = 1000
 lr = 0.01
 
 tf.logging.set_verbosity(tf.logging.ERROR)
