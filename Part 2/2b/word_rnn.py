@@ -15,6 +15,7 @@ MAX_LABEL = 15
 EMBEDDING_SIZE = 20
 
 no_epochs = 1000
+batch_size = 128
 lr = 0.01
 
 tf.logging.set_verbosity(tf.logging.ERROR)
@@ -100,24 +101,36 @@ def main():
 
         sess.run(tf.global_variables_initializer())
 
+        N = len(x_train)
+        idx = np.arange(N)
+
         # training
-        loss = []
         test_acc = []
+        loss_list = []
+        loss_temp = []
 
         for e in range(no_epochs):
-            word_vectors_, word_list_, _, loss_ = sess.run([word_vectors, word_list, train_op, entropy],
-                                                           {x: x_train, y_: y_train})
-            loss.append(loss_)
+
+            np.random.shuffle(idx)
+            x_train, y_train = x_train[idx], y_train[idx]
+
+            for start, end in zip(range(0, N, batch_size), range(batch_size, N, batch_size)):
+                word_vectors_, word_list_, _, loss_ = sess.run([word_vectors, word_list, train_op, entropy],
+                                                               {x: x_train[start:end], y_: y_train[start:end]})
+                loss_temp.append(loss_)
+
+            loss_list.append(np.mean(loss_temp))
             test_acc.append(accuracy.eval(feed_dict={x: x_test, y_: y_test}))
+            loss_temp = []
 
             if e % 10 == 0:
-                print('epoch: %d, entropy: %g' % (e, loss[e]))
+                print('epoch', e, 'entropy', loss_list[-1])
                 print('iter: %d, test accuracy: %g' % (e, test_acc[e]))
 
 
         # plot learning curves
         plt.figure(1)
-        plt.plot(range(no_epochs), loss, 'r', label='Training Loss')
+        plt.plot(range(no_epochs), loss_list, 'r', label='Training Loss')
         # plt.legend(loc='upper left')
         plt.xlabel('epochs')
         plt.ylabel('loss')

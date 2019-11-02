@@ -63,7 +63,7 @@ def cnn(images, c1_kernel=9, c2_kernel=5):
     # Output shape: 60 x 8 x 8
     conv_2 = tf.nn.relu(tf.nn.conv2d(pool_1, W2, [1, 1, 1, 1], padding='VALID') + b2)
     # Output shape: 60 x 4 x 4
-    pool_2 = tf.nn.max_pool(conv_2, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='VALID', name='pool_1')
+    pool_2 = tf.nn.max_pool(conv_2, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='VALID', name='pool_2')
 
     pool_2_shape = str(pool_2.get_shape()[1].value)
 
@@ -87,6 +87,7 @@ def cnn(images, c1_kernel=9, c2_kernel=5):
 
 
 def main():
+
     trainX, trainY = load_data('data_batch_1')
     print(trainX.shape, trainY.shape)
 
@@ -136,8 +137,10 @@ def main():
             print('iter %d: test accuracy %g' % (e, test_acc[e]))
             print('epoch', e, 'entropy', loss_list[-1])
 
-    ind = np.random.randint(low=0, high=10000)
-    X = trainX[ind, :]
+        _conv_1, _pool_1, _, loss_ = sess.run([conv_1, pool_1, train_step, loss],
+                                              {x: trainX[-1:], y_: trainY[-1:]})
+
+
 
     # plot learning curves
     plt.figure(1)
@@ -174,12 +177,18 @@ def main():
         plt.imshow(_conv_1[0, :, :, i])
     plt.savefig('q1figs/pool.png')
 
-    # plt.figure()
-    # plt.gray()
-    # X_show = X.reshape(NUM_CHANNELS, IMG_SIZE, IMG_SIZE).transpose(1, 2, 0)
-    # plt.axis('off')
-    # plt.imshow(X_show)
-    # plt.savefig('./p1b_2.png')
+    X = trainX[-1, :]
+    X = X.astype(int)
+
+    plt.figure(5)
+    plt.gray()
+    X_show = X.reshape(NUM_CHANNELS, IMG_SIZE, IMG_SIZE).transpose(1, 2, 0)
+    plt.axis('off')
+    plt.imshow(X_show)
+    plt.savefig('q1figs/test_example.png')
+
+    # print("trainX[-1, :]", trainX[-1, :])
+    # print("trainX[-1:]", trainX[-1:])
 
 
 if __name__ == '__main__':

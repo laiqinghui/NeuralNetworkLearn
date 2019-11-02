@@ -14,7 +14,7 @@ NUM_CLASSES = 10
 IMG_SIZE = 32
 NUM_CHANNELS = 3
 learning_rate = 0.001
-epochs = 500
+epochs = 1000
 batch_size = 128
 
 seed = 10
@@ -42,28 +42,28 @@ def load_data(file):
     return data, labels_
 
 
-def cnn(images, c1_kernel=9, c2_kernel=5):
+def cnn(images, c1_kernel=50, c2_kernel=60):
     images = tf.reshape(images, [-1, IMG_SIZE, IMG_SIZE, NUM_CHANNELS])
 
     # Conv 1
-    W1 = tf.Variable(tf.truncated_normal([c1_kernel, c1_kernel, NUM_CHANNELS, 50], stddev=1.0 / np.sqrt(NUM_CHANNELS * 9 * 9)),
+    W1 = tf.Variable(tf.truncated_normal([9, 9, NUM_CHANNELS, c1_kernel], stddev=1.0 / np.sqrt(NUM_CHANNELS * 9 * 9)),
                      name='weights_1')
-    b1 = tf.Variable(tf.zeros([50]), name='biases_1')
+    b1 = tf.Variable(tf.zeros([c1_kernel]), name='biases_1')
 
-    # Output shape: 50 x 24 x 24
+    # Output shape: c1_kernel x 24 x 24
     conv_1 = tf.nn.relu(tf.nn.conv2d(images, W1, [1, 1, 1, 1], padding='VALID') + b1)
-    # Output shape: 50 x 12 x 12
+    # Output shape: c1_kernel x 12 x 12
     pool_1 = tf.nn.max_pool(conv_1, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='VALID', name='pool_1')
 
     # Conv 2
-    W2 = tf.Variable(tf.truncated_normal([c2_kernel, c2_kernel, 50, 60], stddev=1.0 / np.sqrt(50 * 9 * 9)),
+    W2 = tf.Variable(tf.truncated_normal([5, 5, c1_kernel, c2_kernel], stddev=1.0 / np.sqrt(c1_kernel * 9 * 9)),
                      name='weights_2')
-    b2 = tf.Variable(tf.zeros([60]), name='biases_2')
+    b2 = tf.Variable(tf.zeros([c2_kernel]), name='biases_2')
 
-    # Output shape: 60 x 8 x 8
+    # Output shape: c2_kernel x 8 x 8
     conv_2 = tf.nn.relu(tf.nn.conv2d(pool_1, W2, [1, 1, 1, 1], padding='VALID') + b2)
-    # Output shape: 60 x 4 x 4
-    pool_2 = tf.nn.max_pool(conv_2, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='VALID', name='pool_1')
+    # Output shape: c2_kernel x 4 x 4
+    pool_2 = tf.nn.max_pool(conv_2, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='VALID', name='pool_2')
 
     pool_2_shape = str(pool_2.get_shape()[1].value)
 
@@ -71,8 +71,8 @@ def cnn(images, c1_kernel=9, c2_kernel=5):
     pool_2_flat = tf.reshape(pool_2, [-1, dim2])
 
     # Fully connected layer 1 -- after 2 round of downsampling, our 32x32 image
-    # is down to 4x4x60 feature maps -- maps this to 300 features.
-    W3 = tf.Variable(tf.truncated_normal([4 * 4 * 60, 300], stddev=1.0),
+    # is down to 4x4xc2_kernel feature maps -- maps this to 300 features.
+    W3 = tf.Variable(tf.truncated_normal([4 * 4 * c2_kernel, 300], stddev=1.0),
                      name='weights_3')
     b3 = tf.Variable(tf.zeros([300]), name='biases_3')
     fc1 = tf.nn.relu(tf.matmul(pool_2_flat, W3) + b3)
@@ -100,7 +100,7 @@ def main():
     x = tf.placeholder(tf.float32, [None, IMG_SIZE * IMG_SIZE * NUM_CHANNELS])
     y_ = tf.placeholder(tf.float32, [None, NUM_CLASSES])
 
-    logits = cnn(x)
+    logits = cnn(x, 110, 120)
 
     cross_entropy = tf.nn.softmax_cross_entropy_with_logits_v2(labels=y_, logits=logits)
     loss = tf.reduce_mean(cross_entropy)
@@ -139,16 +139,18 @@ def main():
             print('iter %d: test accuracy %g' % (e, test_acc[e]))
             print('epoch', e, 'entropy', loss_list[-1])
 
-        plt.figure(1)
+        fig1 = plt.figure(1)
+        fig1.subplots_adjust(hspace=0.7, wspace=0.7)
         plt.subplot(1, 2, 1)
         plt.plot(np.arange(epochs), test_acc, label='Test Accuracy')
         plt.xlabel('Epochs')
         plt.ylabel('Accuracy')
+        plt.title('Momentum: Test Accuracy')
         plt.subplot(1, 2, 2)
         plt.plot(range(epochs), loss_list, label='Training Loss')
         plt.xlabel('Epochs')
         plt.ylabel('Loss')
-        plt.title('Adding the momentum term with momentum 𝛾=0.1')
+        plt.title('Momentum: Training Loss')
         plt.savefig('q3figs/momentum.png')
 
         # ================================================================================================
@@ -174,16 +176,18 @@ def main():
             print('iter %d: test accuracy %g' % (e, test_acc[e]))
             print('epoch', e, 'entropy', loss_list[-1])
 
-        plt.figure(1)
+        fig2 = plt.figure(2)
+        fig2.subplots_adjust(hspace=0.7, wspace=0.7)
         plt.subplot(1, 2, 1)
         plt.plot(np.arange(epochs), test_acc, label='Test Accuracy')
         plt.xlabel('Epochs')
         plt.ylabel('Accuracy')
+        plt.title('RMSProp: Test Accuracy')
         plt.subplot(1, 2, 2)
         plt.plot(range(epochs), loss_list, label='Training Loss')
         plt.xlabel('Epochs')
         plt.ylabel('Loss')
-        plt.title('Using RMSProp algorithm for learning')
+        plt.title('RMSProp: Training Loss')
         plt.savefig('q3figs/RMSProp.png')
 
         # ================================================================================================
@@ -209,16 +213,18 @@ def main():
             print('iter %d: test accuracy %g' % (e, test_acc[e]))
             print('epoch', e, 'entropy', loss_list[-1])
 
-        plt.figure(3)
+        fig3 = plt.figure(3)
+        fig3.subplots_adjust(hspace=0.7, wspace=0.7)
         plt.subplot(1, 2, 1)
         plt.plot(np.arange(epochs), test_acc, label='Test Accuracy')
         plt.xlabel('Epochs')
         plt.ylabel('Accuracy')
+        plt.title('Adam Optimizer: Test Accuracy')
         plt.subplot(1, 2, 2)
         plt.plot(range(epochs), loss_list, label='Training Loss')
         plt.xlabel('Epochs')
         plt.ylabel('Loss')
-        plt.title('Using Adam optimizer for learning')
+        plt.title('Adam Optimizer: Training Loss')
         plt.savefig('q3figs/AdamOptimizer.png')
 
 

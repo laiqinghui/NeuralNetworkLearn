@@ -13,7 +13,8 @@ MAX_DOCUMENT_LENGTH = 100
 MAX_LABEL = 15
 HIDDEN_SIZE = 20
 
-no_epochs = 500
+no_epochs = 1000
+batch_size = 128
 lr = 0.01
 
 tf.logging.set_verbosity(tf.logging.ERROR)
@@ -26,9 +27,10 @@ def char_rnn_model(x):
         tf.one_hot(x, 256), [-1, MAX_DOCUMENT_LENGTH, 256])
 
     cells = [tf.nn.rnn_cell.GRUCell(HIDDEN_SIZE), tf.nn.rnn_cell.GRUCell(HIDDEN_SIZE)]
+    cells = tf.nn.rnn_cell.MultiRNNCell(cells)
     _, encoding = tf.nn.dynamic_rnn(cells, input_layer, dtype=tf.float32)
 
-    logits = tf.layers.dense(encoding, MAX_LABEL, activation=None)
+    logits = tf.layers.dense(encoding[-1], MAX_LABEL, activation=None)
 
 
     return input_layer, logits
@@ -91,28 +93,40 @@ def main():
 
         sess.run(tf.global_variables_initializer())
 
+        N = len(x_train)
+        idx = np.arange(N)
+
         # training
-        loss = []
         test_acc = []
+        loss_list = []
+        loss_temp = []
 
         for e in range(no_epochs):
-            input_layer_, _, loss_ = sess.run([inputs, train_op, entropy], {x: x_train, y_: y_train})
-            loss.append(loss_)
+
+            np.random.shuffle(idx)
+            x_train, y_train = x_train[idx], y_train[idx]
+
+            for start, end in zip(range(0, N, batch_size), range(batch_size, N, batch_size)):
+                input_layer_, _, loss_ = sess.run([inputs, train_op, entropy], {x: x_train[start:end], y_: y_train[start:end]})
+                loss_temp.append(loss_)
+
+            loss_list.append(np.mean(loss_temp))
             test_acc.append(accuracy.eval(feed_dict={x: x_test, y_: y_test}))
+            loss_temp = []
             #print("input_layer_.shape", input_layer_.shape)
 
             if e % 1 == 0:
-                print('iter: %d, entropy: %g' % (e, loss[e]))
+                print('epoch', e, 'entropy', loss_list[-1])
                 print('iter: %d, test accuracy: %g' % (e, test_acc[e]))
 
         # plot learning curves
         plt.figure(1)
-        plt.plot(range(no_epochs), loss, 'r', label='Training Loss')
+        plt.plot(range(no_epochs), loss_list, 'r', label='Training Loss')
         #plt.legend(loc='upper left')
         plt.xlabel('epochs')
         plt.ylabel('loss')
         plt.title('Training Loss')
-        plt.savefig('q3figs/loss.png')
+        plt.savefig('2layers/loss_char.png')
 
         plt.figure(2)
         plt.plot(range(no_epochs), test_acc, 'g', label='Test Accuracy')
@@ -120,7 +134,7 @@ def main():
         plt.xlabel('epochs')
         plt.ylabel('Accuracy')
         plt.title('Test Accuracy')
-        plt.savefig('q3figs/accuracy.png')
+        plt.savefig('2layers/accuracy_char.png')
 
 
 

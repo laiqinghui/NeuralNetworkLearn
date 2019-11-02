@@ -146,7 +146,7 @@ def read_data_words():
 
 def buildandrunmodel(x_train, y_train, x_test, y_test, keep_proba):
     
-    x_train, y_train, x_test, y_test, n_words = read_data_words()
+
 
     print(len(x_train))
     print(len(x_test))
@@ -169,36 +169,51 @@ def buildandrunmodel(x_train, y_train, x_test, y_test, keep_proba):
     with tf.Session() as sess:
         sess.run(tf.global_variables_initializer())
 
+        N = len(x_train)
+        idx = np.arange(N)
+
         # training
-        loss = []
         test_acc = []
+        loss_list = []
+        loss_temp = []
 
         for e in range(no_epochs):
 
-            rand_index = np.random.choice(x_train.shape[0], size=BATCH_SIZE)
-            x_batch = x_train[rand_index]
-            y_batch = y_train[rand_index]
+            np.random.shuffle(idx)
+            x_train, y_train = x_train[idx], y_train[idx]
 
-            _, loss_  = sess.run([train_op, entropy], {x: x_train, y_: y_train, keep_prob:keep_proba})
-            loss.append(loss_)
-            test_acc.append(accuracy.eval(feed_dict={x: x_test, y_: y_test, keep_prob: keep_proba}))
+            for start, end in zip(range(0, N, BATCH_SIZE), range(BATCH_SIZE, N, BATCH_SIZE)):
+                _, loss_ = sess.run([train_op, entropy],
+                                    {x: x_train[start:end], y_: y_train[start:end], keep_prob: keep_proba})
+                loss_temp.append(loss_)
 
-            if e%1 == 0:
-                print('iter: %d, entropy: %g, accuracy: %g'%(e, loss[e], test_acc[e]))
-    
+            loss_list.append(np.mean(loss_temp))
+            test_acc.append(accuracy.eval(feed_dict={x: x_test, y_: y_test, keep_prob:keep_proba}))
+            loss_temp = []
+
+            if e % 1 == 0:
+                print('epoch', e, 'entropy', loss_list[-1])
+                print('iter: %d, test accuracy: %g' % (e, test_acc[e]))
+
     plt.figure(1)
-    plt.plot(range(no_epochs), loss, 'r' ,label="Training Loss")
+    plt.plot(range(no_epochs), loss_list, 'r', label="Training Loss")
     plt.xlabel('epochs')
     plt.ylabel('loss')
-    plt.title('Training Loss')
+    if keep_proba != 1:
+        plt.title('Training Loss for keep prop: ' + str(keep_proba))
+    else:
+        plt.title('Training Loss')
     plt.savefig("q2figs/loss_keepprob" + str(keep_proba) + ".png")
     plt.close()
-    
+
     plt.figure(2)
-    plt.plot(range(no_epochs), test_acc, 'g' ,label="Test Accuracy")
+    plt.plot(range(no_epochs), test_acc, 'g', label="Test Accuracy")
     plt.xlabel('epochs')
     plt.ylabel('Accuracy')
-    plt.title('Test Accuracy')
+    if keep_proba != 1:
+        plt.title('Test Accuracy for keep prop: ' + str(keep_proba))
+    else:
+        plt.title('Test Accuracy')
     plt.savefig("q2figs/accuracy_keepprob" + str(keep_proba) + ".png")
     plt.close()
 
@@ -207,6 +222,7 @@ def buildandrunmodel(x_train, y_train, x_test, y_test, keep_proba):
 
 
 def main():
+
     global n_words
     x_train, y_train, x_test, y_test, n_words = read_data_words()
     

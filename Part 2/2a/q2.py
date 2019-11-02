@@ -63,7 +63,7 @@ def cnn(images, c1_kernel=50, c2_kernel=60):
     # Output shape: c2_kernel x 8 x 8
     conv_2 = tf.nn.relu(tf.nn.conv2d(pool_1, W2, [1, 1, 1, 1], padding='VALID') + b2)
     # Output shape: c2_kernel x 4 x 4
-    pool_2 = tf.nn.max_pool(conv_2, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='VALID', name='pool_1')
+    pool_2 = tf.nn.max_pool(conv_2, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='VALID', name='pool_2')
 
     pool_2_shape = str(pool_2.get_shape()[1].value)
 
