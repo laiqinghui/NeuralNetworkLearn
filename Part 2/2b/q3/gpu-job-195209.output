@@ -1,0 +1,7614 @@
+2019-11-10 21:15:56.871386: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-11-10 21:15:57.253287: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1392] Found device 0 with properties: 
+name: Tesla V100-SXM2-32GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+pciBusID: 0000:af:00.0
+totalMemory: 31.75GiB freeMemory: 31.33GiB
+2019-11-10 21:15:57.253324: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
+2019-11-10 21:15:57.554274: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-11-10 21:15:57.554320: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
+2019-11-10 21:15:57.554327: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
+2019-11-10 21:15:57.554662: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30404 MB memory) -> physical GPU (device: 0, name: Tesla V100-SXM2-32GB, pci bus id: 0000:af:00.0, compute capability: 7.0)
+no display found. Using non-interactive Agg backend
+Park Dinor
+Betan
+Christopher Rungkat
+Tom Fries
+Deep Breakfast
+Judolia
+Nosalewice
+HMS Medway (1693)
+Katz Editores
+The Lewis Flyer
+Plumtree School
+HMNZS Monowai (A06)
+Hammer Museum
+Dahakalikasthan
+Michael Stancliffe
+Overbrook Farms Philadelphia
+Underwater People
+USS Isaac N. Seymour (1860)
+Damias fuliginosa
+SexyMandarin
+State Press
+SNCB Class 25
+Pobiel
+Dmitri Lyskov
+Boneclouds
+Wing Derringer
+Brady Leman
+Mir
+Azizeh
+Test Pilot (film)
+Divine Intervention (film)
+Lost in a Harem
+The Life of Chikuzan
+Douglas DC-6
+Keb' Mo'
+Tunghai University
+Cyril Browne (cricketer)
+Larry Giovando
+Steinknückl
+Sheikh Fazlul Haque Mani
+Sarojini Babar
+Wang Ching-feng
+Obârșia Nucșorii River
+Valea Albă River (Câlniștea)
+Ferrovie dello Stato Italiane
+Chris Thorman
+Zero History
+Pasco County Schools
+Salma Khatoon Mikrani
+The Haunting of Molly Hartley
+Las Bayas
+Hugh Watkins (referee)
+Aleksandr Vladimirovich Kulikov
+Eugenia millsii
+Bikala
+Marcel Kajzer
+Bis fünf nach zwölf – Adolf Hitler und das 3. Reich
+Ravitria
+St Andrew's Church Dacre
+Imagine (Eva Cassidy album)
+Krasne Sokółka County
+Big Jim Sullivan
+Chestnut-backed Scimitar Babbler
+Anna Nalick
+Jay Livingstone
+Tolumnia guttata
+Kandaran Fars
+Directed Electronics
+Chagha Sorkhak
+Sigaste
+Stanton College Preparatory School
+Crescendo Networks
+The Cushman School
+Jack Haley (basketball)
+Alex Chernov
+Tillandsia neglecta
+Henig River
+Mark Salzman
+Shri Shikshayatan College
+Golden Princess Film Production
+Asphodelus fistulosus
+Chasmanthe floribunda
+Sumiko Hidaka
+Elachista puplesisi
+Yeh Dil Aashiqanaa
+T Bank
+Ron Simpson
+Slobodan Petrović
+Dejan Bojović
+Peter Cownie
+Inspector Pink Dragon
+The Willie Way
+Kimberly Ann Moore
+Cleomella
+Woodward's Building
+Internet and Technology Law Desk Reference
+The Port Arthur News
+Emma Tahmizian
+Brocchinia exigua
+Anikudichan (South)
+IPassMe
+Tate Modern
+Cedar Creek Bridge (Haynes North Dakota)
+A Business Affair
+Oxford Falls Grammar School
+Pa Qaleh Lorestan
+Institutional District
+Left Right Left (film)
+Edward Suslovic
+Ol-class tanker (1936)
+Catholic Church and Rectory
+John Van Buren
+Eudicella
+Mobarak Mosque The Hague
+Itaueira River
+Tordsvatnet
+Usha Uthup
+Eternal Devastation
+Pinguicula balcanica
+Undercurrent (Kenny Drew album)
+Baumgärtl Heliofly III
+Kerman Ahak
+The Residency Alice Springs
+Sponne School
+City Academy Hackney
+Oliver Koppell
+NuFX
+Horizon Community College
+ST Format
+Aspen Creek (restaurant)
+Izvorul Mare River (Baia)
+Colegiata de Santa María Magdalena
+Shriner-Ketcham House
+The Rift (2012 film)
+Bodi White
+Underclassman
+Jethro Leadership Management Institute
+John Brooks House
+Nik South Khorasan
+Robert Janás
+River Twiss
+Karl Smith (cricketer)
+Shadows Collide with People
+Yo Soy (Mariana Ochoa album)
+Stara Wróblina
+Dziewin Lower Silesian Voivodeship
+Callambulyx sichangensis
+Red Garland
+Telephone Free Landslide Victory
+Cretazeus
+Kaproni Bulgarski KB-11 Fazan
+Le Brévent
+Sunset Glacier
+Cedar Valley College
+Mărgărita Miller-Verghy
+Yukio Tanaka (baseball)
+The Tin Roof Blowdown
+University of the French West Indies and Guiana
+Elizabeth Seton High School
+Amour sexe et mobylette
+Siosifa Tuʻitupou Tuʻutafaiva
+Odostomia takapunaensis
+Upwardly Global
+Chen Der-hwa
+Joseph V. McKee
+Ferrari California
+Astral (wrestler)
+Dumitrelul River
+Andrew Sherwood (Arizona politician)
+Yong In University
+Max Maxfield
+Anwar Ali Cheema
+Norske Skog Follum
+Paul Urquhart
+The Last Journey
+Melicope waialealae
+Will Meugniot
+Paphiopedilum glanduliferum
+Sha Tin Junior School
+St. Joseph High School (Conway Arkansas)
+Fast Charlie... the Moonbeam Rider
+Gravity Interactive
+The Doorbell Rang
+Synoum
+Sud-Ouest Corse II
+89mm from Europe
+Lampropeltis mexicana greeri
+Raúl Chávez
+Hansa-Brandenburg W.11
+Parecbasis cyclolepis
+Etters Bridge
+CFAV Glenevis (YTB 642)
+Deniz Nazar
+Empire of Ash
+José Antonio Pecharromán
+James Clancy (politician)
+Zonalnoye Air Enterprise
+BMW Z4 (E85)
+Hellraiser: Bloodline
+Chok River
+Taxus globosa
+Christophe Maé
+The Night Heaven Fell
+LEAF Trike
+Majdabad Firuzabad
+Showa Women's University Junior College
+Lowry Digital
+Sitticus distinguendus
+Mohammed Al-Modiahki
+Lansdowne House (Greenville Ohio)
+Y Gamallt
+Hebia cinerea
+Hampovica
+USS Sabine (AO-25)
+Catch the Fire Toronto
+Krzemień West Pomeranian Voivodeship
+Snowy Scheme Museum
+Japanese cruiser Tsushima
+Michael Todd (musician)
+Greek corvette Loudovikos
+Hafez Esteghlal
+Grande Rocheuse
+Marah fabaceus
+Kathleen McGinty
+Robin Hood: Prince of Thieves (2009 film)
+Adrian College
+Gavrilov (crater)
+Velino
+Jesus Was Way Cool (book)
+USS Tackle (ARS-37)
+Chefoo School
+Gurgel BR-800
+The Stoker
+Burroughs: the Movie
+Klaus-Dieter Jank
+Heliopolis (Jünger novel)
+Siddhu +2
+Tsuyoshi Shinchu
+Old Hamilton County Jail
+Pluty Gmina Wiśniew
+HMCS St. Eloi
+Łaniewo-Leśniczówka
+Undead (series)
+Khutwajabdi
+Hakuba no Ōji-sama
+David Luiz
+Fraxinus dubia
+Neal Asbury
+Sulitsa River
+Stepan Ghazaryan
+No 18 Fore Street Taunton
+Andrew Cashner
+Firelight Media
+Zadadra fuscistriga
+Toy Story
+Merkel Mill Complex
+Eighteen (film)
+BNS Aparajeya
+Frío River (Puerto Rico)
+Bank West
+Guldin Mill
+HMS Fairy (1812)
+Blockkogel
+Bernardino González Ruíz
+Samo Kukovica
+Sergey Smagin
+Frank Lock
+Asarum
+John W. Geary
+Im Suosdey
+Father Voss
+High Road (film)
+Sorot River
+First Reformed Dutch Church Hackensack
+Frankie Sue Del Papa
+Naulakha (Rudyard Kipling House)
+Ninja High School
+Arthur Farh
+Piedmont High School (California)
+Miandasteh
+USS Detector (AMc-75)
+University of Prešov
+Philip Friend House
+Fred Breinersdorfer
+Nectandra obtusata
+Illuminations (Buffy Sainte-Marie album)
+John S. Davies (Pennsylvania politician)
+Pete Lee
+Nowhere (film)
+David Campos Guaderrama
+Salehabad Fasa
+Wolves (book)
+James Ash
+Magar-class amphibious warfare vessel
+USS LST-992
+The Outlaw and His Wife
+San Emigdio Creek
+St. Jude's Church Mapperley
+Bing Bing Bing!
+Madagascan Grebe
+Bill Kay (American football)
+Ecdysanthera
+Prolymnia
+The Curse (1924 film)
+Aradale Mental Hospital
+Travel Air
+Henry B. Payne
+Kanmanikal
+Scyrotis kochi
+Transfer (journal)
+Violated
+Something Out of Nothing (film)
+Ancylosis ianthemis
+Aechmea phanerophlebia
+Adriatik Hoxha
+Richfield Tower
+The Advertiser News
+Heteropanax yunnanensis
+Heinkel He 162
+Minot Daily News
+Florianka
+Khwopa College
+Earl Norem
+Anti-hero (film)
+German submarine U-504
+Thomas FitzSimons High School
+Mariolino Barberis
+Zoya (novel)
+Ho Ching
+Night's Sorceries
+Thunder Mountain (Tulare County California)
+Lake Joseph
+Canadian Bushplane Heritage Centre
+Solar Universe
+Joseph Luns
+Bangladesh Air Force Academy
+Bridge Mountain
+Kanespi Sumay-ye Jonubi
+Marmaton Valley High School
+The Immortal Bard
+Alden Park Towers
+Frits Poelman
+Rudi Protrudi
+Karinou Airlines
+Josie Long
+Mrs Peppercorn's Magical Reading Room
+HMS Theseus (R64)
+The Helix...Loaded
+Tigoda River
+Thomas Mann
+Chau Tsun-nin
+99 Records
+Shangri-La (Mark Knopfler album)
+One Arm
+Karl Whatham
+Niles North High School
+Loretta Weinberg
+Enteucha cyanochlora
+Gallileo
+Kłocko
+USS Clark (DD-361)
+Zan Tehran
+Acadian Lines
+Leiomitra julacea
+St. Seraphim Chapel
+James Sykes (cricketer)
+Melicytus flexuosus
+Chanté Moore
+Bluestreak cleaner wrasse
+Baltic Defence College
+Olszany Grójec County
+Ibias (river)
+Jamie Delgado
+Eilema lemur
+Otostylis
+MDV 1200-class fast ferry
+Mass Media Inc.
+John Story Jenks School
+Raul Malo
+Canyon River (Ontario)
+Cirsium scariosum
+University of the Philippines Los Baños Limnological Research Station
+California National University for Advanced Studies
+King Quail
+Ned McGowan
+Kalenderi
+Nicholas Scutari
+Hasnain Dewji
+United States Post Office (Haverstraw New York)
+Artis LLC
+Fountain Hills Unified School District
+James H. Meyer
+Frostbite (Wellington novel)
+Betty Lee Babcock
+Orobanche californica
+Die Stadt Muzikanten
+Trigynaea triplinervis
+Delta 2000
+Rogla
+Gallen Lo
+John E. Everroad
+Darnell King
+Prime College
+Dark Eyes (Tomasz Stańko album)
+Eliot Memorial Bridge
+Scream Aim Fire
+Welspun Corp Ltd
+Landor River
+Molly Kelly
+Davy Crockett Lake (Greene County Tennessee)
+Palo Santo
+Dactylis glomerata
+Uzhaikkum Karangal
+Capital Cities Communications
+W. C. Friley
+Metin Oktay
+Disturbing Domestic Peace
+Goi Rode Goi!
+Neville Fields
+Blair House (Washington Iowa)
+Sekolah Menengah Kebangsaan Putrajaya Presint 9 (1)
+Paul Widdowson
+Mir Turab Ali Khan Salar Jung I
+USCGC Chautauqua (WHEC-41)
+Aathmakatha
+Journal of Consumer Research
+Mordellistena gfelleri
+HMCS Chebogue (K317)
+Danny Reet
+Continental Building
+Evci Tufanbeyli
+M. V. Rajasekharan
+Nowa Piasecznica
+Burgersdorp Provincial Hospital
+Israel Idonije
+Old Souls (album)
+Hecla and Griper Bay
+T. R. Shamanna
+Ultralife Corporation
+National Jewish Health
+Andrew Sinclair (botanist)
+Tal Wilkenfeld
+Takase River
+Spirit Warrior
+Homoeosoma terminella
+DBAG Class 430
+Hamish Moore
+Uhlsport
+The Long Day Closes (film)
+Imagawa Yoshimoto
+Louis Béguet
+The Cure: Trilogy
+Athena II
+Ryan Daut
+Big Walnut Creek
+Karamoko Cissé
+HMS St Jean d'Acre (1853)
+Barbarian Princess (book)
+Yodel Australia
+CCGS Cape Caution
+Brower's Bridge
+A Aa E Ee (2009 Telugu film)
+The Civil War: A Narrative
+Tyrell Davis
+Hajjiabad Maskun
+Hucisko Nienadowskie
+Baksa Syria
+Morris-Hair Tavern
+Payroll 1
+Makawao Union Church
+Hardboiled Rose
+Zhejiang Expressway Company
+El abuelo
+Euchroa
+Adventist Mission
+Bolshoy Ashap River
+Koop Dairy
+Pithari Taverna
+Sucker River
+Aadi (film)
+St. Francis River (Minnesota)
+Santuario de San Pedro Bautista
+The Harper Hall Trilogy
+Cunninghams Gap
+HMS Blyth (M111)
+Rainbow Peak
+The Wind That Shakes the Barley (film)
+El Jardín
+Cao Mianying
+Freightliner Trucks
+Atsushi Kizuka
+Seoul Arts High School
+StreetDance 3D
+Aracamunia
+Derek Scott (footballer)
+Ysgafell Wen
+Crouse-Hinds Company
+In the Garden of Beasts
+Grochowalsk
+Arado Ar 66
+Cotuit Elementary School
+Storer College
+Roberta Anastase
+Ariocarpus agavoides
+Valea Picurelei River
+Rybno Działdowo County
+HMS Princess Charlotte (1825)
+Rotary Rocket
+GE P30CH
+Speechless (2012 film)
+Anemone ranunculoides
+East Side Gallery
+Jodrell Bank Observatory
+Sanka Danushka
+Ziguinchor University
+Anchitheriomys
+Canmore Leader
+Lara Vieceli
+Grenada Lake
+Holendry Kozienickie
+Nahar we leil
+Søren Holdgaard
+Lopharcha psathyra
+Madagascar Institute of Political Studies
+Mother Wore Tights
+Sukhoi Su-11
+Yvonne Krivohravek
+Cy Bahakel
+Gorganu River (Brașov)
+Wyżnica-Kolonia
+Hard Bop (album)
+HMS Bombay (1805)
+Frank A. Jenssen
+Amarat Kermanshah
+The Arabian Nights Murder
+Hanriot H.26
+Heinz (singer)
+Erythroxylum obtusifolium
+Achmad Asj'ari
+Switchover Media
+Darwen Aldridge Community Academy
+Berkhamsted School
+Wilczkowice Średnie
+Senegalia montis-usti
+Svingin' with Svend
+Ariola coelisigna
+Cornered (1924 film)
+Bulut Basmaz
+Garfield County Courthouse (Enid Oklahoma)
+The Adorable Cheat
+Milton Mallawarachchi
+Flight from Nevèrÿon
+The Battle of the Labyrinth
+Flowergirls & Cowgirls
+Przyłęk Lower Silesian Voivodeship
+United States Post Office and Courthouse (Bellingham Washington)
+Goran Perak
+Transylvania (film)
+Trmčare
+Dangiwa Umar
+Vladimir Zografski
+Marian Szeja
+Cassidae
+Drones (film)
+Johnny Martin (footballer)
+Kalleh Gavrah
+Psary Polskie
+Mina canta Napoli
+Vente a Alemania Pepe
+Middle Lake Hamilton
+University of Sydney Unit for the History and Philosophy of Science
+Kristy Yang
+Gerald Henry Summers
+Baie de la Seine
+Edmund Ruffin Plantation
+The Venetian Betrayal
+Breidtinden (Berg)
+Mount Seppiko
+Some Girls: Live in Texas '78
+Clayville New York
+The 7th Day
+Hălăstău River
+The King of Kings (1927 film)
+Blinky (film)
+Silence of the Heart
+Coco (film)
+Alfa Romeo Brera
+The Inugamis (1976 film)
+Serge Edongo
+Mount Burke
+Omiodes indicata
+Sermitsiaq (mountain)
+Brian Glencross
+Mee Pok Man
+Blondie Meets the Boss
+Ulmus parvifolia 'Glory'
+Scopula chalcographata
+Biciragnostus
+Norwegian Directorate of Mining
+Joel Carroll
+Tossal d'Orenga
+John Murante
+Clear Body Clear Mind
+The Burger and the Hot Dog
+Ceca 2000
+East Cemetery Hill
+Ramona Fradon
+Holocraspedon parallelum
+Sumitomo Heavy Industries
+Manikwadi
+Kurt Maloo
+Allan A. Martin Senior Public School
+Dacryodes edulis
+Quercus muehlenbergii
+Psychic Detective Yakumo
+USS Pawcatuck (AO-108)
+Ohio State Normal College at Kent
+Mike Stevens (South Dakota politician)
+Honey (2010 film)
+Edward Higgins
+Hainberg (hills)
+Crisfield Academy and High School
+USS LST-306
+Würzburg American High School
+Rubus moluccanus
+Mistress Fortune
+Loompanics
+Kamiak High School
+They Call Me Mr. Kane
+Chichibu Railway 500 series
+Brembo (river)
+Bobby Vinton Sings Satin Pillows and Careless
+Chaetopelma altugkadirorum
+Patrick Holland (author)
+National Cash Register Building
+Undrafted (album)
+Gongora bufonia
+Pilgrim Pictures
+The Job of Sex
+Harry Rosen Inc.
+Megalosphecia callosoma
+Royal Holiday Club
+August Wilson House
+Miami Springs High School
+Lincoln County Courthouse (Kentucky)
+Slâmna River
+Last Waltz in Vienna
+Macquarie Law Journal
+Kalam East Azerbaijan
+Obongsan (Gyeongju)
+Sarah Whitman Hooker House
+Comic Rex
+Earth (The Book)
+Boyana Church
+Ivy Green
+Gary Burton Quartet in Concert
+Vernon A. Walters
+St. Paul's Episcopal Church (Port Townsend Washington)
+Medinilla
+Anthidium clypeodentatum
+William Mansfield 1st Viscount Sandhurst
+Carex lasiocarpa
+Punisher: War Zone
+Yale School of Medicine
+Mason High School (Texas)
+Ash Fork High School
+Miltonia cuneata
+Trumped (film)
+HMS Kent (1652)
+Journal of Sociology
+Bendt Bendtsen
+James Matthews (writer)
+Mad for Music
+Elacatinus horsti
+Willem Jacobszoon Coster
+The Alchemyst: The Secrets of the Immortal Nicholas Flamel
+One Hundred and One Dalmatians
+Scotti Hill
+Ken Stringfellow
+In Flight (Linda Perry album)
+Vriesea 'Glossy Girl'
+Pander's Ground Jay
+Tesakoviaspis concentrica
+Senile Team
+Dave Thomas (basketball)
+Knees Up Mother Earth
+Talakiriyawa
+Jackson School of Geosciences
+Alanguiyeh
+One Russian Summer
+Yukos
+London Underground C69 and C77 Stock
+Smoky Night
+Delta Lake (New York)
+Pope John Paul II High School (Massachusetts)
+Llanquihue River
+Fiskeløysvatnet (Saltdal)
+Lady Washington
+Milford Haven Museum
+Kautjala
+Master of the Flying Guillotine
+Trafford Tanzi
+Enis Jackson
+Christi Craddick
+Selnica Podravska
+Gleiss Lutz
+Hemlal Murmu
+East Lancashire Coachbuilders
+Ghostwalk
+The Green Ball Crew E.P.
+Allen Central High School
+Misr University for Science and Technology
+Shrewsbury River
+Deep Waters (book)
+The Sound of Sirens
+University of Southern Mindanao
+La Llave de Mi Corazón
+Forestburgh Town Hall
+Markwayne Mullin
+Bluebox Lake
+Old Main (University of Wyoming)
+Cleveland Indians minor league players
+Rashid Al-Dosari
+HMS Grasshopper (1813)
+The Angels Weep
+Strangea
+Voya Financial
+The Freudian Fallacy
+It's All Good (MC Breed album)
+Boogie (photographer)
+Granton Institute of Technology
+Qaleh Tarfi
+Sandra Peterson (politician)
+Neil Paterson (writer)
+Revolutionary Comics
+Tazehabad-e Bani Azizi
+The Blue Hills
+Kerang Technical High School
+USCGC Active (WMEC-618)
+Threshold Editions
+Dixmont Corner Church
+SMS Friedrich Carl
+Cedrus brevifolia
+Aga Khan University Hospital Nairobi
+James Pandu
+Xanthophyllum reflexum
+Chichūkai Label
+A Trillion Shades of Happy
+Konopiska
+Orange RDC
+HMS Sphinx (J69)
+French destroyer Surcouf (D621)
+Owen Hill
+Monte Vista High School (Danville California)
+Shorea palosapis
+Maximiliano Giusti
+Bad Veins (album)
+Coiner-Quesenbery House
+You Could Be
+East Hawley Center Historic District
+Henry J. Kaiser High School (California)
+Dahek
+Byron Peak
+Nelson Rivera
+Omer Côté
+Thomas A Becket First School
+Aleksandr Molodtsov
+Despicable Me: Original Motion Picture Soundtrack
+Chegeni-ye Sofla
+Putu Iran
+Pachygrapsus crassipes
+Boeing C-137 Stratoliner
+Katie Arnoldi
+Boręty Pierwsze
+Butch Miller (racing driver)
+Pleuropogon hooverianus
+Sunday in August
+Erik Henningsen
+Metrosideros macropus
+Kerner Optical
+Govanakoppa (K.S.)
+Santiago Urrutia
+Heartland Christian School
+Museums of Metz
+Wild Asia
+Antti Arst
+Daphnandra tenuipes
+Atlas H
+USS DuPage (APB-51)
+Ward Homestead
+Grupo Bimbo
+Martin's toadlet
+Eastside Catholic School
+Masnàn
+Casey Barnes
+Yomigaeri
+Velesh Kola
+Littleton Coin Company
+HMS Curacoa (1854)
+Pontus Jansson
+Salubria
+Making Circles
+Narayana Teertha
+Phyllostegia hirsuta
+Deepdale River
+Go Nutz
+HMS Victorious (S29)
+UST Museum of Arts and Sciences
+Goshi Hosono
+Ronga River
+Gornji Rakani
+Payena kinabaluensis
+Caesalpinia sappan
+Mark Botell
+Franklin Van Antwerpen
+Middlesex Middle School
+Nawab Muhammad Ali Beg
+Allen Chapel AME Church (Fort Worth Texas)
+Dear Heart
+Ron Reynolds
+Air Tractor AT-400
+Dance Passion
+Teaching Philosophy
+John Tatham
+Audi Y Zentimiento
+Jimmy Heung
+Staw Ujazdowski
+USS Broadwater (APA-139)
+MineWolf Systems
+Ed Luther
+Suzy Mandel
+Morgan Kibby
+USS Hilbert (DE-742)
+ASAP Rocky
+Carollo engineers
+Nathan the Wise (film)
+Explorations (Louis Bellson album)
+Gorudal
+Domasławice Lower Silesian Voivodeship
+Keecheri River
+St Nicholas Hospital Newcastle upon Tyne
+Abronia (plant)
+Bulbophyllum hashimotoi
+The Return (Star Trek)
+German submarine U-750
+Jimmy Ambriz
+Jason James (musician)
+Lew Wallace High School
+Verena Rehm
+Sheykh Zaharav
+Imagerical
+You're a Big Boy Now
+Lac des Chicots (Sainte-Thècle)
+Peer Media Technologies
+Alahacılı Haymana
+Ouw Peh Tjoa
+Moreton Bay
+Bellanca Viking
+The Lonesome Boatman
+The Diamond Smugglers
+Mister You
+Otto Abetz
+Fiat Regata
+Ivan Zovko
+Fundação Dom Cabral
+Parkwood Academy
+Butler Area School District
+GGB Bearing Technology
+Roland Orzabal
+Chilonopsis blofeldi
+PS Briton
+OpenCloud
+Black Sails at Midnight
+Máirtín Ó Cadhain
+Fat Girl (Thar She Blows) – The Video
+Prime Cut
+Hingol River
+Słaboludz-Kolonia
+Bexar County Courthouse
+Chalo Ishq Ladaaye
+Arthur P. Schalick High School
+Oak Lane Historic District
+S/V Noorderlicht
+Baron Alexander von Bach
+Helen Reimensnyder Martin
+Saint Augustine School (Laredo Texas)
+Szynowo
+Audie Pitre
+Welcome to Home Gori
+SS Republic (1872)
+SS Fredericksburg (1958)
+W.S. Darley & Co.
+Rainbow cichlid
+Matt Ellis (ice hockey)
+21st Century Masters: The Millennium Collection: The Best of Danny!
+Kearsney College
+Luba (EP)
+Marktkirche Hanover
+Heliconius heurippa
+St Bridget's Convent Colombo
+Cyanea st.-johnii
+Laws of Attraction
+Shining Through (novel)
+Japanese destroyer Yūdachi (1937)
+Pinoy Weekly
+Paul Arma
+Bulbophyllum luciphilum
+Jonathan Chevreau
+César Figueroa
+Ron Alting
+Pteridophyllum
+Dyn'Aéro Twin-R
+St John Bosco Arts College
+Thalavoor
+Arise Academy
+Jung Shoe Manufacturing Company Factory
+The Black Torment
+Antzy Samiou
+Claudine at St.Clare's
+Riverdale High School (Riverdale Georgia)
+Banksia alliacea
+Tommy & Lefebvre
+Mokra Lewa
+SmartCity Kochi
+Zaton Šibenik-Knin County
+Ruth Frances Long
+No Rest for the Wicked (New Model Army album)
+José Paranhos Viscount of Rio Branco
+St. Edward's Chapel (Warwick New York)
+Oppenhoff & Partner
+MV Merkur (1924)
+Metro 2035
+VTI Instruments
+Ersatz Monarch-class battleship
+Carlotta Ferlito
+Max Schubel
+Șerpoasa River
+Avocado
+Agave polianthiflora
+Morgan Grace
+La Garita Mountains
+Kingdom of the Golden Dragon
+The Book of Other People
+Darreh Darreh-ye Olya
+Nancy McEldowney
+Terry Jones (singer)
+Doctor of Juridical Science
+USS John D. Henley (DD-553)
+Tamilnad Mercantile Bank Limited
+Nick Perumov
+Gabrielle Ferrari
+Nira Dynamics AB
+Craftsman (album)
+OU School of Community Medicine
+SMS (illustrator)
+Yuha Buttes
+Șâpca River
+Babakonağı Aksaray
+Desmodium gangeticum
+ITC Hotels
+Fraser Heights Secondary School
+Vršič Pass
+ICDC College
+Albano Olivetti
+Dodge Journey
+River-class frigate
+Hits! the Videos
+Ellicott City Historic District
+Aluona
+Elkhorn Mountains
+Stage 6 Films
+Pfaudler
+Brzoza Lubusz Voivodeship
+Tree Aid
+Castle of Silves
+Grace Episcopal Church (Anniston Alabama)
+LA Plaza de Cultura y Artes
+The Fat Years
+Haviland Ohio
+Lee Chung Man
+Cuscuta approximata
+The Death of Sleep
+Williams Glacier
+USS Dash (AM-428)
+MV Highland Trader
+Henriette Paalzow
+New Junk Aesthetic
+Angraecum sesquipedale
+HAS University of Applied Sciences
+Ulysses S. Grant Home
+Games Men Play
+René Binggeli
+Alcott (crater)
+HMS Cassandra (R62)
+Social Genocide
+Duan Junyi
+One Week (2008 film)
+Euroscaptor
+Gonza the Spearman
+Tributo a Soda Stereo
+Soy (Víctor Manuelle album)
+Pukeashun Mountain
+Mean What You Say
+Chiroteuthis veranyi
+Anna Sui
+Taisia Afonina
+Metropolitan Gazette
+Cabin in the Sky
+Tere Naal Love Ho Gaya
+Chen Ming-wen
+George Olesen
+Tecophilaea
+ITM-IFM
+Liu Qibao
+Woodstock Day School
+MSC Fabiola
+Philbertia perparva
+Torstein Horgmo
+Sagittaria cuneata
+Trondhjem Hospital
+Roger Arnebergh
+Joseph Bannerman
+Journal of Peptide Science
+Saves (Pist.On EP)
+The Newark Academy
+Catalyst (novel)
+MV Langeland
+Broken Records (record label)
+Dutchess Day School
+Manga Entertainment
+Toronto Lake (New York)
+Caledonian Railway 782 Class
+Peeping Tom (S.E.X. Appeal album)
+Stara Wieś Lubusz Voivodeship
+Ochrodion quadrimaculatum
+Hemiculter krempfi
+Senecio bahioides
+Pen Twyn Glas
+Kabaddi Once Again
+Phineas Redux
+Euroschinus
+Ban Nam Di
+Microhyla maculifera
+Mao Xiaobing
+Elisa Webba
+Ulmus americana 'Star'
+The Return of Courtney Love
+Bishop England High School
+Robert Molenaar
+Holzape
+Collarity
+Cat on a Hot Fiddle
+Gaston J. Sigur Jr.
+John Shumaker
+Ipswich Mills Historic District
+Mount Ibuki
+Pasamalar
+Barabbas (novel)
+Acianthera pardipes
+Akbaba Bartın
+Aprilia RS 125 R
+Save Virgil
+Samuel Kyere
+Hydroporus palustris
+William Edward Harney
+The Desert Breed
+Union Baptist Church (New Rochelle New York)
+Heliopolis (album)
+Liceo San José
+Poutasi Luafutu
+The Vyne Community School
+Józefowo Białystok County
+List of Williams College people
+First Congregational Church Former (Sioux City Iowa)
+Jorgo Chatzimarkakis
+Haribhau Jawale
+Asymphorodes bipunctatus
+Exilisia rufescens
+Trouble Magnet
+Davoud Hermidas-Bavand
+Nanjing Great Hall of the People
+Peperomia espinosae
+Desaguadero River (Bolivia)
+Military Psychology (journal)
+Glen Angus
+University of Traditional Medicine Mandalay
+Rhododendron ferrugineum
+Tektaka
+Tork Mahalleh Juybar
+Letov Š-33
+Church of St. Nikolaus Lockenhaus
+Iryanthera
+Hossein Zenderoudi
+USS Protector (AGR-11)
+John Paul Ospina
+Banking University of Ho Chi Minh City
+Santa Maria Zobenigo
+Pachygastria
+Guzmania 'Rana'
+Mikhail Loris-Melikov
+South African Class 5E1 Series 1
+Timeline (novel)
+The Legend Is Born – Ip Man
+William Hamilton (Jacobite poet)
+Emanuel Ford
+Third Day (album)
+The Image (novel)
+HMS Resolution (1758)
+Les Visiteurs
+Gaura
+Centreville Armory
+Ioaniș River
+Piva River (Jaleș)
+Mahmudvand Hamadan
+Verbesina harlingii
+Everyday 3
+Town Center at Cobb
+Alison (album)
+San Yu Adventist School
+Cobraguard
+La Chambre obscure
+Rißbach
+Hasan Aqa Khani
+Acanthocardamum
+Red Schillings
+Drzewce Łódź Voivodeship
+Jarring Effects
+Sarah Hoyt
+Luke Hines
+Roßgundkopf
+Beauchamp College
+Novo River (Xeriuini River)
+Holy Rosary Cathedral Semarang
+Suck (film)
+Redouane Drici
+Peddamanushulu
+Zalesie Siedlce County
+Tets Ohnari
+Alexander Thorburn
+GRSE Anti Submarine Warfare Shallow Water Craft
+Sakartsi
+Curtiss NC
+Vrydagzynea
+Danish ironclad Peder Skram
+Monthly Comic Blade
+Frankopan Castle
+Finlay Crisp
+Satanic Nightjar
+Winston Abraham
+Charles Edward Herbert
+Kilis 7 Aralık University
+Francis Delpérée
+The Very Best of Jean-Luc Ponty
+USS Lannai (SP-242)
+Merthan Açıl
+Spalding Saskatchewan
+ČSD Class S 499.0
+Bulbophyllum recurviflorum
+Graphiocephala barbitias
+Ippolito Nievo
+The Strange World of Coffin Joe
+Miwatura
+Renault Étoile Filante
+Farman F.270
+USS General T. H. Bliss (AP-131)
+Debt: The First 5000 Years
+Wit Studio
+Arnie the Doughnut
+Russian battleship Petropavlovsk (1894)
+Billy Blazes Esq.
+They Can't All Be Zingers
+Mouchette
+SS Oronsay (1925)
+HMS Nubian (F131)
+USS Chicopee (1863)
+Diplommatina lutea
+Scarlet (Icon Comics)
+Des Kensel
+Esmerelda (1915 film)
+Quebrada Valverde salamander
+Winzler & Kelly
+Old St. Wenceslaus Catholic Parish House
+One Wells Fargo Center
+Pebbles Volume 19
+Ames Gate Lodge
+Chance (film)
+Gattu Ramachandra Rao
+Carlos Casares (governor)
+Nirmal Khatri
+Muehlenbeckia
+Majdanek Kozicki
+Mascagnia haenkeana
+Dirt Devil
+Niesułowo-Pach
+B. Mohan Reddy
+Bramdean School
+Magdolna Nyári-Kovács
+The Nighthawk Star
+Friedrich Gorenstein
+Stobno West Pomeranian Voivodeship
+Gastambide-Mengin monoplane
+This Leaden Pall
+Violet-backed Hyliota
+Pseudamnicola melitensis
+Whitney Wolanin
+Sorbus torminalis
+USS Moffett (DD-362)
+Skoczów West Pomeranian Voivodeship
+Colossus and the Headhunters
+Steel (1997 film)
+Hanza Kerman
+André Malraux
+Odostomia clavulina
+St. John's Church Tartu
+The Regatta
+Calcutta International School
+Lake Gilmer
+Hoyts
+Silver High School (Silver City New Mexico)
+Maihpit
+Megamouth shark
+Francisco Gregorio Billini
+Shizuoka Sangyo University
+Suburban Trails
+Juge Juge Ami Tomari
+Anglo-Chinese School
+German submarine U-302
+The Karate Killers
+Brian Haner
+William Anderson (American writer)
+USS Clinton (APA-144)
+WWE The Music: A New Day Vol. 10
+Puthige Dakshina Kannada
+Yaroslavl Motor Plant
+Le Récif de corail
+Paul Simon (UK musician)
+Journal of Microencapsulation
+Claflin School
+USCGC Steadfast (WMEC-623)
+Federated Co-operatives
+Nick the Knife
+The Funeral of Being
+Hillsdale High School (Michigan)
+David Crawford House
+Skootamatta Lake
+Chungnam National University
+Sir John Lawes School
+Mean Streak (album)
+Ore Mountains
+L. M. D. de Silva
+White Eyes (album)
+Ochridaspongia
+David Stern
+Dohwa
+River Lune
+Harper Adams University
+Anthurium aristatum
+Diana Cage
+Bziniczka
+Steven Jackson (baseball)
+Nizhyn Gogol State University
+USS Plover (AMc-3)
+Zladovac
+Sandstone Shrikethrush
+Spilargis
+Pereskia stenantha
+Cyclic Defrost
+Sarafa Tunji Ishola
+How Dark the Nights Are on the Black Sea
+Plukenetia volubilis
+Kingunge Ngombale–Mwiru
+Ryan Alexander Bloom
+Tohoku Gakuin University
+UOB Plaza
+Dafabet
+St Bartholomew's Church Burnley
+Porter Brook
+Joe Beef (restaurant)
+The Twilight of Briareus
+Unniella
+Live at the Cactus Cafe (Loudon Wainwright III album)
+Watch Your Mouth
+Chavner Family House
+Jim Glennon
+Live at Montreux 1982 & 1985
+Eagles Mere Historic District
+USS Charleston (PG-51)
+Henry Gamble
+Azerbaijan State Theatre of Young Spectators
+Paris Jefferson
+South African Class 15F 4-8-2
+Bulbophyllum crassipes
+Weatherwise
+Japanese destroyer Namikaze
+Quininde River
+Horace T. Cahill
+Palmar River
+Honda T360
+ITunes Live from Montreal (Good Charlotte album)
+Daily Messenger
+Story Without Words
+Se Potrei Avere Te
+The Writer's Chronicle
+James Mason (wrestler)
+Trypeta amabilis
+Ringwood Manor
+Veronika Foltová
+Endolasia
+Lauri Pirhonen
+TM Travel
+Bahundanda
+Lepa Gora
+Mapperley Hall
+Väljataguse Rapla County
+Universidad Azteca
+P.Z. Meyer Hospital
+Susmit Sen
+Saints Peter and Paul Church (Detroit)
+Cayuga Community College
+Nowy Cygów
+Golden International Airlines
+Helen Zille
+Cloy Mattox
+Snowshoe Lake (Cripple Creek Ontario)
+Ibolya Oláh
+Aspire Tower
+Brian Ahern (producer)
+Erker's Optical
+Lăpușna River (Gurghiu)
+Felix Kilonzo
+Andrei Olhovskiy
+Deița River
+HMS Quorn (L66)
+Rachel de Solla
+Trechoblemus micros
+Turf Buccaneers
+World Trade Center (film)
+Torrey Log Church-Schoolhouse
+Michelle Paver
+Dennis Sanchez
+Durand Mk V
+Eclipse (Judge Dredd novel)
+Manaus Energia
+Eme Ufot Ekaette
+Ollie Frost
+Sierra de los Cuchumatanes
+Marcus Riccelli
+Mortal Kombat: Motion Picture Score
+Slater Cigar Company buildings
+Frank Joseph Hughes
+Serrivomer garmani
+The Slickness
+Polypoetes nigribasalis
+Prince of Wales Mountains
+Bomp! Records
+Crepipatella lingulata
+Philautus similipalensis
+SS Ukkopekka
+Bi-Polar Blues
+Pearson's slender-legged tree frog
+Queensland Railways 2141 class
+Paulding-class destroyer
+Manuel Jimenes
+HMS L9
+Brownlow Cecil 4th Marquess of Exeter
+Clickbooth
+The Romantic Dogs
+Jeremy Oxley
+Juan Valera y Alcalá-Galiano
+Phyllonorycter quinqueguttella
+Car and Driver
+S. Nijalingappa
+Joe Johns (boxer)
+The Return of Billy Jack
+Grand Prairie High School
+Ángel Amarilla
+The Long Winter (1992 film)
+Stephen Chan Chi Wan
+Gatekeeper (butterfly)
+Solomon Oliver Jr.
+Nepomorpha
+Gusti Grab
+Tyaughton Lake
+Benedito de Lira
+Paul Kempeneers
+Moyse Alcan
+See The Light Inside You
+San Francisco volcanic field
+Phaedra 2005
+Virgin Balloon Flights
+Guzmania fosteriana
+Nieuport 14
+Tylecodon
+Giorgio Francia
+Bloody Chamber Music
+MCA Inc.
+Project English
+Freight Australia
+Toh Chin Chye
+Native American Report
+Based on a True Story (Lil' Mo album)
+Postgraduate Medical Journal
+A. Ranganatha Mudaliar
+Kailasa Venkata Ramiah
+Robat-e Khakestari
+Kuchary Żydowskie
+Ted Lewis (musician)
+Baqeriyeh-ye Bala
+Uniprix
+St. Peter's Episcopal Church (Niagara Falls New York)
+Stan Burton
+San Marcos Middle School
+Mount Kimball (Alaska)
+The Oregon Experiment
+Estación Pichilemu
+Turritella leeuwinensis
+Gastrotheca espeletia
+Santa Cruz Sentinel
+James B. Kraft
+André Raynauld
+GP Bullhound
+Mike Ledwith
+Prince Nxumalo
+West Branch Schuylkill River
+Ulladulla High School
+Mantidactylus webbi
+Cabrillo College
+John F. Kennedy School of Government
+Światonia
+Cumayanı Köşk
+Mount McGuire (Alberta)
+Xysticus croceus
+Oreohelicidae
+Rhymney Railway P class
+EMC E4
+Gia Kavtaradze
+The Condition of the Working Class in England
+Suuri-Onkamo
+Kostadinite
+Akira Kubo
+E.T. Webster
+United World College of South East Asia
+Anisoptera marginata
+Melanochyla longipetiolata
+Chad Jackson
+Buff-bellied fat-tailed mouse opossum
+Kulhalli
+ElDorado National
+Svilen Simeonov
+Mike de Albuquerque
+Joseph Bosch Building
+Jim Mettler
+Parashorea parvifolia
+Hereford Cathedral
+Soslan Kachmazov
+Franklin Wheeler Mondell
+A Night in Vienna
+Safety Worst
+Jade Warrior (film)
+Hauge Church
+2TE25A
+DJ Woody
+James P. Pigott
+Lake Tiroto
+Lyracappul
+Tuukka Smura
+Stenele
+Cromer Campus
+Collectables Records
+Eric Roche
+Oil Gobblers
+Vision Tower
+Brodie Bicycles
+Mike Tyson
+Chasing The Saturdays (EP)
+Kniphofia nana
+Puntas de Valdez
+Găunoșița River
+Clavatula quinteni
+The John Stevens Shop
+Roseberry College
+David Wolkins
+Europe Sails Independent
+Sevmorput
+Soundwave 2009
+Louis Untermeyer
+Leśniczówka Łódź Voivodeship
+Valkyr Range
+Lieven Dehandschutter
+Porsche Macan
+DC 100 Page Super Spectacular
+Future Shock Comics
+Bloxham Stockbrokers
+Jim Bowie (baseball)
+G.W. Carver Freshman Campus
+Ex (film)
+Avraam Russo
+Procambarus milleri
+Ambiel Music
+Manhattan (1924 film)
+South Nottinghamshire Academy
+Clifford Sifton
+Be with Me
+Organic Valley
+Cathcart Provincial Hospital
+Mandarina ponderosa
+Juncus megacephalus
+Jimmy Michael
+Texas Natural Resources Information System
+Rowan
+Dan Miller (fighter)
+AUM Fidelity
+Natural Resources Forum
+Kurtkulağı Ceyhan
+Eupatorium amabile
+Richard Henyekane
+Drättehorn
+Đức Vân
+Melieria sabuleti
+Star Wars Republic Commando: Order 66
+Santi Nazaro e Celso Brescia
+Aleksei Yushchuk
+Fiat Bravo/Brava
+Edward Sokoine
+Marty Jackley
+Rhoicissus rhomboidea
+CSS-12
+Carol Juneau
+Numena
+United States Daughters of 1812 National Headquarters
+Parângu Mare
+Air Base Elementary School
+Grown Man
+Michael Ricketts (musician)
+Kantipur (daily)
+Abies magnifica
+Christian Church (East Delhi New York)
+Virginia Aviation Museum
+Language Documentation & Conservation
+World's End (Boyle novel)
+Wintter Watts
+USS Bryant (DD-665)
+USS Alpine (APA-92)
+Gentianella sulphurea
+Reconvergence
+International Journal of Biometeorology
+Shadow of Doubt (film)
+Hrvatska revija
+Zhang Yuqi
+Michele Zarrillo
+Czech Aeroholding
+BanRegio
+Wu Sike
+Ayre and Sons
+Hermetia illucens
+Goodhue Building
+Grindelia fraxino-pratensis
+Lifeloop
+Dyckia tuberosa
+Red and Black Cafe
+Manning River
+Kadha Samvidhanam Kunchakko
+Fun in Acapulco
+Clinton Peak
+Urophora cardui
+Antoine Roux
+Yannic Thiel
+Equisetum pratense
+José Rufino Echenique
+Chin-Feng Chen
+Wergiton do Rosario Calmon
+Berry Berry Singles
+Albany (London)
+Sydney Road Community School
+Saltibus Saint Lucia
+Barley
+Ouran High School Host Club
+Hongdu N-5
+Ten Ton Pressure
+Torklan
+Baker Gurvitz Army (album)
+Carlos Cazorla
+Caucasus Airlines
+Ramphotyphlops guentheri
+Shorea astylosa
+Dermott High School
+John Gilbert Baron Gilbert
+Rochester Community High School
+Royal Aircraft Factory H.R.E.2
+Makan Hislop
+Run! Bitch Run!
+Tabebuia anafensis
+TTC Tychy
+Motor Torpedo Boat PT 105
+Wes Westrum
+Roslyn Cemetery
+Aled Thomas
+Andrew Smart
+To the Core
+Philadelphia Gay News
+University of California Irvine
+Peter Bercovitch
+Loreto Convent Tara Hall Shimla
+Lincoln High School (Tallahassee Florida)
+Burton Frasher
+Ed Dougherty
+USS Shark (SS-8)
+Fox Creek Range
+Kiyotaka Imai
+Now That's What I Call R&B (UK series)
+Acmaeoderella
+Lojinx
+Joe Davis (politician)
+Yangpa
+Lidové noviny
+The Best of Holly Cole
+Taiwan Balloons Museum
+Garden City High School (Michigan)
+San Bernardino springsnail
+Entomophthoromycotina
+Annals of African Medicine
+Beihang University
+American Health Inc.
+St. Patrick's Catholic Church (Wellington Ohio)
+Chrysler Sigma
+Dulwich College
+Anne Queffélec
+Raúl Navas
+Dominican Church and Convent of Assumption of Mary in Tarnobrzeg
+Rail Rzayev
+Acacia moirii
+Holy Child Catholic School
+Art Sour
+Tishman Speyer
+Chrysocephalum apiculatum
+Thor Industries
+Boyalı Ardanuç
+Deinandra increscens
+Live at Carnegie Hall (Anoushka Shankar album)
+Werner Heldt
+Konjiki no Gash Bell!! Movie 1: Unlisted Demon 101
+Visual Art Institute
+Cleethorpes Academy
+Izzy Gold Records
+Leovigildo Banaag
+Vadim Gusseinov
+Broken Springs
+Hispano HS-42
+Mahmud A. Asrar
+Vladislav Zotin
+Makuhari International School
+Qeshlaq-e Mira Alam
+Cooper Hospital
+Cosmogonia
+USS Daisy Archer (ID-1283)
+Volvo B12M
+Brian Mullins (hurler)
+Inside of Emptiness
+Harikrishnans
+John Alario
+Ogașu Greci
+Annigoni: Portrait of an Artist
+Lake Solitude (New Hampshire)
+Jean-Talon railway station
+General Aircraft Croydon
+Qerkh Bolagh Qazvin
+Patrick Nulty
+Salvia algeriensis
+Beans and Fatback
+Zyword
+Cicindela trifasciata sigmoidea
+Southern Pacific 4450
+Warren Tolman
+Children of Mini-Japan
+Beneș River (Rezu Mare)
+Cerro Batoví
+Chetwynde School
+Server Djeparov
+USS McGowan (DD-678)
+Les Insomniaques s'amusent
+Acanthocalyx delavayi
+The Ik
+Technical University of Hamburg
+Bulbophyllum barbatum
+Choron Ki Baaraat
+Live in the Classic City II
+Hoehnephytum
+ʻAkohekohe
+Swing in the Saddle
+Karlshochschule International University
+Mina Cheon
+Tired of Not Being Away from Here
+United States Post Office (Dansville New York)
+Richmond Hospital
+Sansad Bhavan
+James Buckley House
+Southern Railway 1401
+Catoptria digitellus
+Hamatophyton verticillatum
+László Berényi
+Choreutis melophaga
+Chu Chin-peng
+Rutgers–New Brunswick
+Hasanijeh
+Cherry Lake (Victoria)
+Karingannoor
+Villemi
+USS T-3 (SS-61)
+Glyphipterix okui
+Eddie Calvo
+Finding Kraftland
+California Academy of Mathematics and Science
+Echinopsis terscheckii
+German submarine U-118 (1941)
+Upon Reflection
+Amor libre
+Changnyeong Daeseong High School
+Baltimore Museum of Art
+Valea Gorganului River
+The Gay Intruders
+Tahera (mining company)
+Little Nemo: Adventures in Slumberland
+PayMate
+Joe McDermott (politician)
+Hillcrest High School (Tuscaloosa Alabama)
+Strapping Young Lad (album)
+Mohammad Naeem (cricketer born October 1983)
+Maksym Morozov
+Dreams Never Die
+Tauba Tauba
+Speed Ballads
+3 Vulgar Videos from Hell
+New Guinea long-eared bat
+Raghunath Sahai Puri
+HMS Shelburne (1813)
+Kresge College
+Palaeomolis palmeri
+Smooth Up in Ya: The Best of the Bulletboys
+Pre-Pyrenees
+Continental Lite
+Sobasina paradoxa
+Man's Search for Happiness
+Preto River (Espírito Santo)
+IO Interactive
+Zamir Ali Badayuni
+Kingsthorpe College
+Spiraeanthus
+Seven Generations Charter School
+Alucita photaula
+Beauchamps High School
+Black Colossus
+Frank Blew
+Zabrega (Malo Crniće)
+NER electric units
+L'Anguille River
+Dust (Dust album)
+St Paul's Covent Garden
+Richard Laymon
+Belmer Aguilar
+Araucaria schmidii
+Pârâul Scurt (Lotru)
+Might Is Right
+Matija Vuković
+Walk on the Wild Side: The Best of Lou Reed
+Metro West Ambulance
+Ulmus 'Morton Glossy' = Triumph
+Cleomella brevipes
+Instinct Dance
+Dalbergia aurea
+Hygraula
+Ulmus minor 'Concavaefolia'
+Inventions and Their Management
+Brno University of Technology
+Alexx Calise
+Mandip Sehmi
+HMS Furious (47)
+John Louis Taylor
+Thismiaceae
+Mahmudabad Bardsir
+Prothysana
+Daniel Ingram
+Pediatric Hematology and Oncology
+The Irony of Fate 2
+Valea Mare River (Rohia)
+Cyathea medullaris
+Emerald-class cruiser
+Divales bipustulatus
+Chamaebatia
+Lo no dicho
+Clepsis pallidana
+St Olga Ukrainian Catholic Church
+Mitella diphylla
+Michael Vatikiotis
+Mayoralty of Baku
+Er Più – storia d'amore e di coltello
+Kwiatoń
+Choshi Electric Railway 800 series
+Scott Campbell (ice hockey born 1957)
+Kalsoom Nawaz Sharif
+Jabez Bowen
+Casartelli Building
+David & Layla
+Federal University of Ceará
+Graphiella
+Hapaloptyx
+Fiona Russell Powell
+Platypharodon extremus
+Myford Elementary School
+Homstølvatnet
+Peugeot Type 7
+ParAccel
+Dębinka Lubusz Voivodeship
+St. Francis de Sales Church (St. Louis)
+Todd Gilbert
+Biko (restaurant)
+Anand Aur Anand
+United States Courthouse (Natchez Mississippi)
+Triage-Lavoir de Péronnes
+Norm Dicks
+Yours – Forever More
+Eda-Ines Etti
+Thomas W. Libous
+Gråkallen
+Heartsnatcher
+Thomas W. Harrison
+Rivira
+Dominique Baert
+Redemption Cairn
+Snow Angel (album)
+HMS Llandaff (F61)
+Meridyrias
+Cordylopteryx
+Turbați River
+Lakshmanrekha
+Crucial Star
+Sorbus austriaca
+Hogan Preparatory Academy
+Australian National Railways Commission
+William R. Bradshaw
+Bulbophyllum titanea
+Albatross-class minesweeper (1940)
+Bahumaing
+Poco: The Songs of Paul Cotton
+Frank Campbell (footballer)
+Kaiser Franz Joseph I-class cruiser
+Igor Sorin
+Ideal Toy Company
+Gina Smith
+Klip River
+Adeuomphalus elegans
+Six Reasons Why
+Harkness Fellowship
+Çaltıbükü
+Charlie Ross (state senator)
+Our Lady's Catholic High School
+Manhattan Special
+Ralph Bristol House
+Bob Harras
+Night After Night (film)
+Taku Ishihara
+E. D. Abbott Ltd
+Mohamed Saad Alami
+Armstrong Whitworth A.W.16
+De steile helling
+BioTechniques
+Ahmad Aali
+Jack Herrity
+Dingana angusta
+Taj ol Din Razavi Khorasan
+Miya River (Mie)
+Mönch
+Vera C. Bushfield
+Fisher–Nash–Griggs House
+To the Nines (Hatesphere album)
+Disphragis tricolor
+Bolton College
+St. Anselm's Catholic School
+Teollisuuden Voima
+Robbinsdale Cooper High School
+Fraser Government
+A True Mob Story
+Ajit Seth
+Parkersburg Catholic High School
+The Citadel of Chaos
+APO-Source
+Zimin volcano
+Carrigafoyle Wellington
+Chah-e Soltaniyeh
+Not Born to Be Gladiators
+Konstantin Volkov (athlete)
+Ron Ainsworth
+Central Aircraft Company
+SugarCRM
+Springfield Union Station (Illinois)
+E. Purushothaman
+Latelhorn
+The Ruins (film)
+Greater Lynchburg Transit Company
+Cunningham House (Glens Falls New York)
+Still Waters Run Deep (film)
+Aus-Air
+Queen Anne Historic District
+USS Newark (C-1)
+Angular roughshark
+Šventoji River
+Hylan Plaza
+Trish Stratus
+Rodrigo Fernandes Valete
+USS King (DD-242)
+Ümmühan Uçar
+Columna leai
+Lino Barañao
+Japanese aircraft carrier Taiyō
+William Trevor
+Balga Senior High School
+Curly Sue
+USS San Francisco (SSN-711)
+Pizza Kittens
+Michael Manniche
+Deh-e Baba Kerman
+Xenoceltites
+George Prévost
+Dmitry Yazov
+Power Without Responsibility
+Adenocarpus decorticans
+A Creature I Don't Know
+Coosa Shiner
+Dino: The Essential Dean Martin
+John Gilroy (politician)
+Sabaratnam Arulkumaran
+Herman Voaden
+Beth Gutcheon
+Pura Vida (album)
+Hasići (Glamoč)
+Hal English
+Lilium maculatum
+Friendship Christian School (Tennessee)
+The Coliseum-Duplex Envelope Company Building
+Palaquium decurrens
+The Diary of a Slumlord
+Dave Allan (racing driver)
+BlueBeat Music
+Las tecnologías pesqueras
+Trifurcula helladica
+Aapko Pehle Bhi Kahin Dekha Hai
+Takla Range
+Aliabad-e Sofla East Azerbaijan
+USS Terrebonne Parish (LST-1156)
+Sibylle-class frigate
+Confederate Soldiers Martyrs Monument in Eminence
+Destiny or The Attraction of Affinities
+Bermudezia
+Saint Paul's Episcopal Church (Waxahachie Texas)
+USS Emma (1863)
+Bernard Wanyama
+Stan Blinka
+Puthiya Mukham
+Eupithecia cana
+Nanzan Institute for Religion and Culture
+Danny!
+USS Para (1861)
+Huang Qishan
+Kinsmen of the Dragon
+Zoitani River
+Crystal Records
+Dos Lomitas Ranch
+The Vampire Lestat
+Begum Akhtar
+Zeyndanlu-ye Olya
+The Adversary (Thy Art Is Murder album)
+Okose
+Soum de Ramond
+Crawfish Creek
+Yazıkara Gerede
+Dragonja
+Gösta Krantz
+Institute of Science and Technology West Bengal
+Radiated tortoise
+Harry Lee (sheriff)
+Semiconductor Manufacturing International Corporation
+1600 Smith Street
+Paul Shooner
+Shunyo Awnko
+Fome Is Dape
+ProBuild
+Mark Hashem
+Kobalt Music Group
+Astaldi
+Honora dotella
+Moașa River (Avrig)
+Blake Bellefeuille
+Croatia Records
+Banco Itaú
+Blendtec
+Hôtel de Crillon
+Shelter Island Windmill
+How Sweet It Is to Be Loved by You
+Institute of Robotics and Intelligent Systems
+Her Best Move
+Isabella River (New South Wales)
+Veleka Ridge
+G.I. Joe: A Real American Hero (Devil's Due)
+Edward M. Kennedy Academy for Health Careers
+Kaboom (film)
+Eels Lake
+Leucoptera pulchricola
+Gavin Simonds 1st Viscount Simonds
+Helcogramma ememes
+Portage River (Jackson County Michigan)
+Carnarvonia
+Elena (village)
+Uzh River (Northern Ukraine)
+Bezeq
+Bhoodaana
+Police Academy 6: City Under Siege
+Fading (book)
+Hypericum grandifolium
+Mimulus moschatus
+National Academy of Physical Education and Sport
+Driss Benhima
+Gotta Let This Hen Out!
+Great Sky River (novel)
+Roca Line (Buenos Aires)
+Peugeot Type 66
+Jumping the Queue
+Trypeta inaequalis
+Super Taranta!
+Les Contes du Singe Fou
+Hennenkobel
+Jonah: A VeggieTales Movie
+Margaret Caroline Anderson
+Henry Hall (bandleader)
+Chamum-e Khar Maarak
+Ostunrash
+Oleg Vlasov
+Azor (horse)
+Suzuki GSX-R250
+Sabaash Mapillai
+Kidi
+Strings (2014 film)
+588 rue paradis
+A Matter of Death and Life
+Hymenocallis pimana
+Afratakhteh
+Black Creek (Toronto)
+Albert Palmer (American politician)
+Bitter Honey
+Hammarskjold Middle School
+Qaleh-ye Maraghush
+Ohebach (Efze)
+Nali Sauce
+Robert Fraisse (fencer)
+Wrecks-n-Effect
+FH Aachen
+A Pack of Liars
+Sophie Ferguson
+Diodora rueppellii
+AVIC Lucky Bird
+Hemiphylacus
+Mason Williams
+Žiljci
+Guadeloupe big-eyed bat
+Jimmy Sturr
+Keeping Time
+Thiloa
+Life's Quest
+Embraer KC-390
+Lester B. Pearson High School (Burlington)
+Myka River
+Cecil I. and Mildred H. Dimick House
+Homer Laughlin House
+Vitis heyneana
+ELS Bridge over Big Wind River
+(A Little Touch Of) Baroque in Winter
+His Convict Bride
+Jean Leising
+Danielle Bradbery (album)
+Murray River (Western Australia)
+Mordellistena trilineata
+Acrocercops loxias
+Parallel Universe (company)
+Julius Caesar (cricketer)
+Gareth Alban Davies
+A Simple Twist of Fate
+Builders Square
+Nesley Jean
+ATLiens
+Studio Uno 66
+Botticelli (crater)
+Ahmed Al-Fahmi
+If I Were President: My Haitian Experience
+Juniperus angosturana
+House at 7 Salem Street
+Brenthis ino
+St. Peter's Catholic Church (Canton Ohio)
+Leopold van Asten
+Syringoseca rhodoxantha
+The Abbey Road Sessions (Ian Shaw album)
+Daily Express
+Shozhma River
+Rigzin Spalbar
+St.George Bank
+Cities in Flight
+Bert S. Michell
+Solo (Hugh Cornwell album)
+Holden Outerwear
+Fotu La
+Samborzec
+Graz Entertainment
+Jacek Gabrusewicz
+Disconnected EP
+1 Day
+Japanese submarine I-8
+Cirsium arizonicum
+Thessalian Barbel
+Lawrence (crater)
+The John Warner School
+Edward Marc
+Evil in the Night
+Mazraeh-ye Ayatollah Taleqani
+Bobby and the Midnites (album)
+Maksim Gorkiy-class motorship
+L'Enclume
+Anshei Minsk
+Julio Colombo
+Gyula Thürmer
+Vera Ilyina
+Ćelije (Gadžin Han)
+Linus Svenning
+Joosu
+Princess Alexandra Middle School
+James Allum
+Buckman Tavern
+Adrian Sosnovschi
+Ypsolopha atrobrunnella
+Y. S. Chowdary
+Boguchany Aluminium Smelter
+Isaac Liu
+You Never Know Women
+Gary Barlow
+Harvest Queen
+Eleanor the Cats and Kids
+Safyaan Sharif
+Carlos Pedro Silva Morais
+Kai Lung Unrolls His Mat
+Without You (Sami Yusuf album)
+J. S. Fry & Sons
+Apatelodes heptaloba
+The Witchmaster's Key
+Air and Angels
+Bombycilaena
+William G. Morgan House
+Calomnion complanatum
+The Hidden Reality
+Evarcha culicivora
+MRWA A class
+Eusemius
+Vlchek Tool Company
+Pequannock Township High School
+Ixora euosmia
+BRP Andres Bonifacio (PF-7)
+John Paul II Catholic University of Lublin
+Azolla pinnata
+Jens Galschiøt
+Cho Sun-Hyung
+Corbin Cabin
+Chengala
+Paul Cellucci
+Zeki Korkmaz
+The Adventures of Huckleberry Finn (1939 film)
+Cathedral of Przemyśl
+Gekko vittatus
+Risingsun Ohio
+Reykjavík Cathedral
+Geokichla
+Marblehead High School
+All My Friends Are Dead
+USS Leonis (AK-128)
+British Rail Class 309
+Lophopetalum wightianum
+Eucrossus
+Bringing Down the House (book)
+Cameraria hikosanensis
+Patrick Sercu
+Pragel Pass
+Il Cromuele
+Juicy J
+Journal of Physical Organic Chemistry
+George Lyon (Scottish politician)
+Asumiko Nakamura
+Nectandra microcarpa
+Carruthers Peak
+Birmingham Proof House
+Blériot-SPAD S.34
+Kolej DPAH Abdillah Kuching
+Broken (Armstrong novel)
+Henry Njobi Elad
+Yaylagöne Malkara
+Hwepanan
+Delbrook Senior Secondary School
+French frigate Guépratte (F 714)
+Martha B. Alexander
+Joseph-Achille Francoeur
+Abbasabad Rudbar
+John Martin Crawford (scholar)
+Exodus (Starfire)
+Quintessence Records
+Bless (album)
+Replay (Grimwood novel)
+Eupatorium lancifolium
+Andalhualá
+Madar Dokhtar
+Dallas Clayton
+Vesela Bosnia and Herzegovina
+The Metal Airscrew Company
+Carlisle High School (Arkansas)
+Toni Castells
+Tylophora urceolata
+Idhaya Veenai
+Bishop Luers High School
+Shell Shocked (album)
+Ulmus × hollandica 'Tricolor'
+Pseudosimnia shikamai
+Semecarpus auriculata
+West Silver Bell Mountains
+Eslamabad North Khorasan
+Ebbetts Pass
+Cortaderia selloana
+Mario Celotto
+A Ticket to Red Horse Gulch
+Gatewadi
+Cairo (film)
+Santa Barbara News-Press
+Rocket in the Pocket
+Juan José Carbó
+Drowners (album)
+Fine Burger Company
+Mountain degu
+Nikolaos Paparrodou
+William Stephens
+Mount Minto
+Technical University of Mombasa
+Ridleyella
+Spotted pipefish
+Cherninia
+Stuart Beattie
+Pan Shih-wei
+Pócsa
+Klaus Kotzmann
+Lee Morris (American football)
+Roman Slavnov
+Word of Mouth (Matt Finish album)
+Bobby Cole (musician)
+Victoria Galvan
+Parastasia
+Quảng Hợp
+Cock-A-Doodle-Doo!
+Thinlip conger
+São Francisco River
+Cool James
+Coaching stock of Ireland
+John Bancks
+Coleophora gulinovi
+Dale Bozzio
+Widowo
+The Falcon Strikes Back
+AtlantiCare
+Babes in Bagdad
+Gramm (record label)
+Long Beach Records
+Francisco Pérez Sanchez
+Merrick Thomson
+James White (author)
+Spiraea virginiana
+Brzozówka-Kolonia
+Envelope (film)
+The Visitation (film)
+Caliban in the Coal Mines
+Rexer
+Similarweb
+Kusoban
+Animal Room
+Gerad Adams
+Thomas McGreevy
+HMS Victor Emmanuel (1855)
+BREN
+Cafe FX
+Orzowei
+SM UB-25
+Koknese
+Akhi Jahan
+Chilean round stingray
+Wreckorder
+Ornate shrew
+Selected Poems of Henry Ames Blood
+Westliche Günz
+Sick Boy (film)
+Międzyleś Wołomin County
+British Birds (magazine)
+Igloo (TV)
+Crusade (Destroyermen novel)
+Islamic Azad University of Arak
+Angraecum crassum
+Loening SL
+Centrolepis minima
+Selly Oak Hospital
+Kansapuram
+Ronnie McDowell
+Barry Perowne
+Pauline Ng
+Far East (film)
+Sansevieria kirkii
+Moomin (singer)
+The Woman I Love
+Tabor Academy Massachusetts
+Gene Vuckovich
+USS Bernadou (DD-153)
+Freedom (record label)
+Bright School Baroda
+Hemidesmus indicus
+Greatest Hits (Inspiral Carpets album)
+Russ Brayshaw
+Claudio Husaín
+Neodiachipteryx
+Orient-Express Hotels
+Dalkey Archive Press
+PDG S.A.
+Luxembourg Stock Exchange
+Baba Keno Chakar
+Angst (1928 film)
+Franklin Regional Transit Authority
+St Paul's Cathedral
+The Omega Sessions
+John Goodwin (British Army officer)
+City CarShare
+Alhassan Nuhu
+Chayanne (1988 album)
+Taku Glacier
+Birmingham Crematorium
+Roughskin dogfish
+Black Gold (1962 film)
+Old Fort High School
+Songs of a Rag Doll
+Cruise Yourself
+Avril Lavigne
+Dixboro United Methodist Church
+Jawan Ki Pukar
+The Book (short story)
+Graff Diamonds
+Bulbophyllum jiewhoei
+Witness Against the Beast
+Teeswater River
+University of Florida College of Pharmacy
+Lord Loss
+Reading Furnace Historic District
+Moel Lefn
+Eminescu quadrangle
+Palaeospheniscus gracilis
+Danny Brooks
+SEK Class Λβ
+Convenience Valet
+Krustpils Castle
+Pei Cobb Freed & Partners
+Lupinus polyphyllus
+The Best of Ash
+Eupithecia mahomedana
+Myron Penn
+Iran Aircraft Manufacturing Industrial Company
+Elektra Birseck Münchenstein
+Bad Science (book)
+Casper (film)
+The Exultant Ark
+Grayslake Central High School
+Besieged City
+Lacewood Productions
+The Australian
+Satsuki (musician)
+United Surgical Partners International
+Sharp Memorial Outpatient Pavilion
+Hullabaloo: Live at Le Zenith Paris
+Parafrasura
+Auckland Grammar School
+Chuck Gipp
+Swintonia
+Chemnitz University of Technology
+Jon Huntsman Jr.
+Freddie McKay
+Gerald Parsons
+Farman HF.20
+Maraveneh-ye Do
+Belalabad West Azerbaijan
+Boy on Bridge
+Thesium
+Michelle Newell
+Welcome to Hungary! The Tommy Vig Orchestra 2012 Featuring David Murray
+Damini Bhir
+Glyphipterix metasticta
+Miller Huggins
+Trish Bartholomew
+Reviews of Human Factors and Ergonomics
+Woodburn Premium Outlets
+River Culm
+Booker T. Washington High School (Tulsa Oklahoma)
+GMHBA Limited
+Brian Pink
+Joseph Leilua
+Subdivisions (EP)
+Dobrinești River
+Whiskey Media
+Ray Jacobs Boarding School
+USS Flambeau (IX-912)
+Hey! (Jullie album)
+Convair F2Y Sea Dart
+Idálio Alexandre Ferreira
+MS Grigoriy Ordzhonikidze
+Telugu Naadi (magazine)
+Dodge Coronet
+Sadiq Abdulkarim Abdulrahman
+St. Teresa's Church (Manhattan)
+Dameron
+Ridolfia segetum
+Armon Binns
+Erigeron aphanactis
+Dan Knodl
+Citroën C3 Picasso
+Being Caribou
+Stewart Memorial Presbyterian Church
+HMS Poneke (1883)
+Premich
+Carex mckittrickensis
+Collabieae
+The Oxford Book of Modern Science Writing
+Iochroma lehmannii
+Pawlu Aquilina
+Pascu River (Criş)
+Cruel and Unusual (comics)
+Yeshiva Gedolah of Cliffwood
+Herménégilde Chiasson
+Cordyla somalensis
+Klimusin
+Great Lakes Dredge and Dock Company
+Some American Folk Songs Like They Used To
+King of the Congo
+Praxelis
+The Day Everything Became Nothing (EP)
+Prestesteinsvatnet
+Ghar Parau
+Hypselodoris bollandi
+Feet of Clay (1924 film)
+Axinaea pauciflora
+MI 2N
+Methana Volcano
+Everything Wrong Is Imaginary
+National Lampoon The Iron On Book
+WonderWorks (museum)
+Omar Franco
+The Clean Tech Revolution
+Rajugudem
+Anna Bunina
+Actuant
+PAJ (journal)
+Mohabbat Zindagi Hai (1975 film)
+Kelly Sotherton
+Trawniki-Kolonia
+Gary Go
+Dune (Klaus Schulze album)
+Undercover (1943 film)
+Teddy Thompson
+AMResorts
+The Third World War Book
+Chambeyronia macrocarpa
+Bryant Moniz
+Dow Block
+Agile gibbon
+Asfaranjan Ardabil
+Mi primera novia
+Anna Thangi
+Percival Prentice
+Greenleaf Music
+Ndejje University
+Old Cataract Hotel
+Gnaphalium palustre
+Angel Records
+Expanding Anyway
+The African Queen (film)
+Perrinitidae
+Khvajeh Bachcheh
+Corylus maxima
+Let It Ripp
+The Legend of Seven Cutter
+Chukat-e Vasat
+Scripture: No Word Needed
+Arslan Aydemirov
+This Blinding Absence of Light
+Silks and Saddles
+Steve Smith (basketball)
+Metrovagonmash
+Audencia
+Scopula flavinsolata
+Peter Lewison
+Petasina unidentata
+Regeti
+Pygeum (genus)
+Dadzewo
+Shlomi Ben Hemo
+The Fatal Sign
+Hakea ulicina
+Micrecia
+Maalai Malar
+Hubert Humphrey
+John W. Donahey
+Râșca River (Someș)
+José Della Torre
+RuralShores
+SS France (1910)
+A Bit of Liverpool
+William E. Vaughan
+HMCS Border Cities (J344)
+K. S. Narasimhaswamy
+Strike Lane Primary School
+Hiievälja
+USS Keppler (DE-311)
+Red White & Crüe
+Barrie Leadbeater
+USS Stout (DDG-55)
+University College of Education Zanzibar
+Leslie Nutting
+Gardline group
+Søre Vistvatnet
+Wizards of Waverly Place: The Movie
+Mendes Pinto (crater)
+King George V Graving Dock
+Giovanni Bartolena
+Love American Style (album)
+Pierre Duchesne (politician)
+Spell My Name Right: The Album
+Begonia brandbygeana
+Manaye Fantu
+Watch Croft
+Easy Pain
+Live at Stubb's (Matisyahu album)
+Alec Hearne
+Alex Law
+Direct (Tower of Power album)
+Jadoo (2013 film)
+Chris Seddon
+Racovița River (Sibiu)
+HM Prison Swinfen Hall
+Conrad Weiser Homestead
+Goldrush: A Real Life Alaskan Adventure
+Cochylimorpha hilarana
+Pseudischnocampa ecuadorensis
+Domaine Clarence Dillon
+Stare Niemyje Masovian Voivodeship
+Elizabeth Etienne
+Radhi
+Celtic Woman 4
+Opel India Private Limited
+Ismaël Keïta
+Alton Water
+Alejandro Zambrano
+New Palestine High School
+Nammonggwe
+Eric Radcliffe
+SS Anakriya
+Regina Ongsiako Reyes
+María Elvira Pombo Holguín
+Pristiglottis
+Gákkajávri
+Boulder Bridge and Ross Drive Bridge
+The Brothers (1979 film)
+Codonorchis
+Maverick Jetpants in the City of Quality
+Heydarabad-e Qur Tapasi
+Haematosticta
+Providence Hospital (Mobile)
+John Crawfurd
+All This Time (Sting album)
+Tim Scriven
+Ryan Mallon
+Yoga Hakwon
+Crown Books
+Atlus
+Tetracoccus dioicus
+Shorea virescens
+Mark H. Beaubien Jr.
+Equisetum bogotense
+Pedmore Technology College
+Paralimnophila emarginata
+Robert E. Lee School (Paris Tennessee)
+HMS Goole (1918)
+Journal of Bioactive and Compatible Polymers
+Ancellotta
+Parancistrocerus
+Praxis pietatis melica
+Wedding Night
+John Harris (Alaska politician)
+Our Lady of the Turks
+Come Dancing with The Kinks
+Le Communiste
+Mariella Burani Fashion Group
+Dom Mintoff
+Peachtree Presbyterian Church
+We Can't All Be Angels
+Mount Harper
+Life Death and Other Morbid Tales
+USNS Mission Buenaventura (T-AO-111)
+Parrs Wood High School
+Malhamlu-ye Olya
+Pallur Thrissur
+Johnny Grainger
+The Archaeology of Knowledge
+Eureka High School (California)
+Porpax (orchid)
+Loire 30
+Mercedes-Benz U.S. International
+Dahuiyeh Zarand
+Adam Wainwright
+Richard Estes
+SS Torrey Canyon
+Shirley Horton
+Melica bulbosa
+Paltalu Zanjan
+Edwardsburg High School
+Carl-Gustaf Klerck
+Necroscope II: Wamphyri
+SS Northerner
+The Best Awful There Is
+Keezhthonnakkal
+ATLA: All This Life Allows Vol. 1
+James Pickup
+HMS Bayntun (K310)
+Lago di Livigno
+24 days
+HMS Samphire (K128)
+Anthill: A Novel
+Duwamish (fireboat)
+Yan Cheshmeh
+Meriania leucantha
+Pingyao Zhuan
+Afinișul River (Bistrița)
+Tat Marina
+Derek Volker
+John Cabot University
+August Kühnel
+University of Altdorf
+Studio 58
+Gerald Stebelton
+Generali Building
+Salvia coulteri
+Acalyptris lesbia
+Lore Segal
+Saigon Cinnamon
+Dhoom (Call album)
+Salvia darcyi
+The Morning Passengers EP
+Tariq Ahmad Baron Ahmad of Wimbledon
+Jabuka
+Ride Out for Revenge
+Marina Promenade
+Acacia delibrata
+Adansonia madagascariensis
+Dales Country House Hotel Upper Sheringham
+Ranald MacDougall
+Bonnie Prince Charlie (1948 film)
+Parallel (album)
+William S. Townsend House
+Pârâul Ţiganului (Talna)
+Marius Bilașco
+Joaquín Enrique Valerio
+GTS Admiral W. M. Callaghan (T-AKR-1001)
+Appalachian State University
+Tol Zari Fars
+Philip Bell (governor)
+Bremont Watch Company
+Grace Episcopal Church (Washington D.C.)
+Hospe Music Warehouse
+Faryazan
+Jamey Blaze
+Ethmia discostrigella
+John D. Haynes House
+Calochortus syntrophus
+The Swan (newspaper)
+Lophocampa modesta
+Priory Primary School
+Citadel Broadcasting
+Lydia Gromyko
+Karimabad Ardal
+Schluchhorn
+Optivus
+Watson's Wine Cellar
+Kuflew
+Ectopopterys
+Pegu Range
+Thomas J. Flippin House
+Ukrainian Catholic National Shrine of the Holy Family
+Matters of the Heart (novel)
+Xenomigia nubilata
+Kerry County Museum
+Lee Seung-bae
+HESA Shafaq
+HMS Hannibal (1896)
+Tomas Ledin
+Édouard Balladur
+Askevatnet
+Bruja (novel)
+Erste Bank Novi Sad
+Gutenberg Castle
+Alumnae Hall (Miami University)
+Dendrobium nobile
+Mars Life
+Ramon Caraballo
+After Doomsday
+Chrysopogon aciculatus
+USS Wingfield (DE-194)
+Augustine Mahiga
+Love Among the Cannibals
+Only a Suggestion
+Hamid Majid Mousa
+Velký Špičák
+Alexander Maximilian Seitz
+Kean University
+Schibenstoll
+Long-tailed vole
+Pellegrino Ascani
+Marina Schiptjenko
+Stephen Robertson (politician)
+Calvin Collins
+House of Fools (film)
+Simoki
+Wilmot United Brethren Church
+Grevillea quercifolia
+Anthrenocerus decoris
+Shinji Nagashima
+Alapadamba
+WILDLIFE!
+Drillia roseola
+Claude Legris
+Perplexing Scrubwren
+Sork Ale
+Yaeil Theological Seminary
+Silvio Pestrin Farina
+Crosby Loggins
+Toleasa River
+Tibouchina elegans
+Tutak Fars
+Thrall High School
+King County Metro
+The Heart of No Place
+Kamloops Christian School
+Vintage Tech
+James McKinnon
+Casearia wynadensis
+Mike Krahulik
+Cave and Shadows
+Jason Lytle
+Nachman Fahrner
+Hannah Montana Forever
+Roar Engelberg
+Rare Cuts and Oddities 1966
+Indica Records
+My Hits and Love Songs
+Joel Pett
+Cannery Row (novel)
+Borut Pahor
+Kelami
+Haris Kastanidis
+Dypsis onilahensis
+Central Union High School District
+Wesley Plattenburg House
+Pipa snethlageae
+Central University of Nicaragua
+Paquito D'Rivera
+Greater dwarf shrew
+A Fight for What Is Right
+Federal Detention Center Honolulu
+Heritage (Opeth album)
+Silent Storm (film)
+Mascarin Peak
+Art Monk Construction
+Abmerk Shindjuu
+Rio Grande (Bahia)
+John Bratby
+Johnny Ray Turner
+Daniel Dociu
+Woori Bank
+Pavel Poluektov
+In the Shadow of the Moon (book)
+Sheba Medical Center
+December 7th (film)
+The Only Reason I Feel Secure
+B. F. O'Neal Jr.
+Pearl Brewing Company
+008: Operation Exterminate
+Nodopelagia brazieri
+Alken Denmark
+Saul Polo
+Goodmania
+WareValley
+Pariisi
+Notodonta dromedarius
+Lake Hartwell
+Berniceras
+Sergio Leal
+Maripily Rivera
+The Space Dream
+Garcinia oliveri
+Last Ride (film)
+Asaphocrita deae
+Psydrax pergracilis
+Audi Type C
+West Newark Congregational Church and Cemetery
+Chilean Torpedo boat Quidora (PTF-82)
+Buddleja 'Minpap3' = Reve de Papillon Blue
+Misdemeanor (Misdemeanor album)
+Pembe Köşk
+Heterogynidae
+Maserati Tipo 61
+White Zombie (film)
+Rory Duncan
+Trianthema portulacastrum
+Looking Back (book)
+Pirmin Strasser
+Smit International
+USS Deuel (APA-160)
+Aberfeldie Primary School
+Mera Pakistani Safarnama
+Labeo reidi
+Botrychium ascendens
+The Rush for Second Place
+HMS Defender (1797)
+Western Saharan spiny mouse
+USS Crossbill (AMS-45)
+Trypeta indistincta
+Aeropro Eurofox
+The Bedwetter
+Nawabzada Malik Amad Khan
+Werauhia ringens
+Jonte River
+Leonidas Raptakis
+Piaski Grudziądz County
+Raymond Gallison
+People detained by the International Criminal Court
+James Gallen
+Fischbach (Linder)
+Alex Ferguson (baseball)
+Steve Frew
+Macau Mosque and Cemetery
+Cuneus Prophetarum
+Ceradenia melanopus
+Jackie Trad
+Steve Litzow
+Taunusturm
+João Gilberto (1973 album)
+Buddleja davidii 'Notbud' = Masquerade
+Alaska Central Railroad Tunnel No. 1
+Gnomes (book)
+Weakley County Press
+The Lonely Voyage
+Catherine Byrne
+Tim Williams (folk musician)
+Sherwin Range
+Percy Bowers
+117th Delaware General Assembly
+Shane Robertson
+Léon Gambetta-class cruiser
+The Pretenders (novel)
+Night and Day II
+Pogonatherum
+Ratibida columnifera
+Viburnum opulus
+Al Kanaar
+River Rawthey
+Elvis Costello
+One Voice (Agnostic Front album)
+The Manzai Comics
+Prime Time (Count Basie album)
+Senegalia visco
+Mystery of the Samurai Sword
+Kokavil transmission tower
+Prioneris sita
+Justin Parker
+Bob Cunis
+Ctrip
+Antonia: A Portrait of the Woman
+Pilot Rock High School
+B O D Y
+Navarajpur
+Blossom & Bee
+Nati per Subire
+Stanleya pinnata
+Santiria griffithii
+Blindarte
+Techno-Sud Vigilant
+The Girlie Show: Live Down Under
+Krispy Kreme
+ARA Narwal
+Culebra Peak
+Chloroclystis polygraphata
+Bhagyavantha
+Coccoloba pubescens
+The Dawn (feminist magazine)
+Janaseva Vidyakendra Boys Residential School
+Sex Positive
+Keteleeria fortunei
+Gaber Asfour
+Kedestes nancy
+Szumiłowo
+Upper Kintla Lake Patrol Cabin
+The Whole Enchilada
+Mount Blanchard Ohio
+DROG Records
+Savoy Hotel (Moscow)
+Freddie Foxxx Is Here
+Jean-Christophe Grangé
+Zollingeria
+Lăpușnicul Mare River
+Rahim Bakhsh
+NYU Langone Medical Center
+The Treasurer's Report
+Tony McGee
+Gert-Arne Nilsson
+John Spencer 1st Earl Spencer
+Matchless G12
+Grahame-White Type XV
+Martin Camaj
+Shur Daraq Marand
+Fanny J
+Robinja (album)
+Wakefern Food Corporation
+Viscacha rat
+Sirca River
+NW First Truck
+Signs of Life (Billy Squier album)
+Valley of the Stereos
+Ai to Hate
+Lycée Français de San Francisco
+Emmanuel Pelaez
+Draupadi Vastrapaharanam (1934 film)
+Jeff Longbine
+J. Warren Cassidy
+Żółte
+To a Tee
+Freshwire
+If'n
+Nireș River (Lăpuș)
+Springville High School Mechanical Arts Building
+Woolston School
+Boișoara River (Boia)
+Riker Hylton
+Schreder Airmate HP-9
+Fontaine-l'Évêque Castle
+Karaja (singer)
+Gibberula audreyae
+My Dear Machine
+John Abthorpe
+The Castle in the Forest
+Kummata Durga
+Robert Lightfoot (speedway rider)
+The Poe Shadow
+Ronnie Lee Cunningham
+Ida Crown Jewish Academy
+HMS Princess Royal (1911)
+Bulbophyllum tanystiche
+JNR Class C58
+Indus Sonica
+HMS Royalist (1915)
+The Red Meadows
+Rockin' Johnny's Diner
+Gawartowa Wola
+3 Peace Records
+Lebrija River
+Andrew McBurney
+Move on Over
+Priamosia
+Mark Malloch Brown Baron Malloch-Brown
+Beaufortia (plant)
+Martyre
+USS Atlanta (1884)
+Bulbophyllum funingense
+Edward Baigent
+Phileleftheros
+La Guerra la gano yo
+Mickey Finn (guitarist)
+La Pivellina
+Hypsopygia violaceomarginalis
+William Patrick Ryan
+Judy Petty Wolf
+Les Misérables (1998 film)
+Blemmatia
+Indonesia Museum
+Sid Ramin
+Dudley Spencer House
+Table Mountain (New York)
+Dhaani
+Fugitive of the Plains
+David Scott House
+Kingsgrove North High School
+Salesforce.com
+Ferenc Ódor
+Live Bogotá
+Florestina
+Pedro Concepcion
+Job Brothers & Co. Limited
+Anacampsis malella
+Kossaki-Ostatki
+Hemerocallis 'Duke of Durham'
+Kuchek Bardikor
+Singularity's Ring
+The Irresistible Revolution
+Leoni Leo
+Saturn S-Series
+St. Mary's College of Maryland
+Zehra Çırak
+Nematoceras sulcatum
+Z. Randall Stroope
+Rocky Mount Telegram
+Barbus alluaudi
+Ruellia rasa
+St. Peter Church (Cleveland Ohio)
+Kelly Bryant
+Wired-up
+RFA Fort Dunvegan (A160)
+Wiregrass Georgia Technical College
+Stark County High School
+Philodromus buchari
+Una Mattina
+C. A. White
+NobelTel
+Grenville Anderson
+T. K. Rengarajan
+Crnogorski Telekom
+Giant's Castle
+Miles Merchantman
+Iniopterygiformes
+Karl Lovell
+Doctors Charter School of Miami Shores
+Journal of Environmental Biology
+Chel Malgeh
+Dobroszów Oleśnicki
+Zealot: The Life and Times of Jesus of Nazareth
+Hoston Sør-Trøndelag
+Christian Compton
+Labyrinth (novel)
+Tolombeh-ye Emanollah Qasemi
+Mann Yatanarpon Airlines
+Frank Conroy
+Pârâul Cărbunarilor (Valea Roșie)
+Gone But Not Forgotten (novel)
+Semothy Jones
+Squaw Creek Reservoir
+Caspar U.1
+You Can't Live Forever
+Shipyard Brewing Company
+Oakleaf High School
+USS Pope (DE-134)
+DAV Kapil Dev Public School
+Sycamore (moth)
+Rhaphidophora decursiva
+Our Grand Despair
+American Flagg!
+Blabioides
+Chong Ch'ol (crater)
+Cosapilla River
+Jabuka (Prijepolje)
+Bella Hardy
+Francisco Seeber
+Taylor Coot
+Australian Lightwing SP-2000 Speed
+Zal Qoli Kandi
+Kiszkowo Greater Poland Voivodeship
+Morarka Organic
+Promalactis uncinispinea
+Tylocephalonyx
+The Windward Road
+Colorado Street Bridge (Saint Paul Minnesota)
+Toptaş Kumluca
+De Bruin Air
+George Hoadley (Ohio politician)
+Serge Fontaine
+Old National Bank Building
+Yoar
+Shatin Tsung Tsin Secondary School
+Le Pays de la Sagouine
+Nasirabad Eslamshahr
+Happy Valley School District
+Keystone Oaks High School
+Grafham Water
+Khristo Poshtakov
+Colotis eucharis
+Koharu Kusumi
+Mitch Mustain
+Treasure Planet
+USS Frontier (AD-25)
+Frances Willard Schoolhouse
+George Rodrigue
+Money Isn't Everything
+Juvenilia Press
+Lake Albacutya
+Phycothais texturata
+Red Pyke River
+Rita Meyer
+Biały Ług Łódź Voivodeship
+My Architect
+John Roskos
+Rick Steier
+Mount Gamkonora
+Afghanis-tan
+Dean Strong
+Adeseye Ogunlewe
+Kasha Rud
+Steve Redmond
+The Berlin Paper
+Aechmea fuerstenbergii
+Hope Christian School
+Anjirestan Izeh
+Slatina (Kruševac)
+Hoary-headed Grebe
+Walter Devlin
+Talim-ul-Islam College
+USS McKee (DD-575)
+The Pingry EP
+Grumman F4F Wildcat
+USS Morgan County (LST-1048)
+Sushant Public School
+Aliabad Avaj
+Frederick Fiske and Gretchen Osgood Warren House
+Tillandsia anceps
+Traffic Department (film)
+Kangarban-e Vosta
+USS Algorma (AT-34)
+Airopsis
+Oswald Hoepfner
+Seaview (film)
+Cadlinella hirsuta
+Supramonte
+George Harris (cricketer born 1904)
+St. Paul's School (Lam Tin)
+For the Win
+Live Free or Die Hard
+Yadegar Razavi Khorasan
+RazorUSA
+Peter-Petersenschool
+Tardes (river)
+Hoeloceras
+Reversing: Secrets of Reverse Engineering
+Mesciniadia
+Beautiful (Vivian Green album)
+Langloisia
+Alien Shores
+Sterling Bancorp
+Planet Dog
+Zardaki-ye Sofla
+Laelia speciosa
+Orchard Street United Methodist Church
+No Grounds for Pity
+Decamorium
+Luzhou Laojiao
+Plexifilm
+The Cairo
+New Pop Sunday
+LiveHive Systems
+Howard Finster
+Zarabad Bashagard
+Eccremocarpus
+APIIC Tower
+A Woman's Liberation
+Gazhak Kerman
+Margaret Bullock
+Felicity Dowker
+Vittetia
+The Little Black Bag
+Remedy Club Tour – Live
+JuriNet
+Alejandro de Tomaso
+Wayne Mitchell (politician)
+Open Up to Me
+SS Polarlys
+Punarbhaba River
+Baydaratskaya Bay
+Struganik
+Peaster Independent School District
+Aegilops longissima
+Gunavarma I
+Hasora vitta
+Qaleh-ye Bala-ye Sian
+Days of Rising Doom
+ChuChu (magazine)
+Striped rocksnail
+Jan Jämsen
+The Last Cannoli
+Hylocereus setaceus
+Mato Šimunović
+Cynaeda
+Against Wind and Tide: A Cuban Odyssey
+María Teresa Vera
+Russell Street Police Headquarters
+Live at the Royal Albert Hall (Erasure album)
+Nedra goniosema
+Ray Aghayan
+Mergers & Acquisitions
+Quest (journal)
+Lake Singkarak
+Rua Augusta Arch
+Matthew Henry Cochrane
+Malacostraca
+John Bruton
+Seavus (company)
+The Brownsville Herald
+USS Shaula (AK-118)
+Malcolm Clarke (footballer)
+USS Blower (SS-325)
+Polytaenia nuttallii
+Ambrogio Raffaele
+Canadian National Depot
+USCGC Polar Star (WAGB-10)
+Ruchen (Jura Mountains)
+Rzemiędzice
+A Gentleman at Heart
+Robert Jenison House
+George Henry Murray
+Bird's Shadow
+Kingswood-Oxford School
+Character Is Destiny
+Zonnestraal (estate)
+Bentley Rhythm Ace (album)
+Out of the Bluffs
+Azalia Snail
+Eucereon varia
+Gee Bee Model Z
+Aleksandar Mitrović (politician)
+Philodoria splendida
+Rajeev Institute of Technology
+Bushmaster Firearms International
+Otto Knows
+Walter Annenberg
+Ulises Heureaux
+Koya University
+Allen Eager
+Jeremy Kalin
+Myall River
+Alfredo Da Silva
+Adams Mill Covered Bridge
+Noël Browne
+King of Gamblers
+William Blathwayt
+Bent Jædig
+Washed Up and Through the Ringer
+Amsterdam (novel)
+Espejos
+Fimbristylis polytrichoides
+Go Jump in the Pool
+Acacia ayersiana var. latifolia
+Alpha Pup Records
+Ian Masters (songwriter)
+Maa Naa Chowdappa
+Rise Records (Italy)
+USS Goldring (SS-360)
+Muscogee County School District
+Phillip Archer
+Wall High School (Texas)
+Canariella planaria
+El Hortelano
+Liu Hui (politician)
+Jim Caldwell (Arkansas politician)
+All the Right Reasons
+Caribbean Connection
+Vitalijus Kavaliauskas
+Azhar Mahmood
+Naviera Armas
+Trzebiechów Krosno Odrzańskie County
+Kamel Mahadin
+Albert E. and Emily Wilson House
+Andrew Morris (musician)
+Janczewo Lubusz Voivodeship
+Diospyros sumatrana
+Southern Pacific 6051
+Reaction Records
+Loomis Union School District
+Tremors 4: The Legend Begins
+Cinnaminson High School
+No One’s Words
+Dąbrówka Nowa Masovian Voivodeship
+Volvo F88
+Deaconess Hospital (Spokane Washington)
+Kim Douglas Wiggins
+Cizma Mare River
+Crookedstar's Promise
+Chris Harris (cornerback)
+Bystra Żywiec County
+Ghafoer Luckan
+Sacred Heart School Launceston
+John Fawcett (of Bolton)
+Mandepudi
+Winn-Dixie
+Cliometrica
+Abarema josephi
+Don't Cry Too Hard
+Rutidea
+California whipsnake
+Mitsubishi 1MT
+ABC Software
+Neptis sextilla
+The Concorde ... Airport '79
+There Goes the Groom (film)
+Nemacladus glanduliferus
+Shirazi-ye Vosta
+Chaumet
+Mentzelia crocea
+French frigate Valeureuse
+Jean-Paul Mendy
+Ken Jolly
+WWE Studios
+Zenair CH 150
+Gabriel Rodriguez (artist)
+London Hilton Hotel
+Grozyne
+Vanda
+Lysimachia congestiflora
+Abilis Solutions
+Smithatris
+Metropolitan Theatre (Morgantown West Virginia)
+Where the Red Fern Grows (1974 film)
+Brisbane Central Technical College
+Larcom Mountain
+San Marco Pass
+Royal Blind School
+Sangam (album)
+Empis borealis
+Christian Steinmetz
+Eagle Star Insurance
+Golzar-e Haddad
+Dubičiai
+Skendleby Priory
+Tommy Broughan
+Josiah B. Whitman House
+Valea Limpede River (Săsar)
+Somália (footballer)
+Mitch Green
+Bjorelvnes
+Willamette Steam Navigation Company
+Anastasiya Prenko
+Lyons-Decatur Northeast Schools
+Jim Crawford (American football)
+Alectrurus
+Academy of Music (Philadelphia)
+Borbo binga
+Pasupuleti Balaraju
+Bajášjávri
+Kevin Kelly (boxer)
+BrightRoll
+Disqus
+First Light (Sunil Ganguly)
+Phil Payne
+Marinko Rokvić
+Bensen B-10
+Buhler Group
+Berberis muelleri
+Kerosene (album)
+MV Waily
+The Heritage of Hastur
+The Waste Land
+ArabiaWeather
+Synapse Group Inc.
+István Csáky
+Frohnholzbach
+Eastern Illinois University
+The Anatomy of the Tongue in Cheek
+Centaur Records
+Fairfield Ludlowe High School
+Nagyeongsan
+Sadrabad Shiraz
+Central Tower (San Francisco)
+Hygrochroma
+Jere Schuler
+Wolfgang Kindl
+Nihon Chinbotsu (1973 film)
+USS Mallard (AM-44)
+Emanuel School Australia
+Uvularia sessilifolia
+St Mary in Castro Dover
+Nenad Filipović (athlete)
+Harold Lockley
+Parú River
+Al Anwar
+More About the Children of Noisy Village
+Sparky Anderson
+Stara Niedziałka
+Dunstan Methodist Episcopal Church
+Espen Aalberg
+Dartz
+True Reflections
+FAIST Anlagenbau GmbH
+Friday Night at St. Andrews
+Cdv Software Entertainment
+A Woman Under the Influence
+Bossi-Bonomi Pedaliante
+Galium divaricatum
+Belair National Bank
+Captain America: The First Avenger
+CNote (film)
+Psychotria dasyophthalma
+Chersotis ocellina
+Jiwanawatta
+Night of the Grizzlies
+Sts. Cyril and Methodius Church (Bridgeport Connecticut)
+Balut Hesar
+Linnaeus University
+Solo Solo
+Gord Mackintosh
+CenturyTel of South Arkansas
+Silliman Institute
+Palestine–Wheatley High School
+Vinicius Oliveira Franco
+Axia Public Relations
+Aarachaar
+White-tailed antelope squirrel
+Slightly Odway
+Dangling Man
+The Brothers Karamazov
+Life-Size (novel)
+Salt Brook Academy
+Düzce University
+Alelimminola
+William Henry Harrison High School (Ohio)
+Teachings of the Prophet Joseph Smith (book)
+Marvin Andrews
+Bisbee Woman's Club Clubhouse
+Venus and Mars
+Secondary School Reform (Prince George's County)
+Dan K. Moore
+Empire of the Ants (novel)
+Benjamin Lapeyre
+Gul Lasht Zom
+Not So Quiet: Stepdaughters of War
+Volcán River
+Mazraeh-ye Sadeqabad
+Live in Tasmania
+Mephistofeles (car)
+Back to Roots
+Neil Broad
+The Wilderness (novel)
+United Presbyterian Church of Canehill
+Andaman Treepie
+Matthew Zeiss
+GSP Prometeu
+Limpopo River
+Kyu Sakamoto
+Bathycrinicola media
+Col Saint Martin
+Espiritu Santo Parochial School
+Alisma subcordatum
+Jean-Marie Guéhenno
+Potentilla norvegica
+Jean Baptiste Lutz
+Izvor River (Neajlov)
+Dorel Zegrean
+William Lederer
+Syd Barrett
+Kleinia neriifolia
+Margaret (2011 film)
+Idaho (sidewheeler)
+Hollywood (Johnny Hallyday album)
+Dost (1974 film)
+Cruel Sister (Rachel Unthank and the Winterset album)
+USNS Grommet Reefer (T-AF-53)
+Austrodrillia secunda
+Manx Electric Cars 19-22
+Fort King George
+Eleftherios Fotiadis
+Colegio de San Lorenzo
+While We're Young
+Eudoxus (lunar crater)
+Ipomoea aristolochiaefolia
+Connacher Oil and Gas
+Brownsville Area High School
+TRV Tuna (801)
+Punjab Roadways
+Nectandra longipetiolata
+Hajji Tu
+Gather the Faithful
+South Newport River
+Russell Edmonds
+Werneth Low
+Burlington Central High School
+Crataegus iracunda
+Aspidosperma polyneuron
+John Kerr 7th Marquess of Lothian
+Phalonidia lochites
+Anastasy Vonsyatsky
+Sint Anna Bay
+City Colleges of Chicago
+Imagining the Tenth Dimension
+Martha Nause
+The Gazette (Cedar Rapids)
+Livestock's Long Shadow
+Calathus micropterus
+Social Justice (periodical)
+Andy Partridge
+Spanish Town United States Virgin Islands
+Rancho Solano Preparatory High School
+Yehudi Menuhin School
+Cyclosma
+Grayslake Community High School District 127
+Vydra (river)
+Everyday Slaughter
+USS Reindeer (1863)
+Sleepy Little Deathtoll Town
+Molycorp
+An Inn in Tokyo
+Merman (album)
+Australian Lightwing GR 912
+Shanti Sagara
+Apha arisana
+The Washington Campus
+Chionanthus cordulatus
+Eslamabad Kiar
+G. V. Wright
+Tinto
+Thomas Urwin (footballer)
+Cowles Center for Dance and the Performing Arts
+Royal Panopticon
+Virtual Equality
+Acontia detrita
+Faculty of Computer Science Dalhousie University
+Pulse-Eight
+Eaton Community College
+Park Tower (Tampa)
+Stutfield Peak
+Elophila minoralis
+Hossam Ramzy
+Schiedea apokremnos
+Bates-Englehardt Mansion
+David Alderdice
+Centro de Relaciones Internacionales
+Rivière-du-Loup Town Hall
+Natalia Gordienko
+Qurshaqlui-ye Kord
+Copper Mountain (Whatcom County Washington)
+Matanza River
+Selmo Cikotić
+Marumba sperchius
+Carandana
+Single Brothers' House
+Molas Pass
+The Long Journey
+Arthur Hinman
+Finanzarchiv
+Comborhiza
+Daycroft School
+The Molesworth Gallery
+Neumichtis archephanes
+Chah-e Takiyu
+Sri Lanka Maha Bodhi Centre Chennai
+Kashmir: Symphonic Led Zeppelin
+Vop Osili
+Càrn Eige
+Life Is Beautiful (2012 film)
+Argus Motoren
+Jeh Johnson
+Ed Roland
+Pittosporum rapense
+Mourecochylis limenarchis
+Cherrie Ying
+Bruno Brown
+Dash Bolagh Kurdistan
+Ryan Belhsen (album)
+Anri Kumaki
+Floscopa mannii
+Renard Epervier
+Commentary on the New Testament Use of the Old Testament
+Restrepia guttulata
+Plaxton Panorama Elite
+Steinfass House
+André Andersen
+Eric López
+Andrei Leven
+Hong Chen
+Manju Mehta
+Mary Reilly (novel)
+Dakota Moon (album)
+St. Anthony's Catholic Church (Padua Ohio)
+Amalis
+Paralichthodinae
+Alpha High School
+Rough Cut (2008 film)
+David Byrne (album)
+Doug Cranmer
+Jazzland Recordings
+Bobby Franklin (American football)
+WALL Literary Journal
+Erich Massini
+Agencia Venezolana de Noticias
+Spin (novel)
+Temple University Press
+Huxelrebe
+Górskie Bielsk County
+Altai State Technical University
+Insomniatic
+Urubu Grande River
+Bakhtiar Alborz
+The Shining Hour (play)
+The Wondrous Voyage of Kornel Esti
+Padina Urșilor River
+Bobby Vinton's All-Time Greatest Hits
+The Einstein Intersection
+For True
+Alexander Arms
+Elachiptera
+Carnethy Hill
+Net-class boom defence vessel
+Goodbye to the Edge City
+In the Woods
+Steve Erickson
+John Jay College of Criminal Justice
+Greek Orthodox Church of the Holy Trinity and St Luke
+Beef (film)
+The Fall (Garth Nix novel)
+Mazraeh-ye Tareh Sabzeh Baluch
+Wellington High School (New Zealand)
+Carex nigricans
+Waiotauru River
+St Margaret Pattens
+Esenbeckia alata
+Yes Your Honour
+Eduardo Sívori Museum
+Naveed Qamar
+Delìrium Còrdia
+Raman (film)
+HAV Eiendom
+Lake Alice (Southland)
+Chojnowo Mońki County
+One Man Band Man
+Franklintown Historic District
+Tim Knopp
+Survival (Grand Funk Railroad album)
+French battleship Richelieu
+Otto Neitzel
+Nizhneye Akh-Kerpi
+José Macías
+Roža Piščanec
+St Sebastian's Church Neyyassery
+Phalonidia memoranda
+Small Steps Heavy Hooves
+William Haner Polygonal Barn
+California African American Museum
+Heaven's Lost Property
+Brnjic
+Joe Holliday
+Paarvai Ondre Podhume
+United States Post Office (Canastota New York)
+Donald Linden
+John B. Caddell
+Beverwyck Manor
+Prozac Nation (film)
+Cathedral of the Blessed Sacrament (Altoona Pennsylvania)
+Col de la Croix de Mounis
+New Flyer
+De Havilland DH.18
+Bulbophyllum xantanthum
+Bill Findlay
+Sacred Heart-Saint Wenceslaus Church
+Pacific Affairs
+Rutgers Glacier
+Murphy Oil
+Calguia defiguralis
+Wissotzky Tea
+Ffynnon Lloer
+St. Peter's School Philadelphia
+Big Siskiwit River
+Sergeant Swell of the Mounties
+Timebomb (1991 film)
+Dhongee
+The Boss of It All
+Schkuhria
+Ramón Mifflin
+Deividas Zygas
+University of Warwick
+Pine Lake (Alberta)
+David McCray
+The Daily (News Corporation)
+Stomphastis heringi
+Matchlee Mountain
+USS Whitman (DE-24)
+Twillingate Museum
+The Maghull Group
+Isaac Yakovlevich Pavlovsky
+Lake Mandrensko
+Rom Eiendom
+Ivan Peko
+801 Grand
+Cordaites
+Advanced Medium Combat Aircraft
+2014 BRIT Awards (album)
+Nieciecz Masovian Voivodeship
+USS Georgia (BB-15)
+Han Youwen
+Ganswindt (crater)
+Lake Norris
+Murari Chand College
+Bad Reporter
+Mattias Jacobsson
+4 Compositions for Sextet
+Orana Incorporated
+Guess Who's Coming to Dinner
+Arlington Hotel (Zanesville Ohio)
+Open Garden
+USS Hatak (YTB-219)
+The Lady (magazine)
+Punctapinella niphastra
+Gornje Trebešinje
+KTM
+Kultrum
+Thomas De Lage Sumter
+Castillo Concejuelo
+Westhill Academy
+ANBO III
+David Steinberg
+Nowe Kurowo
+Brenden Hall
+Francesco Stacchino
+Eshaqabad Isfahan
+Museum Georg Schäfer
+Podolepis
+Gina M. Benavides
+Arashic
+Kai Lung Raises His Voice
+Centennial Secondary School (Belleville Ontario)
+Pankosi
+Sharif University of Technology International Campus – Kish Island
+Troy Peak
+Kielmeyera
+Aegilops umbellulata
+Prayer to a Vengeful God
+Monte Pora
+Deacon's School
+Uwe Unterwalder
+Bushnell Corporation
+Bothrops alternatus
+Alcock Ashdown survey catamaran
+Georgije Ilić
+HNLMS Douwe Aukes
+Hawker Woodcock
+Carole Samaha
+Hollywood Babylon
+Flow River of My Soul
+Cambridge-South Dorchester High School
+Volume 10: I Heart Disco
+Change (Chick Corea album)
+Vincent Pedone
+Carlo Tenca
+Gravel Range
+Clifton (Hamilton Virginia)
+Burondi
+Kenneth Volentine
+Abington Senior High School
+Maxime Ouellet
+Andrea Doria-class battleship
+Sherlock Holmes and the Baskerville Curse
+Unbuilt America
+Elaphrus riparius
+Diospyros seychellarum
+David Young Community Academy
+Calliostoma blacki
+John Currie (English footballer)
+Miss Brewster's Millions
+Mrs. Kimble
+Hampden Academy
+The Make Yourself at Home EP
+Now (MYMP album)
+Fingerprince
+Old Masonic Hall (Louisville Mississippi)
+Sandy Creek (Richmond Valley)
+Long Arm of the Law Part 3
+French ship Bergère
+Mirabella V
+César Villanueva
+Between Your Legs
+Fereshta Samah
+Annabelle (film)
+B'z TV Style Songless version
+Synairgie
+German submarine U-83 (1940)
+Danial Ardabil
+B.T.'s Smokehouse
+Montessori De Manila
+Highland Railway Jones Goods Class
+Leonard Kniaseff
+New York Herald
+Ferrari 195 Inter
+Cyathomone
+Day of the Dog
+Carry On Tradition
+Mian Rud Ab
+Forgotten Faces (1928 film)
+Dalbergia obovata
+DiversiTech
+Ray Trickett
+The Pet Girl of Sakurasou
+Ghoria gigantea
+Elvis istuu oikealla
+Phenacolepadidae
+Johnathan Aparecido da Silva
+Carter Beauford
+St. John's School (Texas)
+Erigeron breweri
+Mineola High School (New York)
+18 Hronia Live
+HSC Natchan World
+Turkestan cockroach
+Maine Gandhi Ko Nahin Mara
+Stenalia parva
+Chatham High School (Taree New South Wales)
+Azaera
+Montgomery Mall (Pennsylvania)
+USS Warren (1827)
+North Fork Fryingpan River
+Boquitas pintadas
+Hyposmocoma chilonella
+Sarujeh-ye Sofla
+Lipovac (Kruševac)
+Hātea River
+Rhynchoconger squaliceps
+Diego Trotta
+A Diamond Guitar
+Reda Agourram
+Condor A350
+The Famous Woman
+Diospyros neurosepala
+Euphaedra albofasciata
+Francis Rush
+Abutilothamnus
+Tension (film)
+Xerotricha mariae
+Hyperolius albofrenatus
+Ntema Ndungidi
+Pantoporia karwara
+SITA
+Dehbar Khuzestan
+Goniobranchus multimaculosus
+Central Grocery
+Emperor of Norfolk
+Arıköy Dazkırı
+Sree Sankara Vidyapeetam
+Morgan Eva GT
+Podlas Łódź Voivodeship
+Danger (company)
+Boxoffice (magazine)
+Sensuality – The Remix Album
+John Cotton (footballer)
+The Merciad
+Family Secrets (2001 film)
+HMS Orion (1879)
+Metron Aviation
+David McMullin
+Francis Martin
+UShip
+Moses Morgan
+Church of Saint Mary Whitby
+Portrait of the Artist as a Young Dog
+Nexus Polaris
+Kirill Pokrovsky
+Hurlbutt Street School
+Judson University
+On the Attack and More
+Brandy Talore
+Bon Tut
+Coffin Cave mold beetle
+Cassini (Martian crater)
+Valea lui Voicu River
+Utricularia subg. Bivalvaria
+Mastanabad Ardabil
+George Simpson (footballer born 1876)
+Družetić
+Miss Marple's Final Cases and Two Other Stories
+Bălmușel River
+Samih al-Qasim
+Arab Times
+Oath of a Warrior
+Ragnvald Vaage
+Willie Hernández
+Kanlići
+McDonald's Canada
+Muse Software
+Prince of Wales (ship)
+The Ellsworth American
+Thecobathra
+Sri Sai Ram Engineering College
+Piper densiciliatum
+Q & A (novel)
+Mount Wycheproof
+Stewartia pseudocamellia
+St Ambrose’s Episcopal Church (Antigo Wisconsin)
+Efren Navarro
+I Am Terrified (EP)
+Toro (Near-field communications wallet platform provider)
+Ulmu Mic River
+Krzemieniew
+Arslanagića Most
+Koningin Regentes-class coastal defense ship
+I (label)
+Highland Park Village
+West Coast Blues!
+Aleksandr Matylevich
+EPB
+Yagutil Mishiev
+Wang Shu-hui
+Leonid Yanush
+Balsas River (Panama)
+Spoon Sports
+Sycamore School
+Settlers Ridge
+Cowbridge Comprehensive School
+Verron Range
+Toronto Stories
+Me Me Me (album)
+Consolidated Mine
+MV Peter Faber
+Tower of London (1962 film)
+Scania-Vabis L10
+Hymenaea martiana
+Cage Rage Championships
+First Bank and Trust
+James Arthur O'Connor
+Sulimy Pisz County
+John Bilezikjian
+Dauer 962 Le Mans
+Jeremih
+Dowlatabad-e Sheykh
+Virtually Normal
+Lucky Me (EP)
+Melinho
+Daigo Fukuryū Maru
+Anaphosia mirabilis
+Boronda Meadows
+Somebody Else Not Me
+Mike Rendell
+George Wadsworth (diplomat)
+Viscum capense
+Qeysar (film)
+The Ball of Count Orgel
+Ronald Weyandt
+NRIAM UAV
+Lou D'Angeli
+Macroprotus
+Rudna-Leśna
+Bevin Brothers Manufacturing Company
+Cem Yılmaz
+Disturbed (film)
+The Man Who Quit Smoking
+Károly Olt
+Tyson Smith (linebacker)
+Gordon Gilbert
+Jaczewek
+HMS Owen Glendower (1808)
+Hugh Vyvyan
+Maruti Suzuki
+Salem Nebraska
+Caroline Vis
+John Wesley Methodist Episcopal Church and Cemetery
+Catadoides
+B.R.M.C. (album)
+Spec Harkness
+Halil Zorba
+Lucimia
+Hypatopa acus
+Kevin Kennedy (baseball)
+Espasuiyeh
+State Fair (1962 film)
+Feedback File
+Augusto Cury
+Ali Benhalima
+Senecio blochmaniae
+Béla Iványi-Grünwald
+Devil's Coulee Dinosaur Heritage Museum
+Piper PA-44 Seminole
+Tuszyn Lower Silesian Voivodeship
+Potter Place Railroad Station
+Ise-class battleship
+SMS Zieten
+Saneamento Básico
+Adventures of a Teenage Dragon Slayer
+King Low Heywood Thomas
+Hilliard Darby High School (Hilliard Ohio)
+Handley's tailless bat
+Nestlé Toll House Café
+Buddleja davidii 'Orchid Beauty'
+Leonard Fournette
+Gowhar Kola
+Azmanite
+Parayanumvayya Parayathirikkanumvayya
+Elliott R. Corbett House
+Premium Air Shuttle
+Aguaray-Guazú River (Paraguay River)
+Filmacademy Vienna
+Burnupena pubescens
+Eulima amblia
+Copelatus masculinus
+Pimpinella cypria
+Classic Rock (magazine)
+HMS Racehorse (1900)
+Mazaaq
+N.V. Nuon Energy
+Abdul Rauf Rufi
+Molgulidae
+Hawks of Outremer (collection)
+Kai-lan
+Ziggi Recado
+Katy Rose
+Qamar Khun
+HSwMS Gustav V
+Gillig Transit Coach School Bus
+Ringo the 4th
+Homophylotis thyridota
+Gates of Fire (album)
+Filmworks IX: Trembling Before G-d
+José Alencar
+Metropol (newspaper)
+Cleomella plocasperma
+Government Bullies
+Osęka
+Axel Thufason
+Museum of the Siderurgy
+Machine Vision and Applications
+Daniel Glacier
+The Seat Filler
+Negoescu Mare River
+AuSable Chasm Bridge
+Paul Geraghty
+Hormone Research in Paediatrics
+Lorrie Fair
+Tarsocera southeyae
+François-Marie Algoud
+Bougainvillia aberrans
+Marquette Building (St. Louis)
+Khel Mohabbat Ka
+Robert Del Tufo
+Bye Bye Braverman
+Saghar Afghanistan
+MÁV Class 242
+Planisware
+Emery J. San Souci
+Verb Exchange
+Sue Rezin
+St. Maurice Methodist Church
+Naftal
+Josh Jasper
+Bornos Reservoir
+Robert Dundas 2nd Viscount Melville
+78 Tage auf der Straße des Hasses
+Bonaparte à Malte
+Institute of Technical Education
+Jennell Jaquays
+Kingsburg High School
+South African Class 61-000
+Mads Nielsen
+Cutting It Short
+Artur Ryabokobylenko
+Bill Gunn (politician)
+Reggie Fullwood
+Sinclair Knight Merz
+Reynaldo Tilguath
+Ross Campbell (footballer)
+John Minor Crawford House
+Chaminade College School
+The Art of Shaving
+Danville National Cemetery (Virginia)
+Spelaeornis
+James Kealoha
+Deadfall (1993 film)
+Lake Kurumoi rainbowfish
+The Post-Birthday World
+Cydia storeella
+Ses plus belles histoires
+The Night People (novel)
+Ab Hendu
+Drawn to All Things: The Songs of Joni Mitchell
+Leucochloron minarum
+Alexander Galt Regional High School
+Niekrasy
+Miquette Giraudy
+Philip and the Others
+Bulbophyllum pustulatum
+Mark R. Hornak
+Genivar
+Angu River
+Gera (river)
+The Hawk (1993 film)
+Crypsis (genus)
+Lipianki Pomeranian Voivodeship
+Anna Miller's
+Medoševac (Niš)
+Border Cop
+Waskerley Reservoir
+Sag Kash Durak
+Tito Jackson
+Nerodimka (mountain)
+BNCR Class B
+Regista
+Rajasthan Institute of Engineering and Technology
+Mallu Ravi
+Dmitri Torbinski
+Instrumentally Yours
+Neretva
+Igor Nikulin (ice hockey)
+Tomorrow's World (album)
+Kuolemanpalvelus
+Long Weekend (2008 film)
+A Star Called Henry
+Barringtonia acutangula
+LNER Thompson/Peppercorn Class K1
+Helicteres isora
+Pentalinon luteum
+Ramsgate Maritime Museum
+Anthurium sagittellum
+Charles D. Drake
+George Parker 4th Earl of Macclesfield
+Solanum verrogeneum
+Budniki
+Qezelabad Qom
+Musa ornata
+West Morris Central High School
+Ursinia pulchra
+MHP Communications
+Primula allionii
+The Financial Gazette
+USS Core (CVE-13)
+Chestnut-eared Aracari
+Favartia paulskoglundi
+Suksdorfia ranunculifolia
+Dragones: destino de fuego
+The Ghost of Danny Gross
+Future Games (video game developer)
+Rozdoły Pomeranian Voivodeship
+West Beck
+Batrachedra microdryas
+Turbohove
+Acer rufinerve
+The Chaos Factor
+Bath (village) New York
+Glastonbury High School
+The Princess Diaries Volume V: Princess in Pink
+International Academy of Management and Economics
+Marcus Curtiss Inn
+Wola Przybysławska
+Grandfather's Journey
+Noah (Noah album)
+Adrenalize
+Heterocongrinae
+Da Game of Life (film)
+Pos Indonesia
+Boeing Phantom Ray
+Slaves of Spiegel
+Bellanca Skyrocket II
+Fatalii
+Salmson S4
+Pârâul Sec (Bărbat)
+Bright Ambush
+Manthan (1941 film)
+Anton Regh
+Hum Tere Aashiq Hain
+Kharkiv University of Humanities “People’s Ukrainian Academy”
+Peace of Mind (Michael Monroe album)
+Moon Chung-hee
+Simon and the Witch
+USS Lee (1776)
+Justine (Sade)
+Ron Arthun
+School of the Woods – Montessori
+Sezemče
+Fort Kearny
+Dock Bridge
+Bob Kerrey
+Bad Day for Trains
+Enlightened (album)
+Hallway Symphony
+Eriogonum contiguum
+Going Away
+Lamiyan
+Sun Te-hsiung
+St Joseph's Cathedral Hyderabad
+Pecinișca River
+Crawford Central School District
+Michal Grman
+Namkasa
+White River (Yukon)
+Lomatium brandegeei
+Irian Jaya Blue-tongued Skink
+Autumn Leaves (Bill Evans album)
+Buck (crater)
+Bristol Free School
+University of Washington Medical Center
+Arputham
+Margaret Yarde
+Umm al-Faraj
+St Deiniol's Church Hawarden
+Lexus LS
+Fluent in Stroll
+Bayugan National Comprehensive High School
+All Fun and Games until Somebody Loses an Eye
+Hnevank
+Chairul Saleh
+Annabelle Candy Company
+Dolicholatirus fernandesi
+333 Market Street
+Rectala
+Valhalla (film)
+Millettia micans
+Futurama: Into the Wild Green Yonder
+2 Guns
+Mose Allison
+Linum lewisii
+Sam Bateman
+Super Colossal Smash Hits of the 90's: The Best of The Mavericks
+Pseudacroclita
+Deokgasan (Gangwon)
+Elisha Yaffe
+Salalah guitarfish
+Nan Chauncy
+Sanden Corporation
+Pojoaque Valley High School
+Richard Bennett (guitarist)
+Philipp Ziereis
+Thitarodes
+Havana (film)
+Never Surrender (film)
+John McGeer House
+Johanna Mikl-Leitner
+The Librarian: Curse of the Judas Chalice
+Live in Tokyo (Brad Mehldau album)
+Cerithideopsilla djadjariensis
+Stromae
+Stafford Hill Memorial
+Qeshlaq-e Ali Shansuyi
+Once Upon a Time (Dreadzone album)
+Mohrezi
+Ville Pörhölä
+Homeland (Miriam Makeba album)
+Winona Masonic Temple
+George Wade Robinson
+Axle Whitehead
+Hybridoneura
+Ellingham Priory
+Lake Beulah (Mississippi)
+Advances in Therapy
+PT Indo Straits Tbk
+Tarzan (1999 film)
+Kuluva Hospital
+Paul Butterfield
+Cheshmeh-ye Abgarm
+Suzanne Packer
+West Elementary School
+Catalogue 1987–1995
+Kyle Wilber
+USS Price (DE-332)
+Cyathea incana
+Into the Blue (2005 film)
+Adkalli
+The Cave Boy of the Age of Stone
+Christmas Creek
+Islamic Azad University of Nishapur
+Abacena accincta
+Chuck Berry's Golden Decade
+Mary Benson
+Modiin Energy
+Eli (Jan Akkerman album)
+Gornja Bodežišta
+Chevron Renaissance
+Vågsfjorden Troms
+Ottersbek
+Brazil Classics Vol. 4: The Best of Tom Zé – Massive Hits
+Red-bellied Parrot
+Gideon S. Ives
+Greatest Hits Vol. 2 (ABBA album)
+Korkai
+Jordan Matthews
+Pumaqucha (Amazonas)
+Unic
+Bjarte Myrhol
+Sambito River
+Benjamin Harrison Reeves
+Beale Street
+Meelis Lindmaa
+Drosera aliciae
+The Movie Man
+George Washington High School (Chicago)
+Blue Sky Beverage Company
+Warsztaty Szybowcowe Orlik
+Justin Fojo
+Tab Townsell
+Asrul Sani
+Mount Pisgah (North Carolina)
+Eddie Burke (baseball)
+United by Fate
+Witów Silesian Voivodeship
+Shot Away
+Rapture Ruckus (EP)
+Daughter of the East
+Ritya
+Giant Forest Lodge Historic District
+Cancer (My Disco album)
+Choreutis piepersiana
+Brer Soul
+Acanthocobitis pavonacea
+Chadsey Lake
+ʻAisake Eke
+Pułkownikowo
+Lac des Mille Lacs
+A Small Good Thing
+Johnsontown Tobacco Barn No. 2
+Povedadaphne quadriporata
+Cadavres
+Boeing NB
+The Thing Called Love
+Persian Gulf
+Costoanachis similis
+A Summer to Die
+Madstock!
+Climate Capitalism
+The Divide (film)
+Mordellistena krauseri
+Textile Museum of Canada
+Veratrum californicum
+Django Sissoko
+K.C. Veeramani
+Quadrinity: Member's Best Selections
+Hajjiabad Tonekabon
+Together Live
+Sebeș River (Alba)
+Sugar Corporation of Uganda Limited
+Judge (manga)
+Yasser Seirawan
+The Phantom Gunslinger
+The Sky's the Limit (1938 film)
+Monilea
+Ulysses N. Arnett
+HMS Inglefield (D02)
+St Andrews Community Hospital
+Solidago ptarmicoides
+Actaea asiatica
+Ooku (album)
+Paadatha Thenikkal
+Ebach (Pinnau)
+Robert H. Chamberlain
+Sharpe's Christmas (story collection)
+House of Yes: Live from House of Blues
+Electro Brain
+Calochortus vestae
+Cesena Cathedral
+Kinoautomat
+Sarajevo Synagogue
+Pericallis × hybrida
+Clinical and Experimental Immunology
+Typha × smirnovii
+Bala Holu Sara
+Bohangar
+Chokka Thangam
+Buhalnița River (Bistrița)
+Henry A. Middleton
+German submarine U-3506
+Jain Kumar
+Alexander MacConachie
+May'n
+Takvim-i Vekayi
+Agustus Montrose
+Maine Media College
+Mike Lindup
+Gongora irmgardiae
+Koshkuh Fars
+Joe Pickett
+Callipielus fumosa
+Weber State University
+If Paris Were Told to Us
+First United Methodist Church (Laurel Maryland)
+University of South Bohemia in České Budějovice
+South West African Class Ha
+Eupithecia subtilis
+Satellite Rides
+Daniel Svensson
+Wire on the Box: 1979
+If These Streets Could Talk
+Bradarac (Aleksinac)
+Hezarrud-e Olya
+Terribly Happy
+Angylocalyceae
+Bill Ratliff
+Overbrook School
+Redflex Holdings
+Zupus (crater)
+French Camp Vineyards
+Found All the Parts
+Liberdade River (Juruá River)
+Cochylimorpha razowskiana
+Dypsis dransfieldii
+Sharon Walsh
+Ryan Hargrave
+Devil Masami
+HMS Warwick (D25)
+A Reader's Manifesto
+Mademoiselle from Armentieres (film)
+Jim McGovern (American politician)
+Hall PH
+679 Artists
+The Wedding Guest
+Bar Aftab-e Chah Dowpowk
+Tahtan Hormozgan
+Kav Sandhu
+Murj-e Shahrak
+Straw Men (novel)
+Francine Lalonde
+Ceanothus papillosus
+Tillandsia 'Pink Surprise'
+Madhuca palembanica
+Japanese submarine I-174
+Bhamini
+Kiwiberri
+Gal-class submarine
+Mendham Priory
+Octopus Kool Aid
+Saalim Hakim
+Todd Staples
+Traces o' Red
+Dallas International School
+Lombard College
+Presidents Leadership Class
+Călugăru River
+Hanapepe Town Lot No. 18
+Axeon
+Meghan Schnur
+Sırataşlar Aydıntepe
+Chasseral Pass
+USS Germantown (1846)
+Irvine Lake
+Y Foel Goch
+Mittelsberg
+Wink High School
+Uppsala University
+Mehan
+Tachystola stenoptera
+Alec Powers
+Scoparia contexta
+The Time Wanderers
+The Insomniac
+Starry flounder
+Milak Sistan and Baluchestan
+Hypnos Entertainment
+Kuhigan-e Bala
+Ambrose Bury
+Vitaliy Rozgon
+S. R. P. Sraiva
+Woonsocket District Courthouse
+Karbalayi Mehdi Gardeh
+Fabian Nicieza
+The Rising (LaHaye novel)
+Qian River
+Clarkenia miramundi
+Phyllospadix serrulatus
+Focus (German magazine)
+Elprice
+İmamlar Bartın
+Qeshlaq-e Ali Akbar Hamzeh
+Harry Philbrick
+Chomętowo Świdwin County
+Leucanopsis oruba
+Elaphrus smaragdiceps
+Danube (ship)
+DMACK
+Mingyang Wind Power
+Otse Hill
+Ivan Korponai
+George Theodore Mickelson
+Agathis australis
+Sarcocornia quinqueflora quinqueflora
+Herøy Church (Nordland)
+Love Demolition
+Salsorro
+Tal Hormozgan
+Shurab Rigan
+Maghull High School
+Nova Zembla (record label)
+Sonos
+New Detention
+Nuvem
+Pičín
+Derecik Arhavi
+Carposina hyperlopha
+Get That Man
+Brekken Church
+Georgetown Law Journal
+Mimulus layneae
+Jacques Benoit
+EXL
+Kingdom Bank (United Kingdom)
+Coop Norge
+Idolator (album)
+Our Conor
+Jem Evans
+Dante Gabriel Rossetti
+Kępno Pomeranian Voivodeship
+Chimbo River
+Francis Edward Gilman
+Dark Waters (1994 film)
+J. B. Priestley
+The Life of Joseph W. McVey
+Palacio Municipal (Montevideo)
+Taylor High School (North Bend Ohio)
+The Leg Fighters
+Allophanopsis
+Najas tenuifolia
+Mr. Chas and Lisa Sue Meet the Pandas
+A Gentleman of Paris (1931 film)
+International Finance Complex
+Sanford–Brown Institute Northloop
+Tsukasa Tawada
+Owraki Bozorg-e Olya
+Michael Barry (Northern Mariana Island footballer)
+Ayyappantamma Neyyappam Chuttu
+Hafniomonas
+White-browed Robin
+Sacred Heart of Jesus Church (Lawrenceburg Tennessee)
+Grace Hartigan
+Rafael Schmitz
+Julissa Ferreras
+Phyllanthus cauliflorus
+River John
+Beautiful Game Studios
+Bahrain Air
+Grant Smith (footballer)
+PIAS Recordings
+Unwrapped: Remixes
+Stephen Slesnick
+505 CST
+Ramsjön Haninge kommun
+Tibbits House
+Mehbudi-ye Olya
+The Complete Blue Note and Roost Recordings
+Netherthorpe School
+Himayatnagar Andhra Pradesh
+Heartbreaks and Earthquakes
+Albert Gallatin
+Page 3 (film)
+Tom Outridge Jr.
+Wayne Mills (singer)
+Tillandsia harrisii
+Triconolestes
+Propulsion Universelle et Recuperation d'Energie
+Alberto Rossi
+Garner's Modern American Usage
+A Morning Raga / An Evening Raga
+Flax solomoni
+St Matthew's Westminster
+Scot Project
+Reliance MediaWorks
+Central Charter de Colombia
+Bristol Type 223
+Ruslan Mukhametshin
+Lagascea
+Something of Time
+Now That's What I Call Music 28 (N.Z. series)
+Be-Shaque
+Maralköy Borçka
+Henrik Morén
+Valea Satului River (Jiblea)
+Dürre Holzminde
+Amsterdam Type foundry
+Ya Po Ah Terrace
+Canavalia gladiata
+E=MC² (Mariah Carey album)
+St James-the-Less Bethnal Green
+Kellamäe Saare County
+Sauerbruch – Das war mein Leben
+Arene riisei
+Captain Prabhakaran
+Alvania corneti
+Amaranthus furcatus
+Manuel Rodríguez (footballer)
+Columbia International University
+Yōko Teppōzuka
+Kilimán
+Stanton Fredericks
+Anthurium eggersii
+Kolej Sultan Abdul Hamid
+Chionanthus lucens
+HMS Endeavour
+Nick Evers
+Holy Trinity Ukrainian Orthodox Cathedral
+Ismene amancaes
+Salten Museum
+Avondale Secondary Alternative School
+Maximum Fighting Championship
+Neolamprologus similis
+Partnership Assurance
+Cecily Strong
+Ariocarpus scaphirostris
+USA Broadcasting
+Mark Nakashima
+Solanales
+Sameer Gupta
+50/50 (2011 film)
+Samuel B. Cooper
+Przepitki
+Clematis orientalis
+Eugène Mangalaza
+Chipmunk Mountain
+The Golden Hawk
+Badger Mountain
+Lakmos
+Mawnia Al-Kuwaitia
+Miguel Gustavo Peirano
+Pârâul Aspru
+Loud and Clear (The O.C. Supertones album)
+Torre Realia BCN
+Victoria Regina (play)
+Unitarian Universalist Church of Medford and the Osgood House
+Sydeston
+DeScribe
+Opole University of Technology
+The Ultimate Truth
+Tetrapteron palmeri
+Caresto
+Pierre Ducasse
+Custuri River
+Koji Yamasaki
+Die for You (novel)
+South African Class 8B 4-8-0
+Mount Banahaw
+Pirapemas River
+The Freeman
+Burg Lockenhaus
+Kurt Svanström
+Duane Methodist Episcopal Church
+Håvard Syvertsen
+Clinical and Vaccine Immunology
+Newark Memorial High School
+Marsilea drummondii
+Suffolk New College
+Vâna Mare River (Timiș)
+Cedar Rapids Scottish Rite Temple
+Eldora Historic District
+Taszewo
+Hilda Ellis Davidson
+Cevdet Sunay
+Gustavo Falciroli
+W.L. Seaton Secondary School
+Leśno Bytów County
+Harlan Hubbard
+A Sword from Red Ice
+Juraj Dobrila University of Pula
+GNRI Class SG
+Soufrière Hills
+Will Schwartz
+Tien Hung-mao
+Czajcze Piła County
+Iolaus cytaeis
+Zhou Weizhi
+The Day of the Dog
+Coltrane Jazz
+Cyprichromini
+Daniele Greco (footballer)
+Boris Williams
+The Happiness Project
+Robert Bork
+Anthurium sagittale
+Pasteur River
+Woodwardia areolata
+Bright Shiny Morning
+Nughab Torbat-e Heydarieh
+Stigmella johanssonella
+USS Melvin (DD-680)
+Schillings
+ROKS Chungmugong Yi Sun-sin (DDH-975)
+Trunk Music (novel)
+It's Only Natural (The Higher album)
+American Demo
+Panera Bread
+Net*One
+Charaxes galleyanus
+Pirolito
+Limognitherium
+Emory Point
+Frode Glesnes
+Reel 'N' Roll
+Taehwasan (Gyeonggi)
+Penny Ford
+USS Starboard Unit (1918)
+Horton Vineyards
+Made in Nepal
+Rapanea longifolia
+Beilby Lawley 3rd Baron Wenlock
+Galehead Mountain
+Jade Cargo International
+Marz Dasht
+Bob Breunig
+Lady in the Dark (film)
+Al Viola
+Poczta Polska
+Parma High School
+Island Saddle
+Ch-paa-qn Peak
+Y. kurudere Emirdağ
+Ranunculus alismifolius
+E Reece
+Crosby CR-4
+Anatoli Ivanov (footballer)
+Abrar
+Five Quarters of the Orange
+REA Group
+Adler (locomotive)
+Gladiator Records
+Scarlett Heights Entrepreneurial Academy
+Cameron Downtown
+The 88 (album)
+Anne Gonzales
+Selaginella carinata
+Ledermanniella keayi
+Rockbrook Park School
+Charles Wolcott Henry School
+Cocoș River (Agigea)
+Wasabi (film)
+Hydraecia medialis
+Mark Bailey (footballer)
+Leucozonia tuberculata
+Joseph E. Hall House (Tecumseh Michigan)
+21 & Up
+Barom One
+Intimate Lighting
+Patrick Cox
+Rajesh Verma
+Consata River
+Alfa Romeo Giulietta
+Mendip Times
+Patrician Brothers' College Blacktown
+USS LST-662
+El Hijo de la calle
+Latécoère 490
+Bathycranium
+Cubuy River (Loiza Puerto Rico)
+Julie Freeman (baseball)
+Theme (Byzantine district)
+Ferenc Szálasi
+Small Town Minds
+Zubeidaa
+Berenice (short story)
+Go to Sleep Jeff!
+Milan Mladenović
+The Broken Melody (1937 film)
+USS Trenton (LPD-14)
+Jimmy Morris (footballer)
+USS Flicker (AM-70)
+Enigmatic LIA
+L'avaro
+Dream Mall
+Computer World
+Canberra High School
+Frank Paton
+Leuciscus dzungaricus
+Cajun Beat
+İrsen Küçük
+Kachess River
+USS Polaris (AF-11)
+Cup of Tea (album)
+Smodingium
+Aechmea mertensii
+Lake Jefferson (Minnesota)
+William Richards (footballer)
+Kęszyca Leśna
+Candy Rock
+Aethesoides inanita
+Never Trust a Liberal Over 3—Especially a Republican
+Robinson House (Claymont Delaware)
+Lake Ossiach
+Human Resources (film)
+NME
+Carol Mann
+Echo Peak (Wyoming)
+Commiphora wightii
+The Best of Richard & Linda Thompson: The Island Record Years
+Bulbophyllum stipitatibulbum
+De La Salle University
+Garrya wrightii
+Vojislav Koštunica
+Valea cu Fagi River
+Davah Yataqi
+Bite Me Fanboy
+Silphium integrifolium
+Infiniti Etherea
+Martin Ryerson Tomb
+Catalpa bungei
+Sleeping Bride
+Glodișor River
+Wetzel's Pretzels
+The Abbey Beckington
+Christoffel van Swoll
+USS R-17 (SS-94)
+FatLip Recordings
+Clyde Spearman
+Hamaradia River
+When We Were the New Boys
+David H. Armstrong
+Bob Gassoff
+High Times: Singles 1992–2006
+Sydney Pokorny
+Al Ghurair University
+The Leela Palaces Hotels and Resorts
+Live at Tonic 2001
+Phalonidia synucha
+Unequal Childhoods
+Powerful-class cruiser
+Pygospila
+Homochira
+Mangrove Finch
+French armoured cruiser Edgar Quinet (1907)
+Better Things (film)
+Pyaar Kiya To Darna Kya (1998 film)
+DJ Vame
+Sumbal Khan
+Agharta (album)
+BMW X3
+St Mary MacKillop College Canberra
+Angry Lead Skies
+Sean Morris
+Southern Lee High School
+Royal Order of Kamehameha I
+Kalemler Manavgat
+Peter M. Shane
+Billy Leonard
+Abarema aspleniifolia
+Hydalsberget
+Achnatherum pekinense
+Pârâul Mic (Covasna)
+Steve Parkin (musician)
+Kingston High School (Washington)
+Colin Upton
+Söz Vermiş Şarkılar
+Coffee with... Biographies
+Piper laevigatum
+Handley Page Dart Herald
+The Promise (Mike Pinder album)
+MV Agusta Brutale series
+VCU School of Dentistry
+Hawker Cygnet
+Sviatoslav Mykhailiuk
+Ford CD4 platform
+New Haven Unified School District
+Multiwebcast
+Grand Lake St. Marys State Park
+G. Sieber Pancoast
+Skittish
+Murray Davies
+Hans Matthöfer
+Jack's Luck Runs Out
+Adenanthos drummondii
+Kayarcık Tufanbeyli
+Royal Air Force Gliding & Soaring Association
+Mikhail Zoshchenko
+Deh-e Kan
+Einstein's Monsters
+Cadlina
+Douglas C-132
+Johnson-Jolls Complex
+Irish Progressive Services International
+Otocinclus
+David M. Anthony House (Fall River Massachusetts)
+Melastoma polyanthum
+Illsee
+Hunter House (Detroit Michigan)
+Warring Kennedy
+Maruti Gypsy
+Portrait of Sonny Criss
+Black Ajax
+Krytyka Polityczna
+James Peake
+Bresle (river)
+Sakuzō Yoshino
+David F. Girard-diCarlo
+Malek Aït Alia
+Grenada Tree Anole
+Chung Yuan Christian University
+Odetta Sings Dylan
+Brighton City Airways
+Kałek Lubusz Voivodeship
+Ada Smith
+Koszanowo Kuyavian-Pomeranian Voivodeship
+USS Gillette (DE-681)
+Proailurus
+The Demi-Virgin
+Choqa Safar
+Jake Herbert
+Sports at Balita News
+Our Gang Follies of 1936
+Pseudophimosia
+Crescentia alata
+Meet the Family (album)
+Pax Britannica Trilogy
+The Lodge School
+Stewart County School District
+Stare Chlebiotki
+End Hits
+Murdin
+Van Xuan University of Technology
+Tsukuroi Tatsu Hito
+C&O 2755
+Prom Night (1980 film)
+Luis Mercedes
+Michael J. Fisher
+Peter D. Walter House
+Guatteria excelsa
+Visherka River
+Eistvere
+Eupithecia phaiosata
+Three Mile Island: A Nuclear Crisis in Historical Perspective
+Short Nimbus
+USCGC Point Grace (WPB-82323)
+Rosalind Alberta
+Taking Lives
+Straight Up with a Twist
+Love at Times Square
+St. Thomas' College Dehradun
+S Pictures
+Abdullah bin Abdul Kadir
+Suzanne Mubarak
+Österreichische Galerie Belvedere
+Live at Leeds
+One SeaGate
+Dinners Ready
+Tonight We Sing
+Michelle van Eimeren
+Sounds from Nowheresville
+Landfall (album)
+Khasheh
+Marc Garneau Collegiate Institute
+Arlington Plantation House (Washington Louisiana)
+Tobin Rote
+Alexandr Onishenko
+World's Largest Round Barn
+Tony MacAlpine
+LMS Stanier Class 2 0-4-4T
+Heart Mountain (Wyoming)
+University of Southern Mississippi
+Jarvis (crater)
+Ignacy Jan Paderewski
+Masked and Anonymous
+Mount Okmok
+Sintex Industries
+Gilmore Lake
+Trinity University College
+Edward W. Hudgins
+Mr. Mafioso
+The Myth of the American Superhero
+Leck Beck
+Noam Behr
+Russell Kelly
+Dave Goulder
+Schempp-Hirth Nimbus-2
+Odessa National Maritime Academy
+Kondapalli Raja
+British American School of Charlotte
+William F. Whiting
+Titan IIIA
+Gary Aubert
+Charles W. Eldridge
+Bear Nation
+Anne of Windy Poplars
+NACLA Report on the Americas
+Yamaha YZF600R
+Alexandru Chipciu
+Onur Aydın (footballer)
+Lehel Fekete
+Canteen Stores Department (India)
+Khao Sod
+Michael Moynihan (Cork politician)
+Astley Brook
+Mary Hansen
+Bulbophyllum pallens
+Observer (Dunkirk)
+USS Morris (1778)
+Mike Foote
+Hillside (Norfolk Connecticut)
+Bryan Willis Hamilton
+Obed River
+Coryphagrion grandis
+Nepenthes lingulata
+Hydra (skater)
+Savage Season
+Tarfu Lake
+Albert Green (footballer)
+Damien Rice
+James Wainaina Macharia
+Richard H. Mandel House
+Heliconia pardoi
+College of the North Atlantic
+Savoy Hotel and Grill
+Let in the Light
+Otto GmbH
+Cinnamon Teal
+Noijin Kangsang
+Zamanabad South Khorasan
+Owings Mills High School
+Fairey Ferret
+Arroyo Grande High School
+Rarities (The Stranglers album)
+Mooching Through Georgia
+St Mary's Chapel Arley
+Louise Fili
+Ivan Myasnikov
+North Sea Boats
+Lavinia R. Davis
+Phyllostominae
+Bramante (crater)
+L'Harmattan
+Omar Elabdellaoui
+Stephen F. Cohen
+Hylettus stigmosus
+ZYAT ZY
+MIT Museum
+Nevia spirata
+Betti-Cola
+Lutcher High School
+Voyages (poem)
+Barclays Bank (Uganda)
+Alfred Hitchcock's Anthology – Volume 5
+Alexander Johnston (British Army officer)
+The Nursemaid Who Disappeared
+Chah-e Ashair Hajji Nabi Hoseyni
+Hornavanskolan
+Corona (restaurant)
+Global Pastors Network
+Kuromajo-san ga Toru!!
+Mankyua
+Skyline SL-122 Pchelka
+Italian submarine Axum
+S.H. Couch
+South African Class 11 2-8-2
+Luis Miguel
+Untitled Cameron Crowe project
+Mark Norman (DJ)
+The Upside of Down
+Mark Wills (album)
+Mieścisko Masovian Voivodeship
+Kok River
+James G. Smyth
+Anacamptomyia
+Joseph Gelineau
+Old Stone House (Morgantown West Virginia)
+Billy Hibbert
+Scorpiurus muricatus
+Agnam Civol
+Otterbach (Klosterbeurener Bach)
+Martin Firrell
+Epicrocis gratella
+HMS Bombay (1808)
+Demirciler Nazilli
+Newtonia paucijuga
+Trilogy Tower
+Paul Woolford (field hockey)
+Schnucks
+Oceanview Motel
+The Stolen Necklace
+Prossa
+Cooper School Oxfordshire
+Stratemeyer Syndicate
+Richard Malcolm Johnston
+RoboCop 3
+Esmaeelabad Mirjaveh
+Port Hope Transit
+Steptorhamphus
+Now Appearing at Ole Miss
+Parastrophia
+Craigslist
+HMCS Regina (FFH 334)
+Chicks 'n Chained Males
+Dendrocalamus sikkimensis
+Daniel Bryan
+Ommatoiulus sabulosus
+Juno Mak
+Dalbeattie High School
+St. Mary's Canossian College
+Judaai (1980 film)
+ParaNorman
+CCGS D'Iberville
+Boshkeh
+Charlie Lake (British Columbia)
+Grevillea linsmithii
+University of Kalyani
+Flightstar
+Nimitz High School (Harris County Texas)
+Wilsons Peak
+Skipjack-class submarine
+Experion technologies
+Kirkintilloch Herald
+Marysville Pilchuck High School
+Nicholas Solovioff
+Faithful in My Fashion
+USRC Tench Coxe (1876)
+East Ridge High School (Minnesota)
+St. Joseph's Senior Secondary School Kanpur
+Burning Bright
+Demetrious Maxie
+Kabahigoth
+Lauro Júnior Batista da Cruz
+Calytrix leschenaultii
+USS Clarke County (LST-601)
+The Great War: Breakthroughs
+Creanga River (Firiza)
+Flashman on the March
+Yang Xia
+Paup P-Craft
+Jahidi White
+Oribe Peralta
+Taptu
+Nolan Ryan
+I Predict 1990
+Comin' Alive
+Psorothamnus fremontii
+Paxton Place
+Tom Rukavina
+Haliotis supertexta
+Amit Deshmukh
+The Betrayers
+St Illtyd's Catholic High School
+Pennsylvania School for the Deaf
+Thelypteris macra
+Behela River
+Marie Arena
+Gotisch huis (Groningen)
+Selaginella selaginoides
+Keith Waller
+Dragan Čović
+Cerrito Creek
+Midway Studios – Newcastle
+John McGinnis (politician)
+Saco River (Maranhão)
+Borderland State Park
+Biała Przemsza
+Dabbahu Volcano
+Steveston-London Secondary School
+La Garce
+North Worcester Aid Society
+Writer's Center
+Deep Fried Man
+Cheyney University of Pennsylvania
+Chicago Heights (film)
+Superman and Spider-Man
+McKenzie Lee
+The Quest Academy Croydon
+Myoleja boninensis
+Eyes of the Universe
+Sonny Til
+University of Cincinnati College of Law
+Yuki Kobayashi (footballer born 1992)
+The Public (play)
+Royal College Colombo
+The Gentleman Without a Residence
+Xenophora corrugata
+Kerrie Meares
+Winthrop University
+Road to the Octagon
+Jo + Jazz
+A. M. Homes
+Penstemon stephensii
+Adam (2009 film)
+Wesley Theological Seminary
+Enyalioides
+Tarnawa Górna Lesser Poland Voivodeship
+Brian Schweitzer
+Mickey Mouse and Friends (comic book)
+Kusilvak Mountains
+Anolis proboscis
+Damien Memorial School
+Manchester Jewish Museum
+Meitetsu 1600 series
+Beris
+Euphrasia rostkoviana
+HMS R3
+Atoyac web-footed salamander
+Mayu
+The Erl-King (novel)
+Michael Sprinkle
+Downstream (2010 film)
+Banksia serratuloides
+Crossroads (Tracy Chapman album)
+One Piece Film: Z
+Cincinnati CityBeat
+Marlo Koponen
+Secret Windows
+Hiller Aircraft
+Mesopherna
+Pouteria stenophylla
+American Economic Journal
+Mont Brome
+Genius 2000
+Follow the Flock Step in Shit
+Arthur Gwynn
+Ne budi me bez razloga
+Héctor Sanabria (footballer born 1985)
+USS Lowry (DD-770)
+The First Sir Percy
+Whiteochloa
+SMS Stralsund
+Bridgewater Systems
+University of Salford
+Foodtown
+Auto AG Rothenburg
+William Breman Jewish Heritage & Holocaust Museum
+Concord (District Heights Maryland)
+Brough Superior SS80
+Una Lágrima No Basta
+Anwar Ibrahim
+Yucca mixtecana
+Dr. Jivraj Mehta Institute of Technology Anand
+Northern fin whale
+Vietnam leaf-nosed bat
+Hadrurus arizonensis
+Conus explorator
+Scott Model 3S
+Ulmus glabra 'Macrophylla'
+Latitude on the River
+The Ant Men of Tibet and Other Stories
+Vincenzo Cecere
+Michaela Dornonville de la Cour
+Chah-e Mutur Nazami
+Pellston Public Schools
+Senecio flaccidus
+Shut Hell
+Barbas River
+Suaeda salina
+Belly (loyalty program)
+Strange Angels (Kristin Hersh album)
+Kihlevere
+Asian Computer College
+Babeș River
+Another Day of Life
+Air Force Times
+Marco Dawson
+Mimophilorhizus
+Sacrifice (novel)
+Acer sempervirens
+Jim Pitts
+Aphyocharacidium
+The Falcon's Feathers
+Rivière Sèche
+Almanac of the Dead
+Callopepla inachia
+Fame (novel)
+Minmini
+Malakoff (power company)
+Nissan Cherry
+Krzyżkowice
+Dylan Schmorrow
+The Night on the Emerald Moon
+Katherine Stewart Forbes (ship)
+Holy Cross Senior Secondary School Kapa
+HMV
+Boraras maculatus
+USS Tanner (AGS-15)
+Mlačište
+Siphonaria diemenensis
+Necker Belle
+I Awake
+Government College of Art & Craft
+Richard Cobb
+St Oswald's Church East Stoke
+Foothills Baptist Church (Essex New York)
+Hamid al-Ahmar
+Roger Whittaker
+Archie Meets the Punisher
+Călmățui River (Brăila)
+Geisberg (Geisberger Forst)
+Flying Cloud (clipper)
+USNS Shughart (T-AKR-295)
+SS Gyōkū Maru
+Orange County Drum and Percussion
+Alexander Markov
+Piptadenia weberbaueri
+Maserati 3500
+Harbin Y-11
+Symphony for Improvisers
+Hypolaena fastigiata
+Gypsonoma aceriana
+Acreichthys tomentosus
+Pampã River
+USS Des Moines (CL-17)
+Live Oak Brewing Company
+Earth vs. The Pipettes
+Al-Thager Model School
+Bear (2011 film)
+Sphenopteris
+SF '57: The Year's Greatest Science Fiction and Fantasy
+Rockdale (Fallston Maryland)
+Chashu
+Mount Penkenūshi
+Unexpected (film)
+Maximum (film)
+Ormonde Education Group
+Phesto
+Softly (album)
+Eiko Nagashima
+Tommy Glaviano
+Renée Morisset
+Mark Wyland
+Bill Bourne
+Cannibal Terror
+Valea Custurii River
+Ammophila sabulosa
+Angolachelys
+Lester Hudson
+Whitey Gibson
+Government Degree College Jhelum
+Amour Patrick Tignyemb
+Wadzire
+Spencer Browning & Rust
+Phyllocnistis abatiae
+Sophia University
+Cheqbook
+California State University Bakersfield
+Stepping Stones: Live at the Village Vanguard
+Amesiella philippensis
+Bell H-13 Sioux
+Edgar Quinet-class cruiser
+Scobee (crater)
+Colonel Frank Seely School
+Packera franciscana
+Noelie McDonnell
+Agricultural Development Bank of Zimbabwe
+Ezra Parmenter
+German cruiser Admiral Scheer
+Beekrumsing Ramlallah State Secondary School
+Cann Quarry Canal
+Maurice Seitz House
+Luis Ortiz Monasterio
+Pantotheria
+John Harris (Surrey cricketer)
+Santa Cruz High School
+Château d'Yquem
+Jungle Animals (book)
+Jim Docherty
+Ana and the Wolves
+Melinda E. Morgan House
+Chara M. Curtis
+Jakobsspitze
+Devathalara Deevinchandi
+Light (journal)
+Changsha (poem)
+Procecidochares kristineae
+Brandstätter Group
+Davis Saskatchewan
+Fidel Sánchez Hernández
+Padre nuestro (1985 film)
+Heliasteridae
+Euzophera tetragramma
+Sous l'Emprise des esprits
+Smalls Creek
+Thisizima bubalopa
+I Am Legend (film)
+Lakdar Bouzid
+Pogorzel Gmina Osieck
+An Unfinished Affair
+Milord (album)
+LibertyBus
+USS Libra (AKA-12)
+Southern Cross Broadcasting
+Perlindja e Shqipëniës
+Intentional Software
+Bandys High School
+Cheng Kung Senior High School
+Toledo Free Press
+Vanilla bahiana
+Oxynoemacheilus theophilii
+Hyporhamphus yuri
+Shahrak-e Emam Sadeq
+Naresh Gaur
+Martin W. Carr School
+Tangshan NO.1 high school
+Hard Station
+Nursar
+Jiulong River
+Chlorognesia
+A Queen Is Crowned
+Krstače
+Gordonia multinervis
+Ken Bagley
+Marco Corti
+Warner-Amex Satellite Entertainment
+David Andrews (Irish politician)
+High School for Arts and Business
+Some Tame Gazelle
+Chełmer Sztyme
+Somers Town (film)
+Ross Miller
+Jennifer Scales and the Messenger of Light
+Forever 21
+Dolphin Discovery
+Xylopia elliptica
+American Academy Nicosia
+HNoMS King Haakon VII
+Ellen Moran
+Buddleja albiflora
+Esfeh
+Gergő Oláh
+Pritilata Waddedar Mahavidyalaya
+Up Popped the Two Lips
+L'onorevole con l'amante sotto il letto
+Cambodia Pol Pot and the United States
+Vácrátót
+Medicis Pharmaceutical
+Chah-e Bey Bey Ali
+Mitromica cosmani
+The Ambassadors
+A Touch of the Sun (1956 film)
+James W. Ross
+Naga Pelangi (Junk Schooner)
+Proeulia longula
+Microsoft Press
+Mr. Vampire
+The Chosun Ilbo
+Second Youth (1938 film)
+Carajá River
+Mountain View School District (Pennsylvania)
+OSKBES MAI-208
+The Black Carpet (album)
+Thomas Hickman Williams
+Laurelia
+Blackwater River (Maryland)
+Smoke (Miscione novel)
+Baquiá Preto River
+The Islamic Academy
+Ann Carver's Profession
+Giuseppe Miti Zanetti
+Säntis
+Homaabad-e Olya
+Eugnosta proanoa
+Edem Awumey
+Oak Park High School (Manitoba)
+Northwest A&F University
+Sacred Heart Cathedral (Dodge City Kansas)
+Brantford Transit
+Patricia Lantz
+Minnesota Boat Club Boathouse on Raspberry Island
+Hoffman (film)
+Porcellana sayana
+Crowds on Demand
+Monthly Comic Ryū
+Neocoenyra paralellopupillata
+Rissoa sarsii
+Villarica villaricae
+The Man Who Changed His Name (1928 film)
+Butterflies Are Free
+Carex subnigricans
+Burgruine Himmelberg
+Manuel Zamora
+Benthomangelia trophonoidea
+Culver Entertainment
+Hôtel de Simiane
+Bulbophyllum aubrevillei
+Fragaria pentaphylla
+Inierie
+Chemie und Liebe
+More Songs for Dreamsleepers and the Very Awake
+The Dominion Post (Morgantown)
+Pinheyschna
+Pudu Prison
+Amina Figarova
+Frank Forman
+Walter Freeman (footballer)
+Bassarona dunya
+Shorea macrobalanos
+Montana Coyote
+Irkutsk State University
+Viktor Nekrasov
+Florencja Sierpc County
+Institute of Contemporary Art Boston
+Mowtowr-e Atahadik
+Bait Range
+Rainer Riehn
+Typhina latipennis
+Anthene licates
+Valea Dâljii River
+Shintaro Abe
+Zielona Gmina Supraśl
+Wanted – $5000
+Democrasoft
+Gypsochares baptodactylus
+Brugmansia sanguinea
+Hayato Nakama
+Salem Community College
+Biernacice Lower Silesian Voivodeship
+Ferie d'agosto
+José Martí Memorial
+Bordesley Junction
+De Cive
+Jim Anderson (sound engineer)
+Heggjabygda
+Godljevo
+Graham Higgins
+Milky Way Farm
+Thoor Ballylee
+Dębsko-Ośrodek
+Vladimir River
+Community High School (Teaneck New Jersey)
+Fulad Kola Nur
+Mike Brannan
+WWII/Korea LVT Museum
+Louis Lobong Lojore
+Cross Roads High School
+National Institute of Rehabilitation Training and Research
+Studies of the Book of Mormon
+Omitlán River
+General election
+Symplocos verrucisurcula
+Greater Miami Adventist Academy
+Cheilanthes sieberi
+MV Sydney 2000
+Cattenbroek
+Fasthosts
+White-faced Plover
+Alchemy (novel)
+Aleksandr Kharlov
+Fire Barn 5
+Woodlawn (Austin Texas)
+My First Kiss (film)
+Vesperus fuentei
+Medicago lupulina
+Sacramento blackfish
+Galianeh-ye Ali Baqer
+Dendrobium albosanguineum
+Garnet Bougoure
+National Commodity and Derivatives Exchange
+The Zombie King
+Indian Spotted Creeper
+Darrell Sweet (musician)
+The Adventures of Tom Sawyer
+Stars in My Crown (film)
+Jenő Ghyczy
+Bridge Learning Campus
+Lee Brilleaux
+Khorasanlu Zanjan
+Wharf borer
+Teichfuss Sparviero
+Hypertension (journal)
+Belvata
+Kate Allan
+Lake Sfânta Ana
+Woods-Meade House
+The Room (play)
+Joseph's Gift
+Camp Nowhere
+Fred Besana
+Portomaso Business Tower
+Mohamed Sadik Coubageat
+Time to Pee!
+Green Templeton College Oxford
+A Night in the Woods
+Neuro: Supernatural Detective
+Byrsophyllum
+Pohoří (Prague-West District)
+Keepers of the House
+Manfred Siebald
+Sangram (1993 film)
+Ypsolopha electropa
+Last Drive (album)
+Lincoln Northeast High School
+Millard Sheets
+Rebecca Wing
+Burke Inc.
+Taherabad-e Torkha
+Euarestoides
+Manilkara paraensis
+Jacek Morajko
+Quarry Bridge
+Last Bus to Woodstock
+Sidalcea glaucescens
+J. T. Waggoner
+Northern Pygmy Owl
+Central Florida Railroad Museum
+Teri Diver
+Lieve Maes
+Sunesis Pharmaceuticals
+Freddie Rodriguez
+Peter Plympton Smith
+Chattri (Brighton)
+Pomatiopsis lapidaria
+Jupiter Ascending
+Vladimir Zhirinovsky
+Sopwith Aviation Company
+Sticky Beak
+Professional Rapper
+South African Class D 2-6-4T
+Płaczkowo Rawicz County
+St Mary Peak
+Mameve Medwed
+Fever Ray (album)
+Stranraer Academy
+Thiền Quang Lake
+River Teith
+USS Wexford County (LST-1168)
+Higher Education (novel)
+Saint Thomas Health
+Khare Nepal
+USS Chatterer (AMc-16)
+Electric Bird Digest
+5600
+700
+epoch 0 entropy 2.668354
+iter: 0, test accuracy: 0.0728571
+epoch 1 entropy 2.64609
+iter: 1, test accuracy: 0.122857
+epoch 2 entropy 2.4237142
+iter: 2, test accuracy: 0.211429
+epoch 3 entropy 2.1186533
+iter: 3, test accuracy: 0.298571
+epoch 4 entropy 1.9156374
+iter: 4, test accuracy: 0.318571
+epoch 5 entropy 1.7678082
+iter: 5, test accuracy: 0.371429
+epoch 6 entropy 1.657542
+iter: 6, test accuracy: 0.421429
+epoch 7 entropy 1.5785508
+iter: 7, test accuracy: 0.405714
+epoch 8 entropy 1.4975938
+iter: 8, test accuracy: 0.415714
+epoch 9 entropy 1.4446279
+iter: 9, test accuracy: 0.451429
+epoch 10 entropy 1.3960036
+iter: 10, test accuracy: 0.452857
+epoch 11 entropy 1.3519124
+iter: 11, test accuracy: 0.47
+epoch 12 entropy 1.3102518
+iter: 12, test accuracy: 0.475714
+epoch 13 entropy 1.2927868
+iter: 13, test accuracy: 0.492857
+epoch 14 entropy 1.2529774
+iter: 14, test accuracy: 0.464286
+epoch 15 entropy 1.2164971
+iter: 15, test accuracy: 0.448571
+epoch 16 entropy 1.2120016
+iter: 16, test accuracy: 0.478571
+epoch 17 entropy 1.1732827
+iter: 17, test accuracy: 0.477143
+epoch 18 entropy 1.1481712
+iter: 18, test accuracy: 0.484286
+epoch 19 entropy 1.1335995
+iter: 19, test accuracy: 0.475714
+epoch 20 entropy 1.1300155
+iter: 20, test accuracy: 0.491429
+epoch 21 entropy 1.10188
+iter: 21, test accuracy: 0.481429
+epoch 22 entropy 1.087554
+iter: 22, test accuracy: 0.49
+epoch 23 entropy 1.0777684
+iter: 23, test accuracy: 0.485714
+epoch 24 entropy 1.0457249
+iter: 24, test accuracy: 0.482857
+epoch 25 entropy 1.019889
+iter: 25, test accuracy: 0.487143
+epoch 26 entropy 1.0315026
+iter: 26, test accuracy: 0.491429
+epoch 27 entropy 1.0480198
+iter: 27, test accuracy: 0.487143
+epoch 28 entropy 1.0482433
+iter: 28, test accuracy: 0.507143
+epoch 29 entropy 0.9919753
+iter: 29, test accuracy: 0.491429
+epoch 30 entropy 0.96778
+iter: 30, test accuracy: 0.492857
+epoch 31 entropy 0.9674548
+iter: 31, test accuracy: 0.482857
+epoch 32 entropy 0.93301916
+iter: 32, test accuracy: 0.481429
+epoch 33 entropy 0.9261909
+iter: 33, test accuracy: 0.475714
+epoch 34 entropy 0.930285
+iter: 34, test accuracy: 0.485714
+epoch 35 entropy 0.905328
+iter: 35, test accuracy: 0.468571
+epoch 36 entropy 0.9173088
+iter: 36, test accuracy: 0.465714
+epoch 37 entropy 1.0445988
+iter: 37, test accuracy: 0.448571
+epoch 38 entropy 1.0598326
+iter: 38, test accuracy: 0.487143
+epoch 39 entropy 0.91911155
+iter: 39, test accuracy: 0.451429
+epoch 40 entropy 0.8875885
+iter: 40, test accuracy: 0.468571
+epoch 41 entropy 0.88069206
+iter: 41, test accuracy: 0.477143
+epoch 42 entropy 0.84838194
+iter: 42, test accuracy: 0.475714
+epoch 43 entropy 0.8180251
+iter: 43, test accuracy: 0.498571
+epoch 44 entropy 0.8195129
+iter: 44, test accuracy: 0.482857
+epoch 45 entropy 0.8539696
+iter: 45, test accuracy: 0.471429
+epoch 46 entropy 0.8156335
+iter: 46, test accuracy: 0.478571
+epoch 47 entropy 0.8117987
+iter: 47, test accuracy: 0.451429
+epoch 48 entropy 0.80551624
+iter: 48, test accuracy: 0.478571
+epoch 49 entropy 0.8373762
+iter: 49, test accuracy: 0.465714
+epoch 50 entropy 0.91149414
+iter: 50, test accuracy: 0.475714
+epoch 51 entropy 0.81684566
+iter: 51, test accuracy: 0.462857
+epoch 52 entropy 0.7682811
+iter: 52, test accuracy: 0.47
+epoch 53 entropy 0.7680735
+iter: 53, test accuracy: 0.467143
+epoch 54 entropy 0.7670393
+iter: 54, test accuracy: 0.462857
+epoch 55 entropy 0.77199894
+iter: 55, test accuracy: 0.474286
+epoch 56 entropy 0.7620717
+iter: 56, test accuracy: 0.462857
+epoch 57 entropy 0.76457053
+iter: 57, test accuracy: 0.451429
+epoch 58 entropy 0.7279033
+iter: 58, test accuracy: 0.47
+epoch 59 entropy 0.7262875
+iter: 59, test accuracy: 0.447143
+epoch 60 entropy 0.7712698
+iter: 60, test accuracy: 0.472857
+epoch 61 entropy 0.73649716
+iter: 61, test accuracy: 0.45
+epoch 62 entropy 0.73084974
+iter: 62, test accuracy: 0.46
+epoch 63 entropy 0.7528274
+iter: 63, test accuracy: 0.451429
+epoch 64 entropy 0.7193382
+iter: 64, test accuracy: 0.455714
+epoch 65 entropy 0.69857436
+iter: 65, test accuracy: 0.458571
+epoch 66 entropy 0.7116257
+iter: 66, test accuracy: 0.457143
+epoch 67 entropy 0.7246553
+iter: 67, test accuracy: 0.465714
+epoch 68 entropy 0.7056466
+iter: 68, test accuracy: 0.461429
+epoch 69 entropy 0.70679516
+iter: 69, test accuracy: 0.46
+epoch 70 entropy 0.80625534
+iter: 70, test accuracy: 0.461429
+epoch 71 entropy 0.72656244
+iter: 71, test accuracy: 0.465714
+epoch 72 entropy 0.71992296
+iter: 72, test accuracy: 0.47
+epoch 73 entropy 0.68084395
+iter: 73, test accuracy: 0.445714
+epoch 74 entropy 0.6641466
+iter: 74, test accuracy: 0.437143
+epoch 75 entropy 0.686354
+iter: 75, test accuracy: 0.461429
+epoch 76 entropy 0.7242462
+iter: 76, test accuracy: 0.451429
+epoch 77 entropy 0.7151842
+iter: 77, test accuracy: 0.461429
+epoch 78 entropy 0.6730146
+iter: 78, test accuracy: 0.482857
+epoch 79 entropy 0.6588178
+iter: 79, test accuracy: 0.457143
+epoch 80 entropy 0.6492455
+iter: 80, test accuracy: 0.461429
+epoch 81 entropy 0.65908706
+iter: 81, test accuracy: 0.462857
+epoch 82 entropy 0.6856809
+iter: 82, test accuracy: 0.462857
+epoch 83 entropy 0.66473734
+iter: 83, test accuracy: 0.46
+epoch 84 entropy 0.6537518
+iter: 84, test accuracy: 0.461429
+epoch 85 entropy 0.6628535
+iter: 85, test accuracy: 0.464286
+epoch 86 entropy 0.6607731
+iter: 86, test accuracy: 0.455714
+epoch 87 entropy 0.66265905
+iter: 87, test accuracy: 0.47
+epoch 88 entropy 0.6910784
+iter: 88, test accuracy: 0.455714
+epoch 89 entropy 0.6539957
+iter: 89, test accuracy: 0.467143
+epoch 90 entropy 0.64751434
+iter: 90, test accuracy: 0.471429
+epoch 91 entropy 0.6302446
+iter: 91, test accuracy: 0.457143
+epoch 92 entropy 0.6382837
+iter: 92, test accuracy: 0.464286
+epoch 93 entropy 0.66921335
+iter: 93, test accuracy: 0.454286
+epoch 94 entropy 0.6500425
+iter: 94, test accuracy: 0.467143
+epoch 95 entropy 0.6631145
+iter: 95, test accuracy: 0.472857
+epoch 96 entropy 0.7522605
+iter: 96, test accuracy: 0.468571
+epoch 97 entropy 0.69605273
+iter: 97, test accuracy: 0.474286
+epoch 98 entropy 0.729833
+iter: 98, test accuracy: 0.46
+epoch 99 entropy 0.6953381
+iter: 99, test accuracy: 0.452857
+epoch 100 entropy 0.6214177
+iter: 100, test accuracy: 0.457143
+epoch 101 entropy 0.5919994
+iter: 101, test accuracy: 0.478571
+epoch 102 entropy 0.57746
+iter: 102, test accuracy: 0.45
+epoch 103 entropy 0.5958293
+iter: 103, test accuracy: 0.444286
+epoch 104 entropy 0.5990157
+iter: 104, test accuracy: 0.462857
+epoch 105 entropy 0.60183567
+iter: 105, test accuracy: 0.475714
+epoch 106 entropy 0.6246658
+iter: 106, test accuracy: 0.454286
+epoch 107 entropy 0.6601332
+iter: 107, test accuracy: 0.455714
+epoch 108 entropy 0.6195009
+iter: 108, test accuracy: 0.468571
+epoch 109 entropy 0.5921001
+iter: 109, test accuracy: 0.454286
+epoch 110 entropy 1.8552356
+iter: 110, test accuracy: 0.384286
+epoch 111 entropy 1.3542942
+iter: 111, test accuracy: 0.431429
+epoch 112 entropy 1.1751072
+iter: 112, test accuracy: 0.447143
+epoch 113 entropy 1.0712223
+iter: 113, test accuracy: 0.467143
+epoch 114 entropy 1.0107572
+iter: 114, test accuracy: 0.45
+epoch 115 entropy 0.9549913
+iter: 115, test accuracy: 0.467143
+epoch 116 entropy 0.9044789
+iter: 116, test accuracy: 0.45
+epoch 117 entropy 0.8700064
+iter: 117, test accuracy: 0.445714
+epoch 118 entropy 0.8414129
+iter: 118, test accuracy: 0.461429
+epoch 119 entropy 0.8050772
+iter: 119, test accuracy: 0.45
+epoch 120 entropy 0.77522945
+iter: 120, test accuracy: 0.462857
+epoch 121 entropy 0.75272083
+iter: 121, test accuracy: 0.464286
+epoch 122 entropy 0.737689
+iter: 122, test accuracy: 0.467143
+epoch 123 entropy 0.72132427
+iter: 123, test accuracy: 0.461429
+epoch 124 entropy 0.7023425
+iter: 124, test accuracy: 0.462857
+epoch 125 entropy 0.6875215
+iter: 125, test accuracy: 0.457143
+epoch 126 entropy 0.6845919
+iter: 126, test accuracy: 0.448571
+epoch 127 entropy 0.6943559
+iter: 127, test accuracy: 0.455714
+epoch 128 entropy 0.6761982
+iter: 128, test accuracy: 0.46
+epoch 129 entropy 0.70373195
+iter: 129, test accuracy: 0.475714
+epoch 130 entropy 0.6713915
+iter: 130, test accuracy: 0.445714
+epoch 131 entropy 0.63020325
+iter: 131, test accuracy: 0.452857
+epoch 132 entropy 0.6227152
+iter: 132, test accuracy: 0.457143
+epoch 133 entropy 0.62073493
+iter: 133, test accuracy: 0.462857
+epoch 134 entropy 0.6389028
+iter: 134, test accuracy: 0.447143
+epoch 135 entropy 0.60695356
+iter: 135, test accuracy: 0.444286
+epoch 136 entropy 0.61455816
+iter: 136, test accuracy: 0.464286
+epoch 137 entropy 0.61299366
+iter: 137, test accuracy: 0.452857
+epoch 138 entropy 0.6322994
+iter: 138, test accuracy: 0.455714
+epoch 139 entropy 0.6198147
+iter: 139, test accuracy: 0.448571
+epoch 140 entropy 0.58369577
+iter: 140, test accuracy: 0.46
+epoch 141 entropy 0.6281493
+iter: 141, test accuracy: 0.441429
+epoch 142 entropy 0.63237023
+iter: 142, test accuracy: 0.457143
+epoch 143 entropy 0.6425336
+iter: 143, test accuracy: 0.451429
+epoch 144 entropy 0.6123292
+iter: 144, test accuracy: 0.458571
+epoch 145 entropy 0.5650696
+iter: 145, test accuracy: 0.461429
+epoch 146 entropy 0.565235
+iter: 146, test accuracy: 0.45
+epoch 147 entropy 0.5665684
+iter: 147, test accuracy: 0.455714
+epoch 148 entropy 0.5801954
+iter: 148, test accuracy: 0.45
+epoch 149 entropy 0.54974353
+iter: 149, test accuracy: 0.45
+epoch 150 entropy 0.6451128
+iter: 150, test accuracy: 0.432857
+epoch 151 entropy 0.646385
+iter: 151, test accuracy: 0.458571
+epoch 152 entropy 0.6224524
+iter: 152, test accuracy: 0.452857
+epoch 153 entropy 0.5913482
+iter: 153, test accuracy: 0.455714
+epoch 154 entropy 0.57973284
+iter: 154, test accuracy: 0.434286
+epoch 155 entropy 0.5753688
+iter: 155, test accuracy: 0.468571
+epoch 156 entropy 0.55818063
+iter: 156, test accuracy: 0.452857
+epoch 157 entropy 0.5493819
+iter: 157, test accuracy: 0.45
+epoch 158 entropy 0.5402811
+iter: 158, test accuracy: 0.457143
+epoch 159 entropy 0.5484754
+iter: 159, test accuracy: 0.447143
+epoch 160 entropy 0.6294722
+iter: 160, test accuracy: 0.438571
+epoch 161 entropy 0.6207987
+iter: 161, test accuracy: 0.437143
+epoch 162 entropy 0.5822004
+iter: 162, test accuracy: 0.454286
+epoch 163 entropy 0.5378748
+iter: 163, test accuracy: 0.454286
+epoch 164 entropy 0.5266676
+iter: 164, test accuracy: 0.452857
+epoch 165 entropy 0.52875924
+iter: 165, test accuracy: 0.455714
+epoch 166 entropy 0.58490175
+iter: 166, test accuracy: 0.432857
+epoch 167 entropy 0.78815174
+iter: 167, test accuracy: 0.447143
+epoch 168 entropy 0.62499624
+iter: 168, test accuracy: 0.452857
+epoch 169 entropy 0.5333194
+iter: 169, test accuracy: 0.468571
+epoch 170 entropy 0.5460149
+iter: 170, test accuracy: 0.455714
+epoch 171 entropy 0.56576586
+iter: 171, test accuracy: 0.447143
+epoch 172 entropy 0.54129004
+iter: 172, test accuracy: 0.452857
+epoch 173 entropy 0.5407201
+iter: 173, test accuracy: 0.444286
+epoch 174 entropy 0.5411825
+iter: 174, test accuracy: 0.448571
+epoch 175 entropy 0.54641384
+iter: 175, test accuracy: 0.445714
+epoch 176 entropy 0.5402805
+iter: 176, test accuracy: 0.462857
+epoch 177 entropy 0.5279499
+iter: 177, test accuracy: 0.448571
+epoch 178 entropy 0.51577944
+iter: 178, test accuracy: 0.454286
+epoch 179 entropy 0.7860256
+iter: 179, test accuracy: 0.412857
+epoch 180 entropy 0.8845403
+iter: 180, test accuracy: 0.471429
+epoch 181 entropy 0.6624207
+iter: 181, test accuracy: 0.458571
+epoch 182 entropy 0.56221026
+iter: 182, test accuracy: 0.452857
+epoch 183 entropy 0.6087611
+iter: 183, test accuracy: 0.461429
+epoch 184 entropy 0.63959926
+iter: 184, test accuracy: 0.454286
+epoch 185 entropy 0.55956435
+iter: 185, test accuracy: 0.462857
+epoch 186 entropy 0.52702385
+iter: 186, test accuracy: 0.471429
+epoch 187 entropy 0.50591356
+iter: 187, test accuracy: 0.457143
+epoch 188 entropy 0.54988724
+iter: 188, test accuracy: 0.458571
+epoch 189 entropy 0.5796371
+iter: 189, test accuracy: 0.461429
+epoch 190 entropy 0.49002355
+iter: 190, test accuracy: 0.452857
+epoch 191 entropy 0.5487777
+iter: 191, test accuracy: 0.45
+epoch 192 entropy 0.5318535
+iter: 192, test accuracy: 0.455714
+epoch 193 entropy 0.4815731
+iter: 193, test accuracy: 0.44
+epoch 194 entropy 0.4597782
+iter: 194, test accuracy: 0.457143
+epoch 195 entropy 0.52367544
+iter: 195, test accuracy: 0.445714
+epoch 196 entropy 0.5325422
+iter: 196, test accuracy: 0.435714
+epoch 197 entropy 0.5129203
+iter: 197, test accuracy: 0.454286
+epoch 198 entropy 0.4751119
+iter: 198, test accuracy: 0.465714
+epoch 199 entropy 0.45249137
+iter: 199, test accuracy: 0.468571
+epoch 200 entropy 0.47017717
+iter: 200, test accuracy: 0.462857
+epoch 201 entropy 0.52832025
+iter: 201, test accuracy: 0.465714
+epoch 202 entropy 0.571724
+iter: 202, test accuracy: 0.45
+epoch 203 entropy 0.5794968
+iter: 203, test accuracy: 0.447143
+epoch 204 entropy 0.5661048
+iter: 204, test accuracy: 0.447143
+epoch 205 entropy 0.49401322
+iter: 205, test accuracy: 0.464286
+epoch 206 entropy 0.48028144
+iter: 206, test accuracy: 0.44
+epoch 207 entropy 0.5750347
+iter: 207, test accuracy: 0.465714
+epoch 208 entropy 0.52718586
+iter: 208, test accuracy: 0.445714
+epoch 209 entropy 0.4946346
+iter: 209, test accuracy: 0.458571
+epoch 210 entropy 0.4853493
+iter: 210, test accuracy: 0.46
+epoch 211 entropy 0.47636622
+iter: 211, test accuracy: 0.454286
+epoch 212 entropy 0.47159067
+iter: 212, test accuracy: 0.478571
+epoch 213 entropy 0.47475812
+iter: 213, test accuracy: 0.461429
+epoch 214 entropy 0.46289906
+iter: 214, test accuracy: 0.447143
+epoch 215 entropy 0.46192262
+iter: 215, test accuracy: 0.452857
+epoch 216 entropy 0.43732643
+iter: 216, test accuracy: 0.452857
+epoch 217 entropy 0.43913597
+iter: 217, test accuracy: 0.468571
+epoch 218 entropy 0.51802087
+iter: 218, test accuracy: 0.458571
+epoch 219 entropy 0.49531543
+iter: 219, test accuracy: 0.465714
+epoch 220 entropy 0.4862073
+iter: 220, test accuracy: 0.46
+epoch 221 entropy 0.486651
+iter: 221, test accuracy: 0.47
+epoch 222 entropy 0.4307522
+iter: 222, test accuracy: 0.47
+epoch 223 entropy 0.47490266
+iter: 223, test accuracy: 0.434286
+epoch 224 entropy 0.7467651
+iter: 224, test accuracy: 0.471429
+epoch 225 entropy 0.65996253
+iter: 225, test accuracy: 0.452857
+epoch 226 entropy 0.5209856
+iter: 226, test accuracy: 0.458571
+epoch 227 entropy 0.46714565
+iter: 227, test accuracy: 0.45
+epoch 228 entropy 0.45472175
+iter: 228, test accuracy: 0.455714
+epoch 229 entropy 0.46636984
+iter: 229, test accuracy: 0.472857
+epoch 230 entropy 0.46956706
+iter: 230, test accuracy: 0.448571
+epoch 231 entropy 0.43225163
+iter: 231, test accuracy: 0.451429
+epoch 232 entropy 0.43030006
+iter: 232, test accuracy: 0.45
+epoch 233 entropy 0.46163848
+iter: 233, test accuracy: 0.448571
+epoch 234 entropy 0.44795346
+iter: 234, test accuracy: 0.462857
+epoch 235 entropy 0.43409973
+iter: 235, test accuracy: 0.462857
+epoch 236 entropy 0.5085518
+iter: 236, test accuracy: 0.44
+epoch 237 entropy 0.5921289
+iter: 237, test accuracy: 0.45
+epoch 238 entropy 0.55135876
+iter: 238, test accuracy: 0.462857
+epoch 239 entropy 0.50839615
+iter: 239, test accuracy: 0.451429
+epoch 240 entropy 0.48641023
+iter: 240, test accuracy: 0.451429
+epoch 241 entropy 0.48150387
+iter: 241, test accuracy: 0.464286
+epoch 242 entropy 0.43704352
+iter: 242, test accuracy: 0.46
+epoch 243 entropy 0.43715575
+iter: 243, test accuracy: 0.462857
+epoch 244 entropy 0.44072458
+iter: 244, test accuracy: 0.46
+epoch 245 entropy 0.49331418
+iter: 245, test accuracy: 0.45
+epoch 246 entropy 0.51279944
+iter: 246, test accuracy: 0.458571
+epoch 247 entropy 0.51800823
+iter: 247, test accuracy: 0.455714
+epoch 248 entropy 0.5006136
+iter: 248, test accuracy: 0.458571
+epoch 249 entropy 0.47918218
+iter: 249, test accuracy: 0.445714
+epoch 250 entropy 0.49799404
+iter: 250, test accuracy: 0.431429
+epoch 251 entropy 0.60746354
+iter: 251, test accuracy: 0.45
+epoch 252 entropy 0.48130387
+iter: 252, test accuracy: 0.437143
+epoch 253 entropy 0.43476033
+iter: 253, test accuracy: 0.451429
+epoch 254 entropy 0.4338825
+iter: 254, test accuracy: 0.45
+epoch 255 entropy 0.48895112
+iter: 255, test accuracy: 0.455714
+epoch 256 entropy 0.4945883
+iter: 256, test accuracy: 0.46
+epoch 257 entropy 0.44239855
+iter: 257, test accuracy: 0.462857
+epoch 258 entropy 0.40894556
+iter: 258, test accuracy: 0.438571
+epoch 259 entropy 0.55070794
+iter: 259, test accuracy: 0.47
+epoch 260 entropy 0.5368923
+iter: 260, test accuracy: 0.454286
+epoch 261 entropy 0.44899142
+iter: 261, test accuracy: 0.47
+epoch 262 entropy 0.47961226
+iter: 262, test accuracy: 0.457143
+epoch 263 entropy 0.45607328
+iter: 263, test accuracy: 0.458571
+epoch 264 entropy 0.41938272
+iter: 264, test accuracy: 0.447143
+epoch 265 entropy 0.42941055
+iter: 265, test accuracy: 0.464286
+epoch 266 entropy 0.44511914
+iter: 266, test accuracy: 0.447143
+epoch 267 entropy 0.55848694
+iter: 267, test accuracy: 0.457143
+epoch 268 entropy 0.5350022
+iter: 268, test accuracy: 0.448571
+epoch 269 entropy 0.47751763
+iter: 269, test accuracy: 0.455714
+epoch 270 entropy 0.46078837
+iter: 270, test accuracy: 0.454286
+epoch 271 entropy 0.46018735
+iter: 271, test accuracy: 0.445714
+epoch 272 entropy 0.44341668
+iter: 272, test accuracy: 0.467143
+epoch 273 entropy 0.4103073
+iter: 273, test accuracy: 0.465714
+epoch 274 entropy 0.3945674
+iter: 274, test accuracy: 0.458571
+epoch 275 entropy 0.41661006
+iter: 275, test accuracy: 0.445714
+epoch 276 entropy 0.46169418
+iter: 276, test accuracy: 0.451429
+epoch 277 entropy 0.43415424
+iter: 277, test accuracy: 0.455714
+epoch 278 entropy 0.43640828
+iter: 278, test accuracy: 0.452857
+epoch 279 entropy 0.4708436
+iter: 279, test accuracy: 0.46
+epoch 280 entropy 0.48809242
+iter: 280, test accuracy: 0.442857
+epoch 281 entropy 0.51100326
+iter: 281, test accuracy: 0.448571
+epoch 282 entropy 0.48217526
+iter: 282, test accuracy: 0.46
+epoch 283 entropy 0.44447017
+iter: 283, test accuracy: 0.462857
+epoch 284 entropy 0.41097632
+iter: 284, test accuracy: 0.48
+epoch 285 entropy 0.38839784
+iter: 285, test accuracy: 0.461429
+epoch 286 entropy 0.39063838
+iter: 286, test accuracy: 0.455714
+epoch 287 entropy 0.48906925
+iter: 287, test accuracy: 0.46
+epoch 288 entropy 0.53450805
+iter: 288, test accuracy: 0.467143
+epoch 289 entropy 0.4665337
+iter: 289, test accuracy: 0.461429
+epoch 290 entropy 0.4405377
+iter: 290, test accuracy: 0.45
+epoch 291 entropy 0.6359594
+iter: 291, test accuracy: 0.45
+epoch 292 entropy 0.5325096
+iter: 292, test accuracy: 0.461429
+epoch 293 entropy 0.44261822
+iter: 293, test accuracy: 0.46
+epoch 294 entropy 0.40655282
+iter: 294, test accuracy: 0.451429
+epoch 295 entropy 0.40856642
+iter: 295, test accuracy: 0.461429
+epoch 296 entropy 0.39016515
+iter: 296, test accuracy: 0.454286
+epoch 297 entropy 0.39716747
+iter: 297, test accuracy: 0.455714
+epoch 298 entropy 0.43238947
+iter: 298, test accuracy: 0.445714
+epoch 299 entropy 0.3948275
+iter: 299, test accuracy: 0.468571
+epoch 300 entropy 0.38808358
+iter: 300, test accuracy: 0.438571
+epoch 301 entropy 0.37509915
+iter: 301, test accuracy: 0.452857
+epoch 302 entropy 0.38820013
+iter: 302, test accuracy: 0.457143
+epoch 303 entropy 0.5971623
+iter: 303, test accuracy: 0.46
+epoch 304 entropy 0.5479168
+iter: 304, test accuracy: 0.457143
+epoch 305 entropy 0.45275244
+iter: 305, test accuracy: 0.465714
+epoch 306 entropy 0.46105546
+iter: 306, test accuracy: 0.454286
+epoch 307 entropy 0.4194984
+iter: 307, test accuracy: 0.455714
+epoch 308 entropy 0.40810615
+iter: 308, test accuracy: 0.457143
+epoch 309 entropy 0.39910233
+iter: 309, test accuracy: 0.458571
+epoch 310 entropy 0.40522224
+iter: 310, test accuracy: 0.451429
+epoch 311 entropy 0.43341163
+iter: 311, test accuracy: 0.454286
+epoch 312 entropy 0.46187517
+iter: 312, test accuracy: 0.451429
+epoch 313 entropy 0.49231195
+iter: 313, test accuracy: 0.462857
+epoch 314 entropy 0.49900207
+iter: 314, test accuracy: 0.444286
+epoch 315 entropy 0.41830316
+iter: 315, test accuracy: 0.465714
+epoch 316 entropy 0.5202002
+iter: 316, test accuracy: 0.468571
+epoch 317 entropy 0.45335943
+iter: 317, test accuracy: 0.467143
+epoch 318 entropy 0.41057566
+iter: 318, test accuracy: 0.461429
+epoch 319 entropy 0.42087448
+iter: 319, test accuracy: 0.461429
+epoch 320 entropy 0.42351085
+iter: 320, test accuracy: 0.438571
+epoch 321 entropy 0.39867952
+iter: 321, test accuracy: 0.46
+epoch 322 entropy 0.39105806
+iter: 322, test accuracy: 0.467143
+epoch 323 entropy 0.37209892
+iter: 323, test accuracy: 0.462857
+epoch 324 entropy 0.37535003
+iter: 324, test accuracy: 0.46
+epoch 325 entropy 0.38205066
+iter: 325, test accuracy: 0.45
+epoch 326 entropy 0.3601901
+iter: 326, test accuracy: 0.454286
+epoch 327 entropy 0.3862814
+iter: 327, test accuracy: 0.468571
+epoch 328 entropy 0.38784724
+iter: 328, test accuracy: 0.457143
+epoch 329 entropy 0.3704161
+iter: 329, test accuracy: 0.441429
+epoch 330 entropy 0.6222138
+iter: 330, test accuracy: 0.442857
+epoch 331 entropy 0.6918814
+iter: 331, test accuracy: 0.455714
+epoch 332 entropy 0.53018075
+iter: 332, test accuracy: 0.465714
+epoch 333 entropy 0.46250877
+iter: 333, test accuracy: 0.465714
+epoch 334 entropy 0.42572442
+iter: 334, test accuracy: 0.454286
+epoch 335 entropy 0.40809792
+iter: 335, test accuracy: 0.448571
+epoch 336 entropy 0.4237869
+iter: 336, test accuracy: 0.462857
+epoch 337 entropy 0.38680378
+iter: 337, test accuracy: 0.444286
+epoch 338 entropy 0.40090016
+iter: 338, test accuracy: 0.447143
+epoch 339 entropy 0.43961132
+iter: 339, test accuracy: 0.441429
+epoch 340 entropy 0.49257442
+iter: 340, test accuracy: 0.457143
+epoch 341 entropy 0.46554768
+iter: 341, test accuracy: 0.464286
+epoch 342 entropy 0.46178246
+iter: 342, test accuracy: 0.462857
+epoch 343 entropy 0.4051613
+iter: 343, test accuracy: 0.46
+epoch 344 entropy 0.4405086
+iter: 344, test accuracy: 0.457143
+epoch 345 entropy 0.3742038
+iter: 345, test accuracy: 0.461429
+epoch 346 entropy 0.3685386
+iter: 346, test accuracy: 0.46
+epoch 347 entropy 0.3727245
+iter: 347, test accuracy: 0.467143
+epoch 348 entropy 0.3506954
+iter: 348, test accuracy: 0.454286
+epoch 349 entropy 0.36563864
+iter: 349, test accuracy: 0.45
+epoch 350 entropy 0.36948037
+iter: 350, test accuracy: 0.455714
+epoch 351 entropy 0.3896412
+iter: 351, test accuracy: 0.46
+epoch 352 entropy 0.38069615
+iter: 352, test accuracy: 0.465714
+epoch 353 entropy 0.3886976
+iter: 353, test accuracy: 0.45
+epoch 354 entropy 0.40879306
+iter: 354, test accuracy: 0.455714
+epoch 355 entropy 0.51510644
+iter: 355, test accuracy: 0.452857
+epoch 356 entropy 0.5322116
+iter: 356, test accuracy: 0.454286
+epoch 357 entropy 0.4273431
+iter: 357, test accuracy: 0.47
+epoch 358 entropy 0.4153933
+iter: 358, test accuracy: 0.457143
+epoch 359 entropy 0.43966419
+iter: 359, test accuracy: 0.438571
+epoch 360 entropy 0.43823957
+iter: 360, test accuracy: 0.445714
+epoch 361 entropy 0.4145013
+iter: 361, test accuracy: 0.442857
+epoch 362 entropy 0.4107686
+iter: 362, test accuracy: 0.457143
+epoch 363 entropy 0.371778
+iter: 363, test accuracy: 0.447143
+epoch 364 entropy 0.36069718
+iter: 364, test accuracy: 0.468571
+epoch 365 entropy 0.34237024
+iter: 365, test accuracy: 0.46
+epoch 366 entropy 0.3529066
+iter: 366, test accuracy: 0.45
+epoch 367 entropy 0.51499236
+iter: 367, test accuracy: 0.465714
+epoch 368 entropy 0.71682024
+iter: 368, test accuracy: 0.447143
+epoch 369 entropy 0.6714704
+iter: 369, test accuracy: 0.425714
+epoch 370 entropy 0.6177733
+iter: 370, test accuracy: 0.448571
+epoch 371 entropy 0.49285218
+iter: 371, test accuracy: 0.444286
+epoch 372 entropy 0.415232
+iter: 372, test accuracy: 0.454286
+epoch 373 entropy 0.38924065
+iter: 373, test accuracy: 0.444286
+epoch 374 entropy 0.44701537
+iter: 374, test accuracy: 0.462857
+epoch 375 entropy 0.45587003
+iter: 375, test accuracy: 0.452857
+epoch 376 entropy 0.43234587
+iter: 376, test accuracy: 0.462857
+epoch 377 entropy 0.37587622
+iter: 377, test accuracy: 0.451429
+epoch 378 entropy 0.3514148
+iter: 378, test accuracy: 0.462857
+epoch 379 entropy 0.38605937
+iter: 379, test accuracy: 0.448571
+epoch 380 entropy 0.40478215
+iter: 380, test accuracy: 0.451429
+epoch 381 entropy 0.36498353
+iter: 381, test accuracy: 0.441429
+epoch 382 entropy 0.4317378
+iter: 382, test accuracy: 0.451429
+epoch 383 entropy 0.4300391
+iter: 383, test accuracy: 0.467143
+epoch 384 entropy 0.43862867
+iter: 384, test accuracy: 0.447143
+epoch 385 entropy 0.4311698
+iter: 385, test accuracy: 0.457143
+epoch 386 entropy 0.45686406
+iter: 386, test accuracy: 0.46
+epoch 387 entropy 0.54542905
+iter: 387, test accuracy: 0.451429
+epoch 388 entropy 0.4484986
+iter: 388, test accuracy: 0.47
+epoch 389 entropy 0.49266914
+iter: 389, test accuracy: 0.452857
+epoch 390 entropy 0.39917955
+iter: 390, test accuracy: 0.462857
+epoch 391 entropy 0.36315358
+iter: 391, test accuracy: 0.461429
+epoch 392 entropy 0.38782394
+iter: 392, test accuracy: 0.455714
+epoch 393 entropy 0.3645538
+iter: 393, test accuracy: 0.457143
+epoch 394 entropy 0.77028894
+iter: 394, test accuracy: 0.412857
+epoch 395 entropy 1.2215737
+iter: 395, test accuracy: 0.455714
+epoch 396 entropy 0.8938265
+iter: 396, test accuracy: 0.461429
+epoch 397 entropy 0.6486467
+iter: 397, test accuracy: 0.487143
+epoch 398 entropy 0.5392855
+iter: 398, test accuracy: 0.482857
+epoch 399 entropy 0.48518237
+iter: 399, test accuracy: 0.472857
+epoch 400 entropy 0.42666453
+iter: 400, test accuracy: 0.471429
+epoch 401 entropy 0.3974218
+iter: 401, test accuracy: 0.484286
+epoch 402 entropy 0.3859477
+iter: 402, test accuracy: 0.481429
+epoch 403 entropy 0.4100102
+iter: 403, test accuracy: 0.462857
+epoch 404 entropy 0.40215918
+iter: 404, test accuracy: 0.475714
+epoch 405 entropy 0.46577597
+iter: 405, test accuracy: 0.47
+epoch 406 entropy 0.39441437
+iter: 406, test accuracy: 0.455714
+epoch 407 entropy 0.3759457
+iter: 407, test accuracy: 0.46
+epoch 408 entropy 0.40548187
+iter: 408, test accuracy: 0.457143
+epoch 409 entropy 0.4329656
+iter: 409, test accuracy: 0.458571
+epoch 410 entropy 0.46442285
+iter: 410, test accuracy: 0.461429
+epoch 411 entropy 0.5827858
+iter: 411, test accuracy: 0.455714
+epoch 412 entropy 0.47034988
+iter: 412, test accuracy: 0.434286
+epoch 413 entropy 0.42918184
+iter: 413, test accuracy: 0.452857
+epoch 414 entropy 0.45629662
+iter: 414, test accuracy: 0.464286
+epoch 415 entropy 0.38686582
+iter: 415, test accuracy: 0.444286
+epoch 416 entropy 0.33690417
+iter: 416, test accuracy: 0.462857
+epoch 417 entropy 0.33530116
+iter: 417, test accuracy: 0.44
+epoch 418 entropy 0.3686386
+iter: 418, test accuracy: 0.448571
+epoch 419 entropy 0.37496868
+iter: 419, test accuracy: 0.461429
+epoch 420 entropy 0.4049137
+iter: 420, test accuracy: 0.45
+epoch 421 entropy 0.44556937
+iter: 421, test accuracy: 0.468571
+epoch 422 entropy 0.36260697
+iter: 422, test accuracy: 0.452857
+epoch 423 entropy 0.4345555
+iter: 423, test accuracy: 0.452857
+epoch 424 entropy 0.5235413
+iter: 424, test accuracy: 0.465714
+epoch 425 entropy 0.5242837
+iter: 425, test accuracy: 0.445714
+epoch 426 entropy 0.46550488
+iter: 426, test accuracy: 0.457143
+epoch 427 entropy 0.38693503
+iter: 427, test accuracy: 0.477143
+epoch 428 entropy 0.3406287
+iter: 428, test accuracy: 0.462857
+epoch 429 entropy 0.33849624
+iter: 429, test accuracy: 0.465714
+epoch 430 entropy 0.37386775
+iter: 430, test accuracy: 0.461429
+epoch 431 entropy 0.3872069
+iter: 431, test accuracy: 0.464286
+epoch 432 entropy 0.36402905
+iter: 432, test accuracy: 0.452857
+epoch 433 entropy 0.33884954
+iter: 433, test accuracy: 0.462857
+epoch 434 entropy 0.4196694
+iter: 434, test accuracy: 0.444286
+epoch 435 entropy 0.49697033
+iter: 435, test accuracy: 0.458571
+epoch 436 entropy 0.46017438
+iter: 436, test accuracy: 0.465714
+epoch 437 entropy 0.5058813
+iter: 437, test accuracy: 0.445714
+epoch 438 entropy 0.431905
+iter: 438, test accuracy: 0.458571
+epoch 439 entropy 0.5287409
+iter: 439, test accuracy: 0.452857
+epoch 440 entropy 0.49155414
+iter: 440, test accuracy: 0.47
+epoch 441 entropy 0.6934165
+iter: 441, test accuracy: 0.45
+epoch 442 entropy 0.6509955
+iter: 442, test accuracy: 0.464286
+epoch 443 entropy 0.46964398
+iter: 443, test accuracy: 0.454286
+epoch 444 entropy 0.40007526
+iter: 444, test accuracy: 0.464286
+epoch 445 entropy 0.34575632
+iter: 445, test accuracy: 0.46
+epoch 446 entropy 0.3056857
+iter: 446, test accuracy: 0.468571
+epoch 447 entropy 0.2865385
+iter: 447, test accuracy: 0.45
+epoch 448 entropy 0.2871074
+iter: 448, test accuracy: 0.451429
+epoch 449 entropy 0.33307785
+iter: 449, test accuracy: 0.441429
+epoch 450 entropy 0.34517807
+iter: 450, test accuracy: 0.452857
+epoch 451 entropy 0.4320432
+iter: 451, test accuracy: 0.458571
+epoch 452 entropy 1.9656228
+iter: 452, test accuracy: 0.255714
+epoch 453 entropy 3.2245362
+iter: 453, test accuracy: 0.294286
+epoch 454 entropy 2.2686598
+iter: 454, test accuracy: 0.315714
+epoch 455 entropy 1.9458735
+iter: 455, test accuracy: 0.335714
+epoch 456 entropy 1.7925397
+iter: 456, test accuracy: 0.338571
+epoch 457 entropy 1.6669407
+iter: 457, test accuracy: 0.374286
+epoch 458 entropy 1.5461566
+iter: 458, test accuracy: 0.372857
+epoch 459 entropy 1.4770834
+iter: 459, test accuracy: 0.367143
+epoch 460 entropy 1.5171319
+iter: 460, test accuracy: 0.351429
+epoch 461 entropy 1.5247597
+iter: 461, test accuracy: 0.377143
+epoch 462 entropy 1.4243511
+iter: 462, test accuracy: 0.395714
+epoch 463 entropy 1.365813
+iter: 463, test accuracy: 0.398571
+epoch 464 entropy 1.3167586
+iter: 464, test accuracy: 0.382857
+epoch 465 entropy 1.2931658
+iter: 465, test accuracy: 0.394286
+epoch 466 entropy 1.2727038
+iter: 466, test accuracy: 0.387143
+epoch 467 entropy 1.2398747
+iter: 467, test accuracy: 0.387143
+epoch 468 entropy 1.2198927
+iter: 468, test accuracy: 0.39
+epoch 469 entropy 1.1973916
+iter: 469, test accuracy: 0.391429
+epoch 470 entropy 1.1787181
+iter: 470, test accuracy: 0.415714
+epoch 471 entropy 1.1622115
+iter: 471, test accuracy: 0.394286
+epoch 472 entropy 1.1421431
+iter: 472, test accuracy: 0.398571
+epoch 473 entropy 1.1295071
+iter: 473, test accuracy: 0.381429
+epoch 474 entropy 1.1215881
+iter: 474, test accuracy: 0.385714
+epoch 475 entropy 1.1110035
+iter: 475, test accuracy: 0.405714
+epoch 476 entropy 1.1100528
+iter: 476, test accuracy: 0.407143
+epoch 477 entropy 1.0947294
+iter: 477, test accuracy: 0.395714
+epoch 478 entropy 1.0855796
+iter: 478, test accuracy: 0.4
+epoch 479 entropy 1.0645012
+iter: 479, test accuracy: 0.408571
+epoch 480 entropy 1.0584793
+iter: 480, test accuracy: 0.398571
+epoch 481 entropy 1.0502964
+iter: 481, test accuracy: 0.397143
+epoch 482 entropy 1.0856553
+iter: 482, test accuracy: 0.41
+epoch 483 entropy 1.0580074
+iter: 483, test accuracy: 0.395714
+epoch 484 entropy 1.0311326
+iter: 484, test accuracy: 0.394286
+epoch 485 entropy 1.0233982
+iter: 485, test accuracy: 0.415714
+epoch 486 entropy 1.0176085
+iter: 486, test accuracy: 0.42
+epoch 487 entropy 1.0111927
+iter: 487, test accuracy: 0.41
+epoch 488 entropy 1.0031408
+iter: 488, test accuracy: 0.407143
+epoch 489 entropy 0.9831781
+iter: 489, test accuracy: 0.397143
+epoch 490 entropy 0.970653
+iter: 490, test accuracy: 0.407143
+epoch 491 entropy 0.9652343
+iter: 491, test accuracy: 0.42
+epoch 492 entropy 0.9745638
+iter: 492, test accuracy: 0.421429
+epoch 493 entropy 0.974739
+iter: 493, test accuracy: 0.42
+epoch 494 entropy 0.95876074
+iter: 494, test accuracy: 0.401429
+epoch 495 entropy 0.9563469
+iter: 495, test accuracy: 0.411429
+epoch 496 entropy 0.93448406
+iter: 496, test accuracy: 0.412857
+epoch 497 entropy 0.9258296
+iter: 497, test accuracy: 0.407143
+epoch 498 entropy 0.9210473
+iter: 498, test accuracy: 0.408571
+epoch 499 entropy 0.93326384
+iter: 499, test accuracy: 0.41
+epoch 500 entropy 0.93352133
+iter: 500, test accuracy: 0.411429
+epoch 501 entropy 0.91161704
+iter: 501, test accuracy: 0.421429
+epoch 502 entropy 0.90830636
+iter: 502, test accuracy: 0.404286
+epoch 503 entropy 0.9026213
+iter: 503, test accuracy: 0.42
+epoch 504 entropy 0.881724
+iter: 504, test accuracy: 0.415714
+epoch 505 entropy 0.8957994
+iter: 505, test accuracy: 0.417143
+epoch 506 entropy 0.8741481
+iter: 506, test accuracy: 0.4
+epoch 507 entropy 0.89248806
+iter: 507, test accuracy: 0.417143
+epoch 508 entropy 0.9162231
+iter: 508, test accuracy: 0.41
+epoch 509 entropy 0.89820486
+iter: 509, test accuracy: 0.415714
+epoch 510 entropy 0.8878299
+iter: 510, test accuracy: 0.424286
+epoch 511 entropy 0.8619254
+iter: 511, test accuracy: 0.41
+epoch 512 entropy 0.84885794
+iter: 512, test accuracy: 0.418571
+epoch 513 entropy 0.8467493
+iter: 513, test accuracy: 0.422857
+epoch 514 entropy 0.8348227
+iter: 514, test accuracy: 0.421429
+epoch 515 entropy 0.83348006
+iter: 515, test accuracy: 0.408571
+epoch 516 entropy 0.9071837
+iter: 516, test accuracy: 0.431429
+epoch 517 entropy 1.1283989
+iter: 517, test accuracy: 0.437143
+epoch 518 entropy 1.0072724
+iter: 518, test accuracy: 0.442857
+epoch 519 entropy 0.97727895
+iter: 519, test accuracy: 0.438571
+epoch 520 entropy 0.94031036
+iter: 520, test accuracy: 0.424286
+epoch 521 entropy 0.88619655
+iter: 521, test accuracy: 0.424286
+epoch 522 entropy 0.85829204
+iter: 522, test accuracy: 0.418571
+epoch 523 entropy 0.84603006
+iter: 523, test accuracy: 0.417143
+epoch 524 entropy 0.8258736
+iter: 524, test accuracy: 0.434286
+epoch 525 entropy 0.79766405
+iter: 525, test accuracy: 0.447143
+epoch 526 entropy 0.803009
+iter: 526, test accuracy: 0.42
+epoch 527 entropy 0.8307533
+iter: 527, test accuracy: 0.428571
+epoch 528 entropy 0.8428356
+iter: 528, test accuracy: 0.431429
+epoch 529 entropy 0.85821
+iter: 529, test accuracy: 0.435714
+epoch 530 entropy 0.84533036
+iter: 530, test accuracy: 0.431429
+epoch 531 entropy 0.90280664
+iter: 531, test accuracy: 0.442857
+epoch 532 entropy 0.8862975
+iter: 532, test accuracy: 0.444286
+epoch 533 entropy 0.8541728
+iter: 533, test accuracy: 0.444286
+epoch 534 entropy 0.85915315
+iter: 534, test accuracy: 0.441429
+epoch 535 entropy 0.893751
+iter: 535, test accuracy: 0.444286
+epoch 536 entropy 0.8745676
+iter: 536, test accuracy: 0.441429
+epoch 537 entropy 0.82650393
+iter: 537, test accuracy: 0.452857
+epoch 538 entropy 0.8034551
+iter: 538, test accuracy: 0.447143
+epoch 539 entropy 0.8358654
+iter: 539, test accuracy: 0.454286
+epoch 540 entropy 0.8201599
+iter: 540, test accuracy: 0.455714
+epoch 541 entropy 0.8179352
+iter: 541, test accuracy: 0.445714
+epoch 542 entropy 0.8156831
+iter: 542, test accuracy: 0.422857
+epoch 543 entropy 0.87492657
+iter: 543, test accuracy: 0.438571
+epoch 544 entropy 0.8654151
+iter: 544, test accuracy: 0.454286
+epoch 545 entropy 0.8139203
+iter: 545, test accuracy: 0.431429
+epoch 546 entropy 0.8051716
+iter: 546, test accuracy: 0.445714
+epoch 547 entropy 0.7852133
+iter: 547, test accuracy: 0.438571
+epoch 548 entropy 0.8562357
+iter: 548, test accuracy: 0.448571
+epoch 549 entropy 0.8468488
+iter: 549, test accuracy: 0.438571
+epoch 550 entropy 0.8174915
+iter: 550, test accuracy: 0.445714
+epoch 551 entropy 0.7951618
+iter: 551, test accuracy: 0.425714
+epoch 552 entropy 0.7789299
+iter: 552, test accuracy: 0.424286
+epoch 553 entropy 0.74468464
+iter: 553, test accuracy: 0.424286
+epoch 554 entropy 0.73194337
+iter: 554, test accuracy: 0.447143
+epoch 555 entropy 0.7727232
+iter: 555, test accuracy: 0.448571
+epoch 556 entropy 0.7422796
+iter: 556, test accuracy: 0.424286
+epoch 557 entropy 0.73643506
+iter: 557, test accuracy: 0.438571
+epoch 558 entropy 0.8583822
+iter: 558, test accuracy: 0.395714
+epoch 559 entropy 1.5189652
+iter: 559, test accuracy: 0.408571
+epoch 560 entropy 1.2829307
+iter: 560, test accuracy: 0.424286
+epoch 561 entropy 1.1107135
+iter: 561, test accuracy: 0.448571
+epoch 562 entropy 1.0139221
+iter: 562, test accuracy: 0.45
+epoch 563 entropy 0.9351467
+iter: 563, test accuracy: 0.46
+epoch 564 entropy 0.8953757
+iter: 564, test accuracy: 0.448571
+epoch 565 entropy 0.8834506
+iter: 565, test accuracy: 0.441429
+epoch 566 entropy 0.8490132
+iter: 566, test accuracy: 0.442857
+epoch 567 entropy 0.8247683
+iter: 567, test accuracy: 0.45
+epoch 568 entropy 0.81202173
+iter: 568, test accuracy: 0.452857
+epoch 569 entropy 0.7844672
+iter: 569, test accuracy: 0.452857
+epoch 570 entropy 0.77949375
+iter: 570, test accuracy: 0.441429
+epoch 571 entropy 0.7627755
+iter: 571, test accuracy: 0.448571
+epoch 572 entropy 0.7467859
+iter: 572, test accuracy: 0.451429
+epoch 573 entropy 0.7320518
+iter: 573, test accuracy: 0.441429
+epoch 574 entropy 0.7057408
+iter: 574, test accuracy: 0.447143
+epoch 575 entropy 0.7244275
+iter: 575, test accuracy: 0.447143
+epoch 576 entropy 0.74194187
+iter: 576, test accuracy: 0.447143
+epoch 577 entropy 0.99350953
+iter: 577, test accuracy: 0.431429
+epoch 578 entropy 0.9390799
+iter: 578, test accuracy: 0.432857
+epoch 579 entropy 0.8104027
+iter: 579, test accuracy: 0.455714
+epoch 580 entropy 0.7742498
+iter: 580, test accuracy: 0.447143
+epoch 581 entropy 0.79382926
+iter: 581, test accuracy: 0.461429
+epoch 582 entropy 0.7495471
+iter: 582, test accuracy: 0.475714
+epoch 583 entropy 0.7118093
+iter: 583, test accuracy: 0.458571
+epoch 584 entropy 0.69152564
+iter: 584, test accuracy: 0.462857
+epoch 585 entropy 0.6865558
+iter: 585, test accuracy: 0.461429
+epoch 586 entropy 0.6732069
+iter: 586, test accuracy: 0.465714
+epoch 587 entropy 0.6703512
+iter: 587, test accuracy: 0.46
+epoch 588 entropy 0.65970516
+iter: 588, test accuracy: 0.444286
+epoch 589 entropy 0.67145616
+iter: 589, test accuracy: 0.441429
+epoch 590 entropy 0.65373695
+iter: 590, test accuracy: 0.461429
+epoch 591 entropy 0.65455157
+iter: 591, test accuracy: 0.435714
+epoch 592 entropy 0.65277344
+iter: 592, test accuracy: 0.428571
+epoch 593 entropy 0.680371
+iter: 593, test accuracy: 0.435714
+epoch 594 entropy 0.6542025
+iter: 594, test accuracy: 0.437143
+epoch 595 entropy 0.6551974
+iter: 595, test accuracy: 0.432857
+epoch 596 entropy 0.6787664
+iter: 596, test accuracy: 0.437143
+epoch 597 entropy 0.834893
+iter: 597, test accuracy: 0.455714
+epoch 598 entropy 0.7228383
+iter: 598, test accuracy: 0.445714
+epoch 599 entropy 0.7706997
+iter: 599, test accuracy: 0.452857
+epoch 600 entropy 0.70122296
+iter: 600, test accuracy: 0.451429
+epoch 601 entropy 0.6747964
+iter: 601, test accuracy: 0.451429
+epoch 602 entropy 0.702877
+iter: 602, test accuracy: 0.438571
+epoch 603 entropy 0.67934614
+iter: 603, test accuracy: 0.45
+epoch 604 entropy 0.7051303
+iter: 604, test accuracy: 0.452857
+epoch 605 entropy 0.6752888
+iter: 605, test accuracy: 0.447143
+epoch 606 entropy 0.6928173
+iter: 606, test accuracy: 0.445714
+epoch 607 entropy 0.6919624
+iter: 607, test accuracy: 0.451429
+epoch 608 entropy 0.6435282
+iter: 608, test accuracy: 0.447143
+epoch 609 entropy 0.62637687
+iter: 609, test accuracy: 0.451429
+epoch 610 entropy 0.6541052
+iter: 610, test accuracy: 0.448571
+epoch 611 entropy 0.9107052
+iter: 611, test accuracy: 0.434286
+epoch 612 entropy 0.9572411
+iter: 612, test accuracy: 0.441429
+epoch 613 entropy 0.77314615
+iter: 613, test accuracy: 0.457143
+epoch 614 entropy 0.6795533
+iter: 614, test accuracy: 0.458571
+epoch 615 entropy 0.69038117
+iter: 615, test accuracy: 0.457143
+epoch 616 entropy 0.67353827
+iter: 616, test accuracy: 0.442857
+epoch 617 entropy 0.6335699
+iter: 617, test accuracy: 0.451429
+epoch 618 entropy 0.62643236
+iter: 618, test accuracy: 0.457143
+epoch 619 entropy 0.6277558
+iter: 619, test accuracy: 0.448571
+epoch 620 entropy 0.66945624
+iter: 620, test accuracy: 0.45
+epoch 621 entropy 0.7799059
+iter: 621, test accuracy: 0.427143
+epoch 622 entropy 0.6938803
+iter: 622, test accuracy: 0.442857
+epoch 623 entropy 0.6357334
+iter: 623, test accuracy: 0.434286
+epoch 624 entropy 0.6108181
+iter: 624, test accuracy: 0.447143
+epoch 625 entropy 0.59158975
+iter: 625, test accuracy: 0.422857
+epoch 626 entropy 0.5830388
+iter: 626, test accuracy: 0.435714
+epoch 627 entropy 0.6656878
+iter: 627, test accuracy: 0.422857
+epoch 628 entropy 0.8024764
+iter: 628, test accuracy: 0.438571
+epoch 629 entropy 0.73453975
+iter: 629, test accuracy: 0.43
+epoch 630 entropy 0.6892725
+iter: 630, test accuracy: 0.431429
+epoch 631 entropy 0.71074146
+iter: 631, test accuracy: 0.43
+epoch 632 entropy 0.6279197
+iter: 632, test accuracy: 0.451429
+epoch 633 entropy 0.6066911
+iter: 633, test accuracy: 0.431429
+epoch 634 entropy 0.5775697
+iter: 634, test accuracy: 0.438571
+epoch 635 entropy 0.5989064
+iter: 635, test accuracy: 0.43
+epoch 636 entropy 0.62953925
+iter: 636, test accuracy: 0.455714
+epoch 637 entropy 0.60745645
+iter: 637, test accuracy: 0.442857
+epoch 638 entropy 0.62833697
+iter: 638, test accuracy: 0.422857
+epoch 639 entropy 0.5806186
+iter: 639, test accuracy: 0.447143
+epoch 640 entropy 0.573825
+iter: 640, test accuracy: 0.447143
+epoch 641 entropy 0.6059397
+iter: 641, test accuracy: 0.448571
+epoch 642 entropy 0.6158593
+iter: 642, test accuracy: 0.441429
+epoch 643 entropy 0.6031261
+iter: 643, test accuracy: 0.46
+epoch 644 entropy 0.6195641
+iter: 644, test accuracy: 0.462857
+epoch 645 entropy 0.5947464
+iter: 645, test accuracy: 0.451429
+epoch 646 entropy 0.60898995
+iter: 646, test accuracy: 0.442857
+epoch 647 entropy 0.6424707
+iter: 647, test accuracy: 0.452857
+epoch 648 entropy 0.64013326
+iter: 648, test accuracy: 0.452857
+epoch 649 entropy 0.598328
+iter: 649, test accuracy: 0.442857
+epoch 650 entropy 0.56155246
+iter: 650, test accuracy: 0.452857
+epoch 651 entropy 0.5883
+iter: 651, test accuracy: 0.447143
+epoch 652 entropy 0.65768623
+iter: 652, test accuracy: 0.445714
+epoch 653 entropy 0.63450783
+iter: 653, test accuracy: 0.448571
+epoch 654 entropy 0.61024225
+iter: 654, test accuracy: 0.427143
+epoch 655 entropy 0.60272
+iter: 655, test accuracy: 0.46
+epoch 656 entropy 0.6095062
+iter: 656, test accuracy: 0.45
+epoch 657 entropy 0.59605885
+iter: 657, test accuracy: 0.435714
+epoch 658 entropy 0.55178046
+iter: 658, test accuracy: 0.451429
+epoch 659 entropy 0.6014356
+iter: 659, test accuracy: 0.448571
+epoch 660 entropy 0.5946725
+iter: 660, test accuracy: 0.45
+epoch 661 entropy 0.56870365
+iter: 661, test accuracy: 0.431429
+epoch 662 entropy 0.55163187
+iter: 662, test accuracy: 0.432857
+epoch 663 entropy 0.5383795
+iter: 663, test accuracy: 0.438571
+epoch 664 entropy 0.5642231
+iter: 664, test accuracy: 0.445714
+epoch 665 entropy 0.6179521
+iter: 665, test accuracy: 0.422857
+epoch 666 entropy 0.7207969
+iter: 666, test accuracy: 0.445714
+epoch 667 entropy 1.3554971
+iter: 667, test accuracy: 0.447143
+epoch 668 entropy 1.2250894
+iter: 668, test accuracy: 0.464286
+epoch 669 entropy 1.0073165
+iter: 669, test accuracy: 0.452857
+epoch 670 entropy 0.8725495
+iter: 670, test accuracy: 0.457143
+epoch 671 entropy 0.781155
+iter: 671, test accuracy: 0.46
+epoch 672 entropy 0.75379103
+iter: 672, test accuracy: 0.451429
+epoch 673 entropy 0.72557664
+iter: 673, test accuracy: 0.451429
+epoch 674 entropy 0.6778223
+iter: 674, test accuracy: 0.457143
+epoch 675 entropy 0.6418653
+iter: 675, test accuracy: 0.455714
+epoch 676 entropy 0.6127861
+iter: 676, test accuracy: 0.461429
+epoch 677 entropy 0.597982
+iter: 677, test accuracy: 0.44
+epoch 678 entropy 0.5860864
+iter: 678, test accuracy: 0.435714
+epoch 679 entropy 0.7143431
+iter: 679, test accuracy: 0.451429
+epoch 680 entropy 0.62780994
+iter: 680, test accuracy: 0.447143
+epoch 681 entropy 0.619008
+iter: 681, test accuracy: 0.452857
+epoch 682 entropy 0.6310297
+iter: 682, test accuracy: 0.452857
+epoch 683 entropy 0.5762952
+iter: 683, test accuracy: 0.455714
+epoch 684 entropy 0.5754443
+iter: 684, test accuracy: 0.444286
+epoch 685 entropy 0.61151034
+iter: 685, test accuracy: 0.442857
+epoch 686 entropy 0.5725402
+iter: 686, test accuracy: 0.444286
+epoch 687 entropy 0.54526335
+iter: 687, test accuracy: 0.438571
+epoch 688 entropy 0.5427691
+iter: 688, test accuracy: 0.441429
+epoch 689 entropy 0.55638593
+iter: 689, test accuracy: 0.444286
+epoch 690 entropy 0.5503428
+iter: 690, test accuracy: 0.445714
+epoch 691 entropy 0.6331446
+iter: 691, test accuracy: 0.452857
+epoch 692 entropy 0.7387335
+iter: 692, test accuracy: 0.448571
+epoch 693 entropy 0.6538676
+iter: 693, test accuracy: 0.437143
+epoch 694 entropy 0.5958119
+iter: 694, test accuracy: 0.462857
+epoch 695 entropy 0.5735223
+iter: 695, test accuracy: 0.451429
+epoch 696 entropy 0.527056
+iter: 696, test accuracy: 0.45
+epoch 697 entropy 0.51801443
+iter: 697, test accuracy: 0.452857
+epoch 698 entropy 0.5729745
+iter: 698, test accuracy: 0.444286
+epoch 699 entropy 0.56619585
+iter: 699, test accuracy: 0.444286
+epoch 700 entropy 0.6162214
+iter: 700, test accuracy: 0.477143
+epoch 701 entropy 0.6205326
+iter: 701, test accuracy: 0.458571
+epoch 702 entropy 0.57376784
+iter: 702, test accuracy: 0.448571
+epoch 703 entropy 0.5486853
+iter: 703, test accuracy: 0.455714
+epoch 704 entropy 0.53307873
+iter: 704, test accuracy: 0.467143
+epoch 705 entropy 0.5327496
+iter: 705, test accuracy: 0.45
+epoch 706 entropy 0.5167238
+iter: 706, test accuracy: 0.454286
+epoch 707 entropy 0.50877637
+iter: 707, test accuracy: 0.444286
+epoch 708 entropy 0.7617367
+iter: 708, test accuracy: 0.425714
+epoch 709 entropy 0.8946174
+iter: 709, test accuracy: 0.45
+epoch 710 entropy 0.72022605
+iter: 710, test accuracy: 0.451429
+epoch 711 entropy 0.7174554
+iter: 711, test accuracy: 0.451429
+epoch 712 entropy 0.6110128
+iter: 712, test accuracy: 0.444286
+epoch 713 entropy 0.6747819
+iter: 713, test accuracy: 0.431429
+epoch 714 entropy 0.76402795
+iter: 714, test accuracy: 0.451429
+epoch 715 entropy 0.63577014
+iter: 715, test accuracy: 0.44
+epoch 716 entropy 0.582768
+iter: 716, test accuracy: 0.44
+epoch 717 entropy 0.54084927
+iter: 717, test accuracy: 0.455714
+epoch 718 entropy 0.51561075
+iter: 718, test accuracy: 0.45
+epoch 719 entropy 0.55386406
+iter: 719, test accuracy: 0.452857
+epoch 720 entropy 0.5771905
+iter: 720, test accuracy: 0.452857
+epoch 721 entropy 0.53133565
+iter: 721, test accuracy: 0.438571
+epoch 722 entropy 0.50880796
+iter: 722, test accuracy: 0.452857
+epoch 723 entropy 0.5000873
+iter: 723, test accuracy: 0.44
+epoch 724 entropy 0.48255578
+iter: 724, test accuracy: 0.441429
+epoch 725 entropy 0.5185756
+iter: 725, test accuracy: 0.442857
+epoch 726 entropy 0.5359831
+iter: 726, test accuracy: 0.435714
+epoch 727 entropy 0.57989407
+iter: 727, test accuracy: 0.422857
+epoch 728 entropy 0.76420534
+iter: 728, test accuracy: 0.445714
+epoch 729 entropy 0.63582915
+iter: 729, test accuracy: 0.45
+epoch 730 entropy 0.56569976
+iter: 730, test accuracy: 0.447143
+epoch 731 entropy 0.5293712
+iter: 731, test accuracy: 0.44
+epoch 732 entropy 0.5271103
+iter: 732, test accuracy: 0.451429
+epoch 733 entropy 0.52719814
+iter: 733, test accuracy: 0.467143
+epoch 734 entropy 0.5305178
+iter: 734, test accuracy: 0.452857
+epoch 735 entropy 0.50961685
+iter: 735, test accuracy: 0.447143
+epoch 736 entropy 0.5445217
+iter: 736, test accuracy: 0.441429
+epoch 737 entropy 0.55875725
+iter: 737, test accuracy: 0.46
+epoch 738 entropy 0.5226658
+iter: 738, test accuracy: 0.471429
+epoch 739 entropy 0.5063472
+iter: 739, test accuracy: 0.451429
+epoch 740 entropy 0.49417102
+iter: 740, test accuracy: 0.444286
+epoch 741 entropy 0.4894407
+iter: 741, test accuracy: 0.438571
+epoch 742 entropy 0.49745035
+iter: 742, test accuracy: 0.442857
+epoch 743 entropy 0.52396613
+iter: 743, test accuracy: 0.455714
+epoch 744 entropy 0.529684
+iter: 744, test accuracy: 0.431429
+epoch 745 entropy 0.5695935
+iter: 745, test accuracy: 0.442857
+epoch 746 entropy 0.5334703
+iter: 746, test accuracy: 0.438571
+epoch 747 entropy 0.5273125
+iter: 747, test accuracy: 0.45
+epoch 748 entropy 0.50323045
+iter: 748, test accuracy: 0.45
+epoch 749 entropy 0.52264273
+iter: 749, test accuracy: 0.462857
+epoch 750 entropy 0.5229965
+iter: 750, test accuracy: 0.451429
+epoch 751 entropy 0.5288579
+iter: 751, test accuracy: 0.464286
+epoch 752 entropy 0.5661983
+iter: 752, test accuracy: 0.447143
+epoch 753 entropy 0.6277869
+iter: 753, test accuracy: 0.45
+epoch 754 entropy 0.51152134
+iter: 754, test accuracy: 0.444286
+epoch 755 entropy 0.56739837
+iter: 755, test accuracy: 0.447143
+epoch 756 entropy 0.55881435
+iter: 756, test accuracy: 0.432857
+epoch 757 entropy 0.53766996
+iter: 757, test accuracy: 0.437143
+epoch 758 entropy 0.52909696
+iter: 758, test accuracy: 0.441429
+epoch 759 entropy 0.56321454
+iter: 759, test accuracy: 0.441429
+epoch 760 entropy 0.6189792
+iter: 760, test accuracy: 0.46
+epoch 761 entropy 0.5412414
+iter: 761, test accuracy: 0.457143
+epoch 762 entropy 0.59216934
+iter: 762, test accuracy: 0.444286
+epoch 763 entropy 0.52152985
+iter: 763, test accuracy: 0.458571
+epoch 764 entropy 0.59527737
+iter: 764, test accuracy: 0.45
+epoch 765 entropy 0.58450574
+iter: 765, test accuracy: 0.448571
+epoch 766 entropy 0.56455255
+iter: 766, test accuracy: 0.454286
+epoch 767 entropy 0.48369083
+iter: 767, test accuracy: 0.457143
+epoch 768 entropy 0.49082553
+iter: 768, test accuracy: 0.447143
+epoch 769 entropy 0.50516814
+iter: 769, test accuracy: 0.435714
+epoch 770 entropy 0.4892531
+iter: 770, test accuracy: 0.44
+epoch 771 entropy 0.53876406
+iter: 771, test accuracy: 0.442857
+epoch 772 entropy 1.0607233
+iter: 772, test accuracy: 0.42
+epoch 773 entropy 1.5342044
+iter: 773, test accuracy: 0.417143
+epoch 774 entropy 1.2117966
+iter: 774, test accuracy: 0.442857
+epoch 775 entropy 0.9982798
+iter: 775, test accuracy: 0.442857
+epoch 776 entropy 0.8788328
+iter: 776, test accuracy: 0.444286
+epoch 777 entropy 0.79564905
+iter: 777, test accuracy: 0.435714
+epoch 778 entropy 0.74746925
+iter: 778, test accuracy: 0.428571
+epoch 779 entropy 0.69896716
+iter: 779, test accuracy: 0.444286
+epoch 780 entropy 0.6623507
+iter: 780, test accuracy: 0.441429
+epoch 781 entropy 0.6381882
+iter: 781, test accuracy: 0.454286
+epoch 782 entropy 0.6103325
+iter: 782, test accuracy: 0.457143
+epoch 783 entropy 0.5907644
+iter: 783, test accuracy: 0.432857
+epoch 784 entropy 0.5768523
+iter: 784, test accuracy: 0.448571
+epoch 785 entropy 0.579822
+iter: 785, test accuracy: 0.438571
+epoch 786 entropy 0.56661135
+iter: 786, test accuracy: 0.444286
+epoch 787 entropy 0.5461227
+iter: 787, test accuracy: 0.452857
+epoch 788 entropy 0.52355826
+iter: 788, test accuracy: 0.455714
+epoch 789 entropy 0.5166493
+iter: 789, test accuracy: 0.44
+epoch 790 entropy 0.5272295
+iter: 790, test accuracy: 0.458571
+epoch 791 entropy 0.5196732
+iter: 791, test accuracy: 0.461429
+epoch 792 entropy 0.5449861
+iter: 792, test accuracy: 0.458571
+epoch 793 entropy 0.5333681
+iter: 793, test accuracy: 0.462857
+epoch 794 entropy 0.5202336
+iter: 794, test accuracy: 0.454286
+epoch 795 entropy 0.51872194
+iter: 795, test accuracy: 0.465714
+epoch 796 entropy 0.5168706
+iter: 796, test accuracy: 0.461429
+epoch 797 entropy 0.4990025
+iter: 797, test accuracy: 0.457143
+epoch 798 entropy 0.47597188
+iter: 798, test accuracy: 0.442857
+epoch 799 entropy 0.6189193
+iter: 799, test accuracy: 0.445714
+epoch 800 entropy 0.5573315
+iter: 800, test accuracy: 0.448571
+epoch 801 entropy 0.5479302
+iter: 801, test accuracy: 0.46
+epoch 802 entropy 0.49880844
+iter: 802, test accuracy: 0.458571
+epoch 803 entropy 0.46808687
+iter: 803, test accuracy: 0.455714
+epoch 804 entropy 0.45590055
+iter: 804, test accuracy: 0.464286
+epoch 805 entropy 0.5170247
+iter: 805, test accuracy: 0.448571
+epoch 806 entropy 0.49927276
+iter: 806, test accuracy: 0.465714
+epoch 807 entropy 0.4616175
+iter: 807, test accuracy: 0.454286
+epoch 808 entropy 0.457619
+iter: 808, test accuracy: 0.45
+epoch 809 entropy 0.5149263
+iter: 809, test accuracy: 0.457143
+epoch 810 entropy 0.5536408
+iter: 810, test accuracy: 0.457143
+epoch 811 entropy 0.5055377
+iter: 811, test accuracy: 0.467143
+epoch 812 entropy 0.48592183
+iter: 812, test accuracy: 0.444286
+epoch 813 entropy 0.46262234
+iter: 813, test accuracy: 0.454286
+epoch 814 entropy 0.45796546
+iter: 814, test accuracy: 0.461429
+epoch 815 entropy 0.45245415
+iter: 815, test accuracy: 0.455714
+epoch 816 entropy 0.41193292
+iter: 816, test accuracy: 0.452857
+epoch 817 entropy 0.4230361
+iter: 817, test accuracy: 0.464286
+epoch 818 entropy 0.4216692
+iter: 818, test accuracy: 0.444286
+epoch 819 entropy 0.44047844
+iter: 819, test accuracy: 0.457143
+epoch 820 entropy 0.43343097
+iter: 820, test accuracy: 0.46
+epoch 821 entropy 0.46943718
+iter: 821, test accuracy: 0.461429
+epoch 822 entropy 0.5170254
+iter: 822, test accuracy: 0.451429
+epoch 823 entropy 0.53955865
+iter: 823, test accuracy: 0.455714
+epoch 824 entropy 0.5483962
+iter: 824, test accuracy: 0.47
+epoch 825 entropy 0.5225563
+iter: 825, test accuracy: 0.442857
+epoch 826 entropy 0.5716343
+iter: 826, test accuracy: 0.455714
+epoch 827 entropy 0.5954262
+iter: 827, test accuracy: 0.458571
+epoch 828 entropy 1.3462316
+iter: 828, test accuracy: 0.36
+epoch 829 entropy 2.1946929
+iter: 829, test accuracy: 0.371429
+epoch 830 entropy 1.9668932
+iter: 830, test accuracy: 0.388571
+epoch 831 entropy 1.6190382
+iter: 831, test accuracy: 0.415714
+epoch 832 entropy 1.4865272
+iter: 832, test accuracy: 0.424286
+epoch 833 entropy 1.451667
+iter: 833, test accuracy: 0.391429
+epoch 834 entropy 1.4121248
+iter: 834, test accuracy: 0.414286
+epoch 835 entropy 1.2894263
+iter: 835, test accuracy: 0.427143
+epoch 836 entropy 1.2160962
+iter: 836, test accuracy: 0.428571
+epoch 837 entropy 1.1653818
+iter: 837, test accuracy: 0.437143
+epoch 838 entropy 1.1294297
+iter: 838, test accuracy: 0.448571
+epoch 839 entropy 1.1379671
+iter: 839, test accuracy: 0.44
+epoch 840 entropy 1.079724
+iter: 840, test accuracy: 0.447143
+epoch 841 entropy 1.1483365
+iter: 841, test accuracy: 0.447143
+epoch 842 entropy 1.1196544
+iter: 842, test accuracy: 0.447143
+epoch 843 entropy 1.0637138
+iter: 843, test accuracy: 0.452857
+epoch 844 entropy 1.0145267
+iter: 844, test accuracy: 0.454286
+epoch 845 entropy 0.9716223
+iter: 845, test accuracy: 0.464286
+epoch 846 entropy 0.94030523
+iter: 846, test accuracy: 0.447143
+epoch 847 entropy 0.9185194
+iter: 847, test accuracy: 0.432857
+epoch 848 entropy 0.8993599
+iter: 848, test accuracy: 0.442857
+epoch 849 entropy 0.88596743
+iter: 849, test accuracy: 0.448571
+epoch 850 entropy 0.86575264
+iter: 850, test accuracy: 0.454286
+epoch 851 entropy 0.8446357
+iter: 851, test accuracy: 0.445714
+epoch 852 entropy 0.8326105
+iter: 852, test accuracy: 0.447143
+epoch 853 entropy 0.8195399
+iter: 853, test accuracy: 0.444286
+epoch 854 entropy 0.8000378
+iter: 854, test accuracy: 0.445714
+epoch 855 entropy 0.7898108
+iter: 855, test accuracy: 0.454286
+epoch 856 entropy 0.8023885
+iter: 856, test accuracy: 0.448571
+epoch 857 entropy 0.7756455
+iter: 857, test accuracy: 0.451429
+epoch 858 entropy 0.78246325
+iter: 858, test accuracy: 0.441429
+epoch 859 entropy 0.79076713
+iter: 859, test accuracy: 0.451429
+epoch 860 entropy 0.7576141
+iter: 860, test accuracy: 0.452857
+epoch 861 entropy 0.73739594
+iter: 861, test accuracy: 0.432857
+epoch 862 entropy 0.7231828
+iter: 862, test accuracy: 0.435714
+epoch 863 entropy 0.7180308
+iter: 863, test accuracy: 0.435714
+epoch 864 entropy 0.709576
+iter: 864, test accuracy: 0.451429
+epoch 865 entropy 0.7172853
+iter: 865, test accuracy: 0.457143
+epoch 866 entropy 0.7111973
+iter: 866, test accuracy: 0.442857
+epoch 867 entropy 0.70795465
+iter: 867, test accuracy: 0.444286
+epoch 868 entropy 0.7869426
+iter: 868, test accuracy: 0.437143
+epoch 869 entropy 0.77071095
+iter: 869, test accuracy: 0.447143
+epoch 870 entropy 0.7434664
+iter: 870, test accuracy: 0.445714
+epoch 871 entropy 0.69663054
+iter: 871, test accuracy: 0.464286
+epoch 872 entropy 0.6687845
+iter: 872, test accuracy: 0.448571
+epoch 873 entropy 0.725631
+iter: 873, test accuracy: 0.445714
+epoch 874 entropy 0.70488155
+iter: 874, test accuracy: 0.442857
+epoch 875 entropy 0.6898656
+iter: 875, test accuracy: 0.444286
+epoch 876 entropy 0.6823756
+iter: 876, test accuracy: 0.445714
+epoch 877 entropy 0.686855
+iter: 877, test accuracy: 0.447143
+epoch 878 entropy 0.6601452
+iter: 878, test accuracy: 0.454286
+epoch 879 entropy 0.64327395
+iter: 879, test accuracy: 0.447143
+epoch 880 entropy 0.62367666
+iter: 880, test accuracy: 0.437143
+epoch 881 entropy 0.6085896
+iter: 881, test accuracy: 0.454286
+epoch 882 entropy 0.60828775
+iter: 882, test accuracy: 0.451429
+epoch 883 entropy 0.5867342
+iter: 883, test accuracy: 0.451429
+epoch 884 entropy 0.6042135
+iter: 884, test accuracy: 0.438571
+epoch 885 entropy 0.87028563
+iter: 885, test accuracy: 0.437143
+epoch 886 entropy 0.8070664
+iter: 886, test accuracy: 0.447143
+epoch 887 entropy 0.7128502
+iter: 887, test accuracy: 0.448571
+epoch 888 entropy 0.6736233
+iter: 888, test accuracy: 0.438571
+epoch 889 entropy 0.6366295
+iter: 889, test accuracy: 0.444286
+epoch 890 entropy 0.60379004
+iter: 890, test accuracy: 0.444286
+epoch 891 entropy 0.62108517
+iter: 891, test accuracy: 0.444286
+epoch 892 entropy 0.6013121
+iter: 892, test accuracy: 0.452857
+epoch 893 entropy 0.5851329
+iter: 893, test accuracy: 0.44
+epoch 894 entropy 0.70189434
+iter: 894, test accuracy: 0.457143
+epoch 895 entropy 0.69015545
+iter: 895, test accuracy: 0.451429
+epoch 896 entropy 0.6648464
+iter: 896, test accuracy: 0.454286
+epoch 897 entropy 0.64833164
+iter: 897, test accuracy: 0.454286
+epoch 898 entropy 0.60287935
+iter: 898, test accuracy: 0.45
+epoch 899 entropy 0.61994785
+iter: 899, test accuracy: 0.457143
+epoch 900 entropy 0.6285812
+iter: 900, test accuracy: 0.432857
+epoch 901 entropy 0.81049055
+iter: 901, test accuracy: 0.448571
+epoch 902 entropy 0.7169024
+iter: 902, test accuracy: 0.46
+epoch 903 entropy 0.61347127
+iter: 903, test accuracy: 0.47
+epoch 904 entropy 0.5891452
+iter: 904, test accuracy: 0.448571
+epoch 905 entropy 0.5530865
+iter: 905, test accuracy: 0.452857
+epoch 906 entropy 0.534725
+iter: 906, test accuracy: 0.445714
+epoch 907 entropy 0.5305803
+iter: 907, test accuracy: 0.454286
+epoch 908 entropy 0.60477597
+iter: 908, test accuracy: 0.45
+epoch 909 entropy 0.7347597
+iter: 909, test accuracy: 0.461429
+epoch 910 entropy 0.6545983
+iter: 910, test accuracy: 0.465714
+epoch 911 entropy 0.61048484
+iter: 911, test accuracy: 0.467143
+epoch 912 entropy 0.61070836
+iter: 912, test accuracy: 0.454286
+epoch 913 entropy 0.8957236
+iter: 913, test accuracy: 0.312857
+epoch 914 entropy 2.0180495
+iter: 914, test accuracy: 0.387143
+epoch 915 entropy 1.5425351
+iter: 915, test accuracy: 0.424286
+epoch 916 entropy 1.3363189
+iter: 916, test accuracy: 0.438571
+epoch 917 entropy 1.2247313
+iter: 917, test accuracy: 0.442857
+epoch 918 entropy 1.1497084
+iter: 918, test accuracy: 0.462857
+epoch 919 entropy 1.0989218
+iter: 919, test accuracy: 0.454286
+epoch 920 entropy 1.0504677
+iter: 920, test accuracy: 0.454286
+epoch 921 entropy 1.0213902
+iter: 921, test accuracy: 0.458571
+epoch 922 entropy 0.9922324
+iter: 922, test accuracy: 0.46
+epoch 923 entropy 0.9701589
+iter: 923, test accuracy: 0.451429
+epoch 924 entropy 0.95295227
+iter: 924, test accuracy: 0.457143
+epoch 925 entropy 0.9314343
+iter: 925, test accuracy: 0.462857
+epoch 926 entropy 0.9168069
+iter: 926, test accuracy: 0.448571
+epoch 927 entropy 0.89429
+iter: 927, test accuracy: 0.454286
+epoch 928 entropy 0.88039833
+iter: 928, test accuracy: 0.451429
+epoch 929 entropy 0.8734496
+iter: 929, test accuracy: 0.457143
+epoch 930 entropy 0.8473407
+iter: 930, test accuracy: 0.445714
+epoch 931 entropy 0.87291586
+iter: 931, test accuracy: 0.435714
+epoch 932 entropy 0.89303625
+iter: 932, test accuracy: 0.44
+epoch 933 entropy 0.8555294
+iter: 933, test accuracy: 0.447143
+epoch 934 entropy 0.8495753
+iter: 934, test accuracy: 0.438571
+epoch 935 entropy 0.80929416
+iter: 935, test accuracy: 0.448571
+epoch 936 entropy 0.79707605
+iter: 936, test accuracy: 0.434286
+epoch 937 entropy 0.8035838
+iter: 937, test accuracy: 0.437143
+epoch 938 entropy 0.8094915
+iter: 938, test accuracy: 0.447143
+epoch 939 entropy 0.7696142
+iter: 939, test accuracy: 0.438571
+epoch 940 entropy 0.7565344
+iter: 940, test accuracy: 0.451429
+epoch 941 entropy 0.7557021
+iter: 941, test accuracy: 0.44
+epoch 942 entropy 0.729493
+iter: 942, test accuracy: 0.444286
+epoch 943 entropy 0.728416
+iter: 943, test accuracy: 0.451429
+epoch 944 entropy 0.72278476
+iter: 944, test accuracy: 0.44
+epoch 945 entropy 0.7152651
+iter: 945, test accuracy: 0.452857
+epoch 946 entropy 0.71966463
+iter: 946, test accuracy: 0.451429
+epoch 947 entropy 0.71077627
+iter: 947, test accuracy: 0.45
+epoch 948 entropy 0.6988643
+iter: 948, test accuracy: 0.442857
+epoch 949 entropy 0.6916547
+iter: 949, test accuracy: 0.452857
+epoch 950 entropy 0.68688416
+iter: 950, test accuracy: 0.438571
+epoch 951 entropy 0.71613586
+iter: 951, test accuracy: 0.452857
+epoch 952 entropy 1.0330234
+iter: 952, test accuracy: 0.451429
+epoch 953 entropy 1.0087668
+iter: 953, test accuracy: 0.462857
+epoch 954 entropy 0.85685205
+iter: 954, test accuracy: 0.46
+epoch 955 entropy 0.80499434
+iter: 955, test accuracy: 0.45
+epoch 956 entropy 0.76218253
+iter: 956, test accuracy: 0.454286
+epoch 957 entropy 0.72779405
+iter: 957, test accuracy: 0.455714
+epoch 958 entropy 0.7085123
+iter: 958, test accuracy: 0.458571
+epoch 959 entropy 0.69276816
+iter: 959, test accuracy: 0.442857
+epoch 960 entropy 1.5012854
+iter: 960, test accuracy: 0.408571
+epoch 961 entropy 1.2729131
+iter: 961, test accuracy: 0.412857
+epoch 962 entropy 1.0877382
+iter: 962, test accuracy: 0.434286
+epoch 963 entropy 1.0778965
+iter: 963, test accuracy: 0.455714
+epoch 964 entropy 0.98359716
+iter: 964, test accuracy: 0.44
+epoch 965 entropy 0.93129003
+iter: 965, test accuracy: 0.445714
+epoch 966 entropy 0.88575596
+iter: 966, test accuracy: 0.44
+epoch 967 entropy 0.8476573
+iter: 967, test accuracy: 0.427143
+epoch 968 entropy 0.8253121
+iter: 968, test accuracy: 0.43
+epoch 969 entropy 0.80261415
+iter: 969, test accuracy: 0.432857
+epoch 970 entropy 0.7940701
+iter: 970, test accuracy: 0.428571
+epoch 971 entropy 0.77752537
+iter: 971, test accuracy: 0.44
+epoch 972 entropy 0.8002601
+iter: 972, test accuracy: 0.444286
+epoch 973 entropy 0.7708537
+iter: 973, test accuracy: 0.438571
+epoch 974 entropy 0.74512476
+iter: 974, test accuracy: 0.437143
+epoch 975 entropy 0.7234237
+iter: 975, test accuracy: 0.441429
+epoch 976 entropy 0.708255
+iter: 976, test accuracy: 0.427143
+epoch 977 entropy 0.69961417
+iter: 977, test accuracy: 0.437143
+epoch 978 entropy 0.6949359
+iter: 978, test accuracy: 0.437143
+epoch 979 entropy 0.6768132
+iter: 979, test accuracy: 0.424286
+epoch 980 entropy 0.66366774
+iter: 980, test accuracy: 0.435714
+epoch 981 entropy 0.66186243
+iter: 981, test accuracy: 0.427143
+epoch 982 entropy 0.66629654
+iter: 982, test accuracy: 0.43
+epoch 983 entropy 0.7240906
+iter: 983, test accuracy: 0.457143
+epoch 984 entropy 0.9040223
+iter: 984, test accuracy: 0.448571
+epoch 985 entropy 0.84942776
+iter: 985, test accuracy: 0.42
+epoch 986 entropy 1.2737118
+iter: 986, test accuracy: 0.424286
+epoch 987 entropy 3.1800022
+iter: 987, test accuracy: 0.268571
+epoch 988 entropy 2.7606714
+iter: 988, test accuracy: 0.281429
+epoch 989 entropy 2.3811996
+iter: 989, test accuracy: 0.292857
+epoch 990 entropy 2.2066405
+iter: 990, test accuracy: 0.295714
+epoch 991 entropy 2.087795
+iter: 991, test accuracy: 0.301429
+epoch 992 entropy 2.0186749
+iter: 992, test accuracy: 0.305714
+epoch 993 entropy 1.9588562
+iter: 993, test accuracy: 0.318571
+epoch 994 entropy 1.9212295
+iter: 994, test accuracy: 0.31
+epoch 995 entropy 1.8689721
+iter: 995, test accuracy: 0.312857
+epoch 996 entropy 1.8354293
+iter: 996, test accuracy: 0.32
+epoch 997 entropy 1.8126462
+iter: 997, test accuracy: 0.325714
+epoch 998 entropy 1.7913284
+iter: 998, test accuracy: 0.332857
+epoch 999 entropy 1.7669142
+iter: 999, test accuracy: 0.33
+Inference runtime:  0.019194602966308594

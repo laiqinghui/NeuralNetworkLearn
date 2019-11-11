@@ -1,0 +1,49 @@
+2019-11-10 23:23:19.545261: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-11-10 23:23:19.932036: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1392] Found device 0 with properties: 
+name: Tesla V100-SXM2-32GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+pciBusID: 0000:af:00.0
+totalMemory: 31.75GiB freeMemory: 31.33GiB
+2019-11-10 23:23:19.932073: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
+2019-11-10 23:23:20.216076: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-11-10 23:23:20.216122: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
+2019-11-10 23:23:20.216127: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
+2019-11-10 23:23:20.216430: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30404 MB memory) -> physical GPU (device: 0, name: Tesla V100-SXM2-32GB, pci bus id: 0000:af:00.0, compute capability: 7.0)
+2019-11-10 23:24:29.768332: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
+2019-11-10 23:24:29.768606: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-11-10 23:24:29.768616: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
+2019-11-10 23:24:29.768622: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
+2019-11-10 23:24:29.768812: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30404 MB memory) -> physical GPU (device: 0, name: Tesla V100-SXM2-32GB, pci bus id: 0000:af:00.0, compute capability: 7.0)
+2019-11-10 23:25:36.612270: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
+2019-11-10 23:25:36.612565: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-11-10 23:25:36.612574: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
+2019-11-10 23:25:36.612579: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
+2019-11-10 23:25:36.612769: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30404 MB memory) -> physical GPU (device: 0, name: Tesla V100-SXM2-32GB, pci bus id: 0000:af:00.0, compute capability: 7.0)
+2019-11-10 23:26:43.089534: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
+2019-11-10 23:26:43.089795: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-11-10 23:26:43.089805: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
+2019-11-10 23:26:43.089809: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
+2019-11-10 23:26:43.090003: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30404 MB memory) -> physical GPU (device: 0, name: Tesla V100-SXM2-32GB, pci bus id: 0000:af:00.0, compute capability: 7.0)
+2019-11-10 23:27:50.273558: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
+2019-11-10 23:27:50.273825: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-11-10 23:27:50.273835: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
+2019-11-10 23:27:50.273840: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
+2019-11-10 23:27:50.274018: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30404 MB memory) -> physical GPU (device: 0, name: Tesla V100-SXM2-32GB, pci bus id: 0000:af:00.0, compute capability: 7.0)
+no display found. Using non-interactive Agg backend
+len(list(x_transform_train)):  0
+x_train.shape (5600, 100)
+Total words: 38658
+Keep prob:  0.1
+Inference runtime:  0.009303092956542969
+=====================================================================
+Keep prob:  0.3
+Inference runtime:  0.00913858413696289
+=====================================================================
+Keep prob:  0.5
+Inference runtime:  0.009238004684448242
+=====================================================================
+Keep prob:  0.7
+Inference runtime:  0.009283304214477539
+=====================================================================
+Keep prob:  0.9
+Inference runtime:  0.009226322174072266
+=====================================================================

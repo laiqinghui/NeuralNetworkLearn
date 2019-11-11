@@ -1,0 +1,215 @@
+2019-11-10 21:16:37.519930: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-11-10 21:16:37.929098: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1392] Found device 0 with properties: 
+name: Tesla V100-SXM2-16GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+pciBusID: 0000:1e:00.0
+totalMemory: 15.78GiB freeMemory: 15.36GiB
+2019-11-10 21:16:37.929132: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
+2019-11-10 21:16:38.244155: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-11-10 21:16:38.244200: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
+2019-11-10 21:16:38.244206: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
+2019-11-10 21:16:38.244438: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14872 MB memory) -> physical GPU (device: 0, name: Tesla V100-SXM2-16GB, pci bus id: 0000:1e:00.0, compute capability: 7.0)
+no display found. Using non-interactive Agg backend
+len(list(x_transform_train)):  0
+x_train.shape (5600, 100)
+Total words: 38658
+epoch 0 entropy 2.663044
+iter: 0, test accuracy: 0.0771429
+epoch 10 entropy 0.008900799
+iter: 10, test accuracy: 0.854286
+epoch 20 entropy 0.0041649234
+iter: 20, test accuracy: 0.871429
+epoch 30 entropy 0.00084213546
+iter: 30, test accuracy: 0.881429
+epoch 40 entropy 0.0004845748
+iter: 40, test accuracy: 0.878571
+epoch 50 entropy 0.00031159728
+iter: 50, test accuracy: 0.874286
+epoch 60 entropy 0.00021453966
+iter: 60, test accuracy: 0.875714
+epoch 70 entropy 0.00015388402
+iter: 70, test accuracy: 0.875714
+epoch 80 entropy 0.00011303842
+iter: 80, test accuracy: 0.875714
+epoch 90 entropy 8.4968815e-05
+iter: 90, test accuracy: 0.875714
+epoch 100 entropy 6.494802e-05
+iter: 100, test accuracy: 0.871429
+epoch 110 entropy 4.9976046e-05
+iter: 110, test accuracy: 0.871429
+epoch 120 entropy 3.8905193e-05
+iter: 120, test accuracy: 0.87
+epoch 130 entropy 3.0442716e-05
+iter: 130, test accuracy: 0.871429
+epoch 140 entropy 2.3917035e-05
+iter: 140, test accuracy: 0.872857
+epoch 150 entropy 1.8849658e-05
+iter: 150, test accuracy: 0.872857
+epoch 160 entropy 1.4932585e-05
+iter: 160, test accuracy: 0.871429
+epoch 170 entropy 1.182739e-05
+iter: 170, test accuracy: 0.871429
+epoch 180 entropy 0.0012129482
+iter: 180, test accuracy: 0.891429
+epoch 190 entropy 0.00025706354
+iter: 190, test accuracy: 0.891429
+epoch 200 entropy 0.0001466825
+iter: 200, test accuracy: 0.888571
+epoch 210 entropy 9.822763e-05
+iter: 210, test accuracy: 0.888571
+epoch 220 entropy 7.007501e-05
+iter: 220, test accuracy: 0.885714
+epoch 230 entropy 5.2229167e-05
+iter: 230, test accuracy: 0.885714
+epoch 240 entropy 3.9823604e-05
+iter: 240, test accuracy: 0.888571
+epoch 250 entropy 3.0512445e-05
+iter: 250, test accuracy: 0.887143
+epoch 260 entropy 2.404106e-05
+iter: 260, test accuracy: 0.885714
+epoch 270 entropy 1.9033358e-05
+iter: 270, test accuracy: 0.884286
+epoch 280 entropy 1.5009598e-05
+iter: 280, test accuracy: 0.884286
+epoch 290 entropy 1.2023706e-05
+iter: 290, test accuracy: 0.885714
+epoch 300 entropy 9.593376e-06
+iter: 300, test accuracy: 0.885714
+epoch 310 entropy 7.709762e-06
+iter: 310, test accuracy: 0.882857
+epoch 320 entropy 6.1962087e-06
+iter: 320, test accuracy: 0.882857
+epoch 330 entropy 5.008799e-06
+iter: 330, test accuracy: 0.881429
+epoch 340 entropy 4.020489e-06
+iter: 340, test accuracy: 0.885714
+epoch 350 entropy 3.2383623e-06
+iter: 350, test accuracy: 0.882857
+epoch 360 entropy 2.6251905e-06
+iter: 360, test accuracy: 0.881429
+epoch 370 entropy 2.1095457e-06
+iter: 370, test accuracy: 0.881429
+epoch 380 entropy 1.7053761e-06
+iter: 380, test accuracy: 0.881429
+epoch 390 entropy 1.381516e-06
+iter: 390, test accuracy: 0.88
+epoch 400 entropy 1.1158304e-06
+iter: 400, test accuracy: 0.882857
+epoch 410 entropy 9.01627e-07
+iter: 410, test accuracy: 0.882857
+epoch 420 entropy 7.235933e-07
+iter: 420, test accuracy: 0.88
+epoch 430 entropy 5.8430675e-07
+iter: 430, test accuracy: 0.88
+epoch 440 entropy 4.723317e-07
+iter: 440, test accuracy: 0.88
+epoch 450 entropy 3.759075e-07
+iter: 450, test accuracy: 0.878571
+epoch 460 entropy 3.0309113e-07
+iter: 460, test accuracy: 0.877143
+epoch 470 entropy 2.3889493e-07
+iter: 470, test accuracy: 0.877143
+epoch 480 entropy 1.8966482e-07
+iter: 480, test accuracy: 0.878571
+epoch 490 entropy 1.5275847e-07
+iter: 490, test accuracy: 0.878571
+epoch 500 entropy 1.2144008e-07
+iter: 500, test accuracy: 0.878571
+epoch 510 entropy 9.683585e-08
+iter: 510, test accuracy: 0.881429
+epoch 520 entropy 7.387768e-08
+iter: 520, test accuracy: 0.881429
+epoch 530 entropy 5.639914e-08
+iter: 530, test accuracy: 0.882857
+epoch 540 entropy 4.292746e-08
+iter: 540, test accuracy: 0.882857
+epoch 550 entropy 3.2336377e-08
+iter: 550, test accuracy: 0.882857
+epoch 560 entropy 2.5037409e-08
+iter: 560, test accuracy: 0.882857
+epoch 570 entropy 2.0445775e-08
+iter: 570, test accuracy: 0.881429
+epoch 580 entropy 1.6547215e-08
+iter: 580, test accuracy: 0.881429
+epoch 590 entropy 1.3255098e-08
+iter: 590, test accuracy: 0.88
+epoch 600 entropy 1.0439473e-08
+iter: 600, test accuracy: 0.878571
+epoch 610 entropy 9.0100025e-09
+iter: 610, test accuracy: 0.878571
+epoch 620 entropy 7.472237e-09
+iter: 620, test accuracy: 0.875714
+epoch 630 entropy 6.30267e-09
+iter: 630, test accuracy: 0.877143
+epoch 640 entropy 5.65291e-09
+iter: 640, test accuracy: 0.878571
+epoch 650 entropy 5.0464677e-09
+iter: 650, test accuracy: 0.884286
+epoch 660 entropy 4.6132946e-09
+iter: 660, test accuracy: 0.881429
+epoch 670 entropy 4.093487e-09
+iter: 670, test accuracy: 0.88
+epoch 680 entropy 4.483343e-09
+iter: 680, test accuracy: 0.878571
+epoch 690 entropy 4.613295e-09
+iter: 690, test accuracy: 0.874286
+epoch 700 entropy 4.916516e-09
+iter: 700, test accuracy: 0.875714
+epoch 710 entropy 5.847838e-09
+iter: 710, test accuracy: 0.877143
+epoch 720 entropy 6.7141848e-09
+iter: 720, test accuracy: 0.87
+epoch 730 entropy 8.100339e-09
+iter: 730, test accuracy: 0.864286
+epoch 740 entropy 8.923369e-09
+iter: 740, test accuracy: 0.855714
+epoch 750 entropy 8.25195e-09
+iter: 750, test accuracy: 0.844286
+epoch 760 entropy 0.06237896
+iter: 760, test accuracy: 0.835714
+epoch 770 entropy 8.60786e-05
+iter: 770, test accuracy: 0.841429
+epoch 780 entropy 4.5404893e-05
+iter: 780, test accuracy: 0.842857
+epoch 790 entropy 2.971095e-05
+iter: 790, test accuracy: 0.847143
+epoch 800 entropy 2.057922e-05
+iter: 800, test accuracy: 0.851429
+epoch 810 entropy 1.49905745e-05
+iter: 810, test accuracy: 0.852857
+epoch 820 entropy 1.152986e-05
+iter: 820, test accuracy: 0.851429
+epoch 830 entropy 9.036971e-06
+iter: 830, test accuracy: 0.854286
+epoch 840 entropy 7.315842e-06
+iter: 840, test accuracy: 0.852857
+epoch 850 entropy 5.9345634e-06
+iter: 850, test accuracy: 0.852857
+epoch 860 entropy 4.812447e-06
+iter: 860, test accuracy: 0.852857
+epoch 870 entropy 4.0356836e-06
+iter: 870, test accuracy: 0.861429
+epoch 880 entropy 3.3275458e-06
+iter: 880, test accuracy: 0.861429
+epoch 890 entropy 2.7687556e-06
+iter: 890, test accuracy: 0.86
+epoch 900 entropy 2.302939e-06
+iter: 900, test accuracy: 0.86
+epoch 910 entropy 1.9406245e-06
+iter: 910, test accuracy: 0.861429
+epoch 920 entropy 1.6208011e-06
+iter: 920, test accuracy: 0.86
+epoch 930 entropy 1.3356298e-06
+iter: 930, test accuracy: 0.862857
+epoch 940 entropy 1.1020696e-06
+iter: 940, test accuracy: 0.864286
+epoch 950 entropy 9.077526e-07
+iter: 950, test accuracy: 0.864286
+epoch 960 entropy 7.3405266e-07
+iter: 960, test accuracy: 0.87
+epoch 970 entropy 6.007014e-07
+iter: 970, test accuracy: 0.871429
+epoch 980 entropy 4.892032e-07
+iter: 980, test accuracy: 0.871429
+epoch 990 entropy 4.034786e-07
+iter: 990, test accuracy: 0.87
+Inference runtime:  0.01863408088684082

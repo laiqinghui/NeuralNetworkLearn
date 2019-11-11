@@ -1,0 +1,39 @@
+WARNING:tensorflow:From layer_compare_char.py:75: ByteProcessor (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+WARNING:tensorflow:From /usr/local/lib/python3.5/dist-packages/tensorflow/python/util/deprecation.py:250: ByteProcessor.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+2019-11-11 16:22:01.758352: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1392] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.545
+pciBusID: 0000:05:00.0
+totalMemory: 10.73GiB freeMemory: 10.53GiB
+2019-11-11 16:22:01.758405: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
+2019-11-11 16:22:02.172357: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-11-11 16:22:02.172447: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
+2019-11-11 16:22:02.172465: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
+2019-11-11 16:22:02.172852: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10174 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:05:00.0, compute capability: 7.5)
+2019-11-11 18:12:04.993604: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
+2019-11-11 18:12:04.993884: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-11-11 18:12:04.993901: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
+2019-11-11 18:12:04.993911: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
+2019-11-11 18:12:04.994078: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10174 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:05:00.0, compute capability: 7.5)
+2019-11-11 18:47:08.748638: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
+2019-11-11 18:47:08.748931: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-11-11 18:47:08.748947: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
+2019-11-11 18:47:08.748956: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
+2019-11-11 18:47:08.749124: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10174 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:05:00.0, compute capability: 7.5)
+no display found. Using non-interactive Agg backend
+5600
+700
+Cell type: LSTM
+true
+Inference runtime:  0.0375218391418457
+=====================================================================
+Cell type: Vanilla
+in vanilla
+Inference runtime:  0.028682947158813477
+=====================================================================
+Cell type: GRU
+Inference runtime:  0.03471875190734863
+=====================================================================
