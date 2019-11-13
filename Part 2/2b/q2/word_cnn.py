@@ -30,7 +30,7 @@ POOLING_WINDOW = 4
 POOLING_STRIDE = 2
 MAX_LABEL = 15
 
-BATCH_SIZE = 128
+BATCH_SIZE = 512
 
 EMBEDDING_SIZE = 20
 
@@ -105,13 +105,13 @@ def read_data_words():
   
     x_train, y_train, x_test, y_test = [], [], [], []
 
-    with open('train_medium.csv', encoding='utf-8') as filex:
+    with open('../train_medium.csv', encoding='utf-8') as filex:
         reader = csv.reader(filex)
         for row in reader:
             x_train.append(row[2])
             y_train.append(int(row[0]))
 
-    with open('test_medium.csv', encoding='utf-8') as filex:
+    with open('../test_medium.csv', encoding='utf-8') as filex:
         reader = csv.reader(filex)
         for row in reader:
             x_test.append(row[2])
@@ -191,9 +191,9 @@ def buildandrunmodel(x_train, y_train, x_test, y_test, keep_proba):
             test_acc.append(accuracy.eval(feed_dict={x: x_test, y_: y_test, keep_prob:keep_proba}))
             loss_temp = []
 
-            # if e % 1 == 0:
-            #     print('epoch', e, 'entropy', loss_list[-1])
-            #     print('iter: %d, test accuracy: %g' % (e, test_acc[e]))
+            if e % 1 == 0:
+                print('epoch', e, 'entropy', loss_list[-1])
+                print('iter: %d, test accuracy: %g' % (e, test_acc[e]))
 
         start = time.time()
         accuracy.eval(feed_dict={x: x_test, y_: y_test, keep_prob:keep_proba})
@@ -233,11 +233,11 @@ def main():
     global n_words
     x_train, y_train, x_test, y_test, n_words = read_data_words()
     
-    for kp in range(1,10,2):
-        print("Keep prob: ", kp/10)
-        tf.reset_default_graph()
-        buildandrunmodel(x_train, y_train, x_test, y_test, kp/10)
-        print("=====================================================================")
+    # for kp in range(1,10,2):
+    #     print("Keep prob: ", kp/10)
+    #     tf.reset_default_graph()
+    #     buildandrunmodel(x_train, y_train, x_test, y_test, kp/10)
+    #     print("=====================================================================")
         
     print("Keep prob: ", 1)
     tf.reset_default_graph()
